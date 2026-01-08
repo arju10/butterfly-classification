@@ -1,0 +1,9 @@
+{
+  "total_images": 1300,
+  "num_classes": 75,
+  "accuracy": 0.8846153846153846,
+  "f1_score": 0.8828883495428227,
+  "average_confidence": 0.8935858607292175,
+  "correct_predictions": 1150,
+  "incorrect_predictions": 150
+}

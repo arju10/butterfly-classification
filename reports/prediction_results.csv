@@ -1,0 +1,1301 @@
+image_path,true_label,predicted_label,confidence,correct
+/kaggle/input/butterfly-image-classification/train/Image_4100.jpg,BECKERS WHITE,BECKERS WHITE,0.9702232,True
+/kaggle/input/butterfly-image-classification/train/Image_6404.jpg,BLUE MORPHO,BLUE MORPHO,0.97088975,True
+/kaggle/input/butterfly-image-classification/train/Image_5730.jpg,CRIMSON PATCH,CRIMSON PATCH,0.9770882,True
+/kaggle/input/butterfly-image-classification/train/Image_1234.jpg,PAPER KITE,PAPER KITE,0.97765577,True
+/kaggle/input/butterfly-image-classification/train/Image_657.jpg,ULYSES,ULYSES,0.9580812,True
+/kaggle/input/butterfly-image-classification/train/Image_1276.jpg,CLODIUS PARNASSIAN,CLODIUS PARNASSIAN,0.99061453,True
+/kaggle/input/butterfly-image-classification/train/Image_1657.jpg,TROPICAL LEAFWING,TROPICAL LEAFWING,0.99907506,True
+/kaggle/input/butterfly-image-classification/train/Image_3504.jpg,MONARCH,MONARCH,0.86162376,True
+/kaggle/input/butterfly-image-classification/train/Image_603.jpg,RED POSTMAN,RED POSTMAN,0.95540154,True
+/kaggle/input/butterfly-image-classification/train/Image_4613.jpg,METALMARK,METALMARK,0.9999465,True
+/kaggle/input/butterfly-image-classification/train/Image_748.jpg,MILBERTS TORTOISESHELL,MILBERTS TORTOISESHELL,0.9942954,True
+/kaggle/input/butterfly-image-classification/train/Image_2421.jpg,QUESTION MARK,EASTERN COMA,0.8075913,False
+/kaggle/input/butterfly-image-classification/train/Image_5698.jpg,ORANGE OAKLEAF,ORANGE OAKLEAF,0.9960731,True
+/kaggle/input/butterfly-image-classification/train/Image_3518.jpg,COPPER TAIL,STRAITED QUEEN,0.94279563,False
+/kaggle/input/butterfly-image-classification/train/Image_951.jpg,METALMARK,TWO BARRED FLASHER,0.61475635,False
+/kaggle/input/butterfly-image-classification/train/Image_600.jpg,AFRICAN GIANT SWALLOWTAIL,AFRICAN GIANT SWALLOWTAIL,0.9999951,True
+/kaggle/input/butterfly-image-classification/train/Image_3264.jpg,BROWN SIPROETA,BROWN SIPROETA,0.80072933,True
+/kaggle/input/butterfly-image-classification/train/Image_952.jpg,MILBERTS TORTOISESHELL,MILBERTS TORTOISESHELL,0.99858177,True
+/kaggle/input/butterfly-image-classification/train/Image_5432.jpg,CAIRNS BIRDWING,CAIRNS BIRDWING,0.98801404,True
+/kaggle/input/butterfly-image-classification/train/Image_3790.jpg,EASTERN COMA,EASTERN COMA,0.92765313,True
+/kaggle/input/butterfly-image-classification/train/Image_2137.jpg,SOUTHERN DOGFACE,SOUTHERN DOGFACE,0.9838734,True
+/kaggle/input/butterfly-image-classification/train/Image_3834.jpg,TWO BARRED FLASHER,TWO BARRED FLASHER,0.99999964,True
+/kaggle/input/butterfly-image-classification/train/Image_1474.jpg,COMMON BANDED AWL,COMMON BANDED AWL,0.9911088,True
+/kaggle/input/butterfly-image-classification/train/Image_6333.jpg,PEACOCK,PEACOCK,0.9999999,True
+/kaggle/input/butterfly-image-classification/train/Image_5875.jpg,AMERICAN SNOOT,AMERICAN SNOOT,0.9993074,True
+/kaggle/input/butterfly-image-classification/train/Image_2661.jpg,PURPLISH COPPER,PURPLISH COPPER,0.8205587,True
+/kaggle/input/butterfly-image-classification/train/Image_3267.jpg,PAINTED LADY,PAINTED LADY,0.99612844,True
+/kaggle/input/butterfly-image-classification/train/Image_953.jpg,GREY HAIRSTREAK,GREY HAIRSTREAK,0.802871,True
+/kaggle/input/butterfly-image-classification/train/Image_3569.jpg,STRAITED QUEEN,STRAITED QUEEN,0.9999858,True
+/kaggle/input/butterfly-image-classification/train/Image_4756.jpg,WOOD SATYR,WOOD SATYR,0.97776777,True
+/kaggle/input/butterfly-image-classification/train/Image_5841.jpg,COMMON WOOD-NYMPH,COMMON WOOD-NYMPH,0.8167226,True
+/kaggle/input/butterfly-image-classification/train/Image_1786.jpg,MESTRA,MESTRA,0.99816114,True
+/kaggle/input/butterfly-image-classification/train/Image_1198.jpg,ATALA,ATALA,0.997251,True
+/kaggle/input/butterfly-image-classification/train/Image_2285.jpg,LARGE MARBLE,LARGE MARBLE,0.97365755,True
+/kaggle/input/butterfly-image-classification/train/Image_478.jpg,CRECENT,CRECENT,0.99999857,True
+/kaggle/input/butterfly-image-classification/train/Image_6305.jpg,JULIA,JULIA,0.6798681,True
+/kaggle/input/butterfly-image-classification/train/Image_3791.jpg,CABBAGE WHITE,CABBAGE WHITE,0.9419744,True
+/kaggle/input/butterfly-image-classification/train/Image_5298.jpg,METALMARK,GOLD BANDED,0.33587822,False
+/kaggle/input/butterfly-image-classification/train/Image_1183.jpg,BLACK HAIRSTREAK,BLACK HAIRSTREAK,0.5003716,True
+/kaggle/input/butterfly-image-classification/train/Image_4034.jpg,BLUE MORPHO,BLUE MORPHO,0.42951605,True
+/kaggle/input/butterfly-image-classification/train/Image_1247.jpg,CHESTNUT,CHESTNUT,0.99999034,True
+/kaggle/input/butterfly-image-classification/train/Image_2694.jpg,ADONIS,ADONIS,0.5484227,True
+/kaggle/input/butterfly-image-classification/train/Image_3025.jpg,EASTERN COMA,QUESTION MARK,0.7085374,False
+/kaggle/input/butterfly-image-classification/train/Image_4115.jpg,ATALA,ATALA,0.9933188,True
+/kaggle/input/butterfly-image-classification/train/Image_5977.jpg,CRECENT,CRECENT,0.9998803,True
+/kaggle/input/butterfly-image-classification/train/Image_3109.jpg,TWO BARRED FLASHER,TWO BARRED FLASHER,0.96877456,True
+/kaggle/input/butterfly-image-classification/train/Image_3889.jpg,EASTERN PINE ELFIN,CRECENT,0.36136025,False
+/kaggle/input/butterfly-image-classification/train/Image_6225.jpg,ATALA,ATALA,0.98454475,True
+/kaggle/input/butterfly-image-classification/train/Image_4910.jpg,GREEN CELLED CATTLEHEART,GREEN CELLED CATTLEHEART,0.81851345,True
+/kaggle/input/butterfly-image-classification/train/Image_3951.jpg,CLEOPATRA,CLEOPATRA,0.8911056,True
+/kaggle/input/butterfly-image-classification/train/Image_5167.jpg,ORANGE OAKLEAF,ORANGE OAKLEAF,0.9999784,True
+/kaggle/input/butterfly-image-classification/train/Image_1353.jpg,ORANGE OAKLEAF,ORANGE OAKLEAF,0.9997123,True
+/kaggle/input/butterfly-image-classification/train/Image_6039.jpg,TWO BARRED FLASHER,TWO BARRED FLASHER,0.99998796,True
+/kaggle/input/butterfly-image-classification/train/Image_6175.jpg,PIPEVINE SWALLOW,GREEN CELLED CATTLEHEART,0.37063402,False
+/kaggle/input/butterfly-image-classification/train/Image_6043.jpg,PURPLISH COPPER,PURPLISH COPPER,0.96410906,True
+/kaggle/input/butterfly-image-classification/train/Image_1487.jpg,DANAID EGGFLY,DANAID EGGFLY,0.9996209,True
+/kaggle/input/butterfly-image-classification/train/Image_1736.jpg,PURPLISH COPPER,COPPER TAIL,0.70100737,False
+/kaggle/input/butterfly-image-classification/train/Image_4357.jpg,BLUE SPOTTED CROW,BLUE SPOTTED CROW,0.8856522,True
+/kaggle/input/butterfly-image-classification/train/Image_3321.jpg,MONARCH,MONARCH,0.9677424,True
+/kaggle/input/butterfly-image-classification/train/Image_576.jpg,RED SPOTTED PURPLE,RED SPOTTED PURPLE,0.9992281,True
+/kaggle/input/butterfly-image-classification/train/Image_2846.jpg,CHECQUERED SKIPPER,CHECQUERED SKIPPER,0.9889126,True
+/kaggle/input/butterfly-image-classification/train/Image_1552.jpg,BANDED ORANGE HELICONIAN,BANDED ORANGE HELICONIAN,0.99995184,True
+/kaggle/input/butterfly-image-classification/train/Image_3179.jpg,QUESTION MARK,QUESTION MARK,0.77463716,True
+/kaggle/input/butterfly-image-classification/train/Image_4149.jpg,RED ADMIRAL,RED ADMIRAL,0.97067404,True
+/kaggle/input/butterfly-image-classification/train/Image_899.jpg,BANDED ORANGE HELICONIAN,BANDED ORANGE HELICONIAN,0.9977825,True
+/kaggle/input/butterfly-image-classification/train/Image_2014.jpg,ORANGE OAKLEAF,ORANGE OAKLEAF,0.9999542,True
+/kaggle/input/butterfly-image-classification/train/Image_4684.jpg,BECKERS WHITE,BECKERS WHITE,0.96063656,True
+/kaggle/input/butterfly-image-classification/train/Image_3101.jpg,QUESTION MARK,EASTERN COMA,0.5239014,False
+/kaggle/input/butterfly-image-classification/train/Image_492.jpg,ORCHARD SWALLOW,ORCHARD SWALLOW,0.9765855,True
+/kaggle/input/butterfly-image-classification/train/Image_2441.jpg,ZEBRA LONG WING,ZEBRA LONG WING,0.9991716,True
+/kaggle/input/butterfly-image-classification/train/Image_3145.jpg,AMERICAN SNOOT,AMERICAN SNOOT,0.9684011,True
+/kaggle/input/butterfly-image-classification/train/Image_4892.jpg,CRIMSON PATCH,CRIMSON PATCH,0.99994195,True
+/kaggle/input/butterfly-image-classification/train/Image_5812.jpg,MILBERTS TORTOISESHELL,MILBERTS TORTOISESHELL,0.9997266,True
+/kaggle/input/butterfly-image-classification/train/Image_1953.jpg,AN 88,AN 88,0.9999988,True
+/kaggle/input/butterfly-image-classification/train/Image_2477.jpg,SILVER SPOT SKIPPER,SILVER SPOT SKIPPER,0.9977361,True
+/kaggle/input/butterfly-image-classification/train/Image_2056.jpg,YELLOW SWALLOW TAIL,YELLOW SWALLOW TAIL,0.99741614,True
+/kaggle/input/butterfly-image-classification/train/Image_3848.jpg,SCARCE SWALLOW,SCARCE SWALLOW,0.99954396,True
+/kaggle/input/butterfly-image-classification/train/Image_1020.jpg,MANGROVE SKIPPER,MANGROVE SKIPPER,0.99929833,True
+/kaggle/input/butterfly-image-classification/train/Image_4082.jpg,CRIMSON PATCH,RED ADMIRAL,0.59757483,False
+/kaggle/input/butterfly-image-classification/train/Image_1219.jpg,ORANGE TIP,ORANGE TIP,0.75343066,True
+/kaggle/input/butterfly-image-classification/train/Image_5288.jpg,MONARCH,MONARCH,0.747084,True
+/kaggle/input/butterfly-image-classification/train/Image_4343.jpg,CLOUDED SULPHUR,CLEOPATRA,0.47081378,False
+/kaggle/input/butterfly-image-classification/train/Image_3448.jpg,ATALA,ATALA,0.8096665,True
+/kaggle/input/butterfly-image-classification/train/Image_5318.jpg,MOURNING CLOAK,MOURNING CLOAK,0.99999547,True
+/kaggle/input/butterfly-image-classification/train/Image_2476.jpg,APPOLLO,APPOLLO,0.9990584,True
+/kaggle/input/butterfly-image-classification/train/Image_1006.jpg,PIPEVINE SWALLOW,PIPEVINE SWALLOW,0.63074636,True
+/kaggle/input/butterfly-image-classification/train/Image_4367.jpg,PAINTED LADY,PAINTED LADY,0.9996555,True
+/kaggle/input/butterfly-image-classification/train/Image_3477.jpg,ELBOWED PIERROT,ELBOWED PIERROT,1.0,True
+/kaggle/input/butterfly-image-classification/train/Image_4499.jpg,BANDED PEACOCK,BANDED PEACOCK,0.9983223,True
+/kaggle/input/butterfly-image-classification/train/Image_1870.jpg,BECKERS WHITE,BECKERS WHITE,0.9620353,True
+/kaggle/input/butterfly-image-classification/train/Image_879.jpg,MONARCH,MONARCH,0.9641466,True
+/kaggle/input/butterfly-image-classification/train/Image_4837.jpg,INDRA SWALLOW,INDRA SWALLOW,0.96311206,True
+/kaggle/input/butterfly-image-classification/train/Image_959.jpg,TWO BARRED FLASHER,MANGROVE SKIPPER,0.8867323,False
+/kaggle/input/butterfly-image-classification/train/Image_3967.jpg,EASTERN COMA,EASTERN COMA,0.50154316,True
+/kaggle/input/butterfly-image-classification/train/Image_1166.jpg,SLEEPY ORANGE,SLEEPY ORANGE,0.5606194,True
+/kaggle/input/butterfly-image-classification/train/Image_3553.jpg,ADONIS,ADONIS,0.9999783,True
+/kaggle/input/butterfly-image-classification/train/Image_2068.jpg,TROPICAL LEAFWING,TROPICAL LEAFWING,0.45344543,True
+/kaggle/input/butterfly-image-classification/train/Image_5173.jpg,AN 88,AN 88,0.9999999,True
+/kaggle/input/butterfly-image-classification/train/Image_3696.jpg,TWO BARRED FLASHER,TWO BARRED FLASHER,0.99991727,True
+/kaggle/input/butterfly-image-classification/train/Image_6391.jpg,PINE WHITE,PINE WHITE,0.99665415,True
+/kaggle/input/butterfly-image-classification/train/Image_5230.jpg,GREAT EGGFLY,BROWN SIPROETA,0.8596162,False
+/kaggle/input/butterfly-image-classification/train/Image_6270.jpg,CLEOPATRA,CLEOPATRA,0.9990939,True
+/kaggle/input/butterfly-image-classification/train/Image_533.jpg,CHECQUERED SKIPPER,CHECQUERED SKIPPER,0.9920266,True
+/kaggle/input/butterfly-image-classification/train/Image_4965.jpg,DANAID EGGFLY,DANAID EGGFLY,0.9965828,True
+/kaggle/input/butterfly-image-classification/train/Image_20.jpg,PEACOCK,PEACOCK,0.9997639,True
+/kaggle/input/butterfly-image-classification/train/Image_169.jpg,MESTRA,MESTRA,0.9897876,True
+/kaggle/input/butterfly-image-classification/train/Image_3159.jpg,PEACOCK,PEACOCK,0.9999881,True
+/kaggle/input/butterfly-image-classification/train/Image_1885.jpg,METALMARK,METALMARK,0.9998286,True
+/kaggle/input/butterfly-image-classification/train/Image_5920.jpg,CHESTNUT,CHESTNUT,0.7625818,True
+/kaggle/input/butterfly-image-classification/train/Image_2679.jpg,PIPEVINE SWALLOW,PIPEVINE SWALLOW,0.98087573,True
+/kaggle/input/butterfly-image-classification/train/Image_1751.jpg,SCARCE SWALLOW,SCARCE SWALLOW,0.9999807,True
+/kaggle/input/butterfly-image-classification/train/Image_995.jpg,AFRICAN GIANT SWALLOWTAIL,AFRICAN GIANT SWALLOWTAIL,0.99999964,True
+/kaggle/input/butterfly-image-classification/train/Image_628.jpg,ORANGE OAKLEAF,ORANGE OAKLEAF,0.97673404,True
+/kaggle/input/butterfly-image-classification/train/Image_5101.jpg,PURPLISH COPPER,PURPLISH COPPER,0.88286966,True
+/kaggle/input/butterfly-image-classification/train/Image_1274.jpg,CHESTNUT,CHESTNUT,0.91924906,True
+/kaggle/input/butterfly-image-classification/train/Image_5723.jpg,CHESTNUT,CHESTNUT,0.9999827,True
+/kaggle/input/butterfly-image-classification/train/Image_554.jpg,EASTERN PINE ELFIN,EASTERN PINE ELFIN,0.76794505,True
+/kaggle/input/butterfly-image-classification/train/Image_2142.jpg,BLUE SPOTTED CROW,BLUE SPOTTED CROW,0.84758013,True
+/kaggle/input/butterfly-image-classification/train/Image_6107.jpg,COMMON BANDED AWL,COMMON BANDED AWL,0.58955127,True
+/kaggle/input/butterfly-image-classification/train/Image_3393.jpg,PIPEVINE SWALLOW,PIPEVINE SWALLOW,0.99981016,True
+/kaggle/input/butterfly-image-classification/train/Image_85.jpg,QUESTION MARK,EASTERN COMA,0.62692064,False
+/kaggle/input/butterfly-image-classification/train/Image_2296.jpg,RED ADMIRAL,PAINTED LADY,0.65222937,False
+/kaggle/input/butterfly-image-classification/train/Image_5686.jpg,RED POSTMAN,RED POSTMAN,0.9741943,True
+/kaggle/input/butterfly-image-classification/train/Image_2705.jpg,SOUTHERN DOGFACE,SOUTHERN DOGFACE,0.7729287,True
+/kaggle/input/butterfly-image-classification/train/Image_6396.jpg,RED CRACKER,RED CRACKER,0.78148144,True
+/kaggle/input/butterfly-image-classification/train/Image_6390.jpg,SOOTYWING,SOOTYWING,0.95441777,True
+/kaggle/input/butterfly-image-classification/train/Image_5526.jpg,ORCHARD SWALLOW,ORCHARD SWALLOW,0.99953926,True
+/kaggle/input/butterfly-image-classification/train/Image_5632.jpg,CLEOPATRA,CLEOPATRA,0.5437467,True
+/kaggle/input/butterfly-image-classification/train/Image_6130.jpg,POPINJAY,POPINJAY,0.9997764,True
+/kaggle/input/butterfly-image-classification/train/Image_1578.jpg,APPOLLO,APPOLLO,0.9762186,True
+/kaggle/input/butterfly-image-classification/train/Image_5255.jpg,SCARCE SWALLOW,SCARCE SWALLOW,0.9998171,True
+/kaggle/input/butterfly-image-classification/train/Image_3575.jpg,IPHICLUS SISTER,IPHICLUS SISTER,0.9976042,True
+/kaggle/input/butterfly-image-classification/train/Image_3552.jpg,RED CRACKER,RED CRACKER,0.9999999,True
+/kaggle/input/butterfly-image-classification/train/Image_1494.jpg,EASTERN COMA,EASTERN COMA,0.6070506,True
+/kaggle/input/butterfly-image-classification/train/Image_4203.jpg,CAIRNS BIRDWING,CAIRNS BIRDWING,0.8390229,True
+/kaggle/input/butterfly-image-classification/train/Image_5348.jpg,PEACOCK,PEACOCK,1.0,True
+/kaggle/input/butterfly-image-classification/train/Image_57.jpg,GREAT JAY,GREAT JAY,0.9998882,True
+/kaggle/input/butterfly-image-classification/train/Image_4117.jpg,ADONIS,ADONIS,0.9998404,True
+/kaggle/input/butterfly-image-classification/train/Image_1904.jpg,MOURNING CLOAK,MOURNING CLOAK,0.9999914,True
+/kaggle/input/butterfly-image-classification/train/Image_5294.jpg,SOUTHERN DOGFACE,SOUTHERN DOGFACE,0.7036973,True
+/kaggle/input/butterfly-image-classification/train/Image_1826.jpg,PIPEVINE SWALLOW,PIPEVINE SWALLOW,0.9990771,True
+/kaggle/input/butterfly-image-classification/train/Image_1131.jpg,ADONIS,ADONIS,0.7823982,True
+/kaggle/input/butterfly-image-classification/train/Image_1535.jpg,BANDED PEACOCK,BANDED PEACOCK,0.99997294,True
+/kaggle/input/butterfly-image-classification/train/Image_5342.jpg,STRAITED QUEEN,STRAITED QUEEN,0.9993697,True
+/kaggle/input/butterfly-image-classification/train/Image_3839.jpg,PAPER KITE,PAPER KITE,0.9998803,True
+/kaggle/input/butterfly-image-classification/train/Image_996.jpg,COPPER TAIL,PURPLISH COPPER,0.79762554,False
+/kaggle/input/butterfly-image-classification/train/Image_3727.jpg,RED CRACKER,RED CRACKER,0.9995957,True
+/kaggle/input/butterfly-image-classification/train/Image_1701.jpg,TROPICAL LEAFWING,TROPICAL LEAFWING,0.76598525,True
+/kaggle/input/butterfly-image-classification/train/Image_850.jpg,PINE WHITE,PINE WHITE,0.9259604,True
+/kaggle/input/butterfly-image-classification/train/Image_4475.jpg,ORANGE TIP,ORANGE TIP,0.99995375,True
+/kaggle/input/butterfly-image-classification/train/Image_197.jpg,BLUE SPOTTED CROW,BLUE SPOTTED CROW,0.9984119,True
+/kaggle/input/butterfly-image-classification/train/Image_5872.jpg,JULIA,JULIA,0.994207,True
+/kaggle/input/butterfly-image-classification/train/Image_1002.jpg,CRECENT,CRECENT,0.9999888,True
+/kaggle/input/butterfly-image-classification/train/Image_2983.jpg,APPOLLO,APPOLLO,0.998781,True
+/kaggle/input/butterfly-image-classification/train/Image_3180.jpg,PAPER KITE,PAPER KITE,0.9999995,True
+/kaggle/input/butterfly-image-classification/train/Image_223.jpg,POPINJAY,POPINJAY,0.9999907,True
+/kaggle/input/butterfly-image-classification/train/Image_3782.jpg,EASTERN DAPPLE WHITE,BECKERS WHITE,0.8364569,False
+/kaggle/input/butterfly-image-classification/train/Image_2095.jpg,BLUE MORPHO,BLUE MORPHO,0.99999654,True
+/kaggle/input/butterfly-image-classification/train/Image_2167.jpg,QUESTION MARK,QUESTION MARK,0.87821466,True
+/kaggle/input/butterfly-image-classification/train/Image_154.jpg,MANGROVE SKIPPER,MANGROVE SKIPPER,0.9811863,True
+/kaggle/input/butterfly-image-classification/train/Image_4348.jpg,STRAITED QUEEN,STRAITED QUEEN,0.99476683,True
+/kaggle/input/butterfly-image-classification/train/Image_1951.jpg,GREY HAIRSTREAK,GREY HAIRSTREAK,0.6398705,True
+/kaggle/input/butterfly-image-classification/train/Image_4075.jpg,PURPLE HAIRSTREAK,PURPLE HAIRSTREAK,0.7833775,True
+/kaggle/input/butterfly-image-classification/train/Image_2290.jpg,PEACOCK,PEACOCK,0.9458047,True
+/kaggle/input/butterfly-image-classification/train/Image_3647.jpg,GOLD BANDED,GOLD BANDED,0.99044925,True
+/kaggle/input/butterfly-image-classification/train/Image_3325.jpg,CHECQUERED SKIPPER,GOLD BANDED,0.4818002,False
+/kaggle/input/butterfly-image-classification/train/Image_1662.jpg,ORCHARD SWALLOW,ORCHARD SWALLOW,0.9917475,True
+/kaggle/input/butterfly-image-classification/train/Image_4021.jpg,BLUE SPOTTED CROW,BLUE SPOTTED CROW,0.9999044,True
+/kaggle/input/butterfly-image-classification/train/Image_3736.jpg,ORANGE OAKLEAF,ORANGE OAKLEAF,0.999874,True
+/kaggle/input/butterfly-image-classification/train/Image_4128.jpg,APPOLLO,APPOLLO,0.99782467,True
+/kaggle/input/butterfly-image-classification/train/Image_4461.jpg,ULYSES,ULYSES,0.99927837,True
+/kaggle/input/butterfly-image-classification/train/Image_6031.jpg,GREAT JAY,GREAT JAY,0.9963726,True
+/kaggle/input/butterfly-image-classification/train/Image_1696.jpg,EASTERN DAPPLE WHITE,EASTERN DAPPLE WHITE,0.6107115,True
+/kaggle/input/butterfly-image-classification/train/Image_2352.jpg,MILBERTS TORTOISESHELL,MILBERTS TORTOISESHELL,0.999411,True
+/kaggle/input/butterfly-image-classification/train/Image_2242.jpg,ORANGE TIP,ORANGE TIP,0.99751043,True
+/kaggle/input/butterfly-image-classification/train/Image_5334.jpg,MALACHITE,MALACHITE,0.99882334,True
+/kaggle/input/butterfly-image-classification/train/Image_5644.jpg,ZEBRA LONG WING,ZEBRA LONG WING,0.9989895,True
+/kaggle/input/butterfly-image-classification/train/Image_1712.jpg,ADONIS,ADONIS,0.99951386,True
+/kaggle/input/butterfly-image-classification/train/Image_4844.jpg,CHECQUERED SKIPPER,CHECQUERED SKIPPER,0.9999496,True
+/kaggle/input/butterfly-image-classification/train/Image_3988.jpg,AMERICAN SNOOT,AMERICAN SNOOT,0.90933883,True
+/kaggle/input/butterfly-image-classification/train/Image_3204.jpg,RED CRACKER,RED CRACKER,0.9850994,True
+/kaggle/input/butterfly-image-classification/train/Image_2498.jpg,CLODIUS PARNASSIAN,CLODIUS PARNASSIAN,0.8663673,True
+/kaggle/input/butterfly-image-classification/train/Image_2121.jpg,MANGROVE SKIPPER,MANGROVE SKIPPER,0.9945194,True
+/kaggle/input/butterfly-image-classification/train/Image_244.jpg,STRAITED QUEEN,STRAITED QUEEN,0.9921395,True
+/kaggle/input/butterfly-image-classification/train/Image_5010.jpg,STRAITED QUEEN,STRAITED QUEEN,0.9986234,True
+/kaggle/input/butterfly-image-classification/train/Image_2517.jpg,CABBAGE WHITE,CABBAGE WHITE,0.9997849,True
+/kaggle/input/butterfly-image-classification/train/Image_5877.jpg,CLOUDED SULPHUR,MONARCH,0.8937951,False
+/kaggle/input/butterfly-image-classification/train/Image_3936.jpg,APPOLLO,APPOLLO,0.99536765,True
+/kaggle/input/butterfly-image-classification/train/Image_972.jpg,CHESTNUT,CHESTNUT,0.8737228,True
+/kaggle/input/butterfly-image-classification/train/Image_5592.jpg,BLACK HAIRSTREAK,BLACK HAIRSTREAK,0.9542821,True
+/kaggle/input/butterfly-image-classification/train/Image_409.jpg,MONARCH,MONARCH,0.8832811,True
+/kaggle/input/butterfly-image-classification/train/Image_4655.jpg,COPPER TAIL,COPPER TAIL,0.99813616,True
+/kaggle/input/butterfly-image-classification/train/Image_3522.jpg,AMERICAN SNOOT,AMERICAN SNOOT,0.9543735,True
+/kaggle/input/butterfly-image-classification/train/Image_5427.jpg,SILVER SPOT SKIPPER,SILVER SPOT SKIPPER,0.96473765,True
+/kaggle/input/butterfly-image-classification/train/Image_1252.jpg,SOOTYWING,SOOTYWING,0.2256769,True
+/kaggle/input/butterfly-image-classification/train/Image_1015.jpg,AN 88,AN 88,0.99999976,True
+/kaggle/input/butterfly-image-classification/train/Image_1962.jpg,SOOTYWING,SOOTYWING,0.5021763,True
+/kaggle/input/butterfly-image-classification/train/Image_3969.jpg,MANGROVE SKIPPER,MANGROVE SKIPPER,0.98852766,True
+/kaggle/input/butterfly-image-classification/train/Image_2105.jpg,MESTRA,COMMON WOOD-NYMPH,0.98454815,False
+/kaggle/input/butterfly-image-classification/train/Image_2113.jpg,ORANGE TIP,ORANGE TIP,0.99999,True
+/kaggle/input/butterfly-image-classification/train/Image_1453.jpg,BANDED PEACOCK,BANDED PEACOCK,0.9993749,True
+/kaggle/input/butterfly-image-classification/train/Image_5533.jpg,CLOUDED SULPHUR,CLOUDED SULPHUR,0.6967487,True
+/kaggle/input/butterfly-image-classification/train/Image_1800.jpg,CLODIUS PARNASSIAN,CLODIUS PARNASSIAN,0.99966455,True
+/kaggle/input/butterfly-image-classification/train/Image_4510.jpg,APPOLLO,APPOLLO,0.9983986,True
+/kaggle/input/butterfly-image-classification/train/Image_5787.jpg,CLODIUS PARNASSIAN,APPOLLO,0.93857783,False
+/kaggle/input/butterfly-image-classification/train/Image_3561.jpg,AN 88,AN 88,1.0,True
+/kaggle/input/butterfly-image-classification/train/Image_2270.jpg,MILBERTS TORTOISESHELL,MILBERTS TORTOISESHELL,0.9994585,True
+/kaggle/input/butterfly-image-classification/train/Image_4841.jpg,AN 88,AN 88,0.99992394,True
+/kaggle/input/butterfly-image-classification/train/Image_3919.jpg,EASTERN PINE ELFIN,EASTERN PINE ELFIN,0.9995629,True
+/kaggle/input/butterfly-image-classification/train/Image_5131.jpg,TWO BARRED FLASHER,TWO BARRED FLASHER,0.9772718,True
+/kaggle/input/butterfly-image-classification/train/Image_638.jpg,PEACOCK,PEACOCK,1.0,True
+/kaggle/input/butterfly-image-classification/train/Image_762.jpg,CRIMSON PATCH,CRIMSON PATCH,0.9997925,True
+/kaggle/input/butterfly-image-classification/train/Image_5876.jpg,BROWN SIPROETA,BROWN SIPROETA,0.99984896,True
+/kaggle/input/butterfly-image-classification/train/Image_2041.jpg,PAINTED LADY,PAINTED LADY,0.9985097,True
+/kaggle/input/butterfly-image-classification/train/Image_618.jpg,MESTRA,MESTRA,0.9963219,True
+/kaggle/input/butterfly-image-classification/train/Image_5663.jpg,ORCHARD SWALLOW,ORCHARD SWALLOW,0.99409616,True
+/kaggle/input/butterfly-image-classification/train/Image_4342.jpg,GREEN CELLED CATTLEHEART,GREEN CELLED CATTLEHEART,0.92470425,True
+/kaggle/input/butterfly-image-classification/train/Image_1200.jpg,MILBERTS TORTOISESHELL,MILBERTS TORTOISESHELL,0.99814856,True
+/kaggle/input/butterfly-image-classification/train/Image_1260.jpg,GREY HAIRSTREAK,GREY HAIRSTREAK,0.99326855,True
+/kaggle/input/butterfly-image-classification/train/Image_3999.jpg,SLEEPY ORANGE,SLEEPY ORANGE,0.9992169,True
+/kaggle/input/butterfly-image-classification/train/Image_1331.jpg,SCARCE SWALLOW,SCARCE SWALLOW,0.9738225,True
+/kaggle/input/butterfly-image-classification/train/Image_763.jpg,SOUTHERN DOGFACE,IPHICLUS SISTER,0.42485455,False
+/kaggle/input/butterfly-image-classification/train/Image_2793.jpg,PAINTED LADY,PAINTED LADY,0.9819311,True
+/kaggle/input/butterfly-image-classification/train/Image_1608.jpg,BROWN SIPROETA,BROWN SIPROETA,0.9989753,True
+/kaggle/input/butterfly-image-classification/train/Image_753.jpg,EASTERN COMA,QUESTION MARK,0.92978626,False
+/kaggle/input/butterfly-image-classification/train/Image_5491.jpg,PINE WHITE,PINE WHITE,0.9762798,True
+/kaggle/input/butterfly-image-classification/train/Image_588.jpg,MOURNING CLOAK,MOURNING CLOAK,0.9962276,True
+/kaggle/input/butterfly-image-classification/train/Image_5478.jpg,COPPER TAIL,COPPER TAIL,0.9038898,True
+/kaggle/input/butterfly-image-classification/train/Image_4630.jpg,APPOLLO,CLODIUS PARNASSIAN,0.95903015,False
+/kaggle/input/butterfly-image-classification/train/Image_239.jpg,AMERICAN SNOOT,AMERICAN SNOOT,0.8098585,True
+/kaggle/input/butterfly-image-classification/train/Image_1524.jpg,SOUTHERN DOGFACE,SOUTHERN DOGFACE,0.94362307,True
+/kaggle/input/butterfly-image-classification/train/Image_4610.jpg,SILVER SPOT SKIPPER,SILVER SPOT SKIPPER,0.7469124,True
+/kaggle/input/butterfly-image-classification/train/Image_3533.jpg,EASTERN PINE ELFIN,EASTERN PINE ELFIN,0.9999914,True
+/kaggle/input/butterfly-image-classification/train/Image_5793.jpg,AFRICAN GIANT SWALLOWTAIL,AFRICAN GIANT SWALLOWTAIL,0.99992776,True
+/kaggle/input/butterfly-image-classification/train/Image_3867.jpg,POPINJAY,POPINJAY,0.8289078,True
+/kaggle/input/butterfly-image-classification/train/Image_5739.jpg,MILBERTS TORTOISESHELL,MALACHITE,0.91782874,False
+/kaggle/input/butterfly-image-classification/train/Image_3117.jpg,MOURNING CLOAK,MOURNING CLOAK,0.99996483,True
+/kaggle/input/butterfly-image-classification/train/Image_2046.jpg,GREEN CELLED CATTLEHEART,GREEN CELLED CATTLEHEART,0.9999908,True
+/kaggle/input/butterfly-image-classification/train/Image_266.jpg,BROWN SIPROETA,BROWN SIPROETA,0.9968528,True
+/kaggle/input/butterfly-image-classification/train/Image_2820.jpg,AFRICAN GIANT SWALLOWTAIL,AFRICAN GIANT SWALLOWTAIL,0.9999988,True
+/kaggle/input/butterfly-image-classification/train/Image_2130.jpg,COMMON BANDED AWL,COMMON BANDED AWL,0.7327974,True
+/kaggle/input/butterfly-image-classification/train/Image_4057.jpg,VICEROY,VICEROY,0.932744,True
+/kaggle/input/butterfly-image-classification/train/Image_2958.jpg,PAINTED LADY,PAINTED LADY,0.9974891,True
+/kaggle/input/butterfly-image-classification/train/Image_1558.jpg,ATALA,ATALA,0.9998529,True
+/kaggle/input/butterfly-image-classification/train/Image_6353.jpg,ELBOWED PIERROT,ELBOWED PIERROT,0.999985,True
+/kaggle/input/butterfly-image-classification/train/Image_1029.jpg,POPINJAY,POPINJAY,0.9680939,True
+/kaggle/input/butterfly-image-classification/train/Image_6004.jpg,YELLOW SWALLOW TAIL,YELLOW SWALLOW TAIL,0.9906226,True
+/kaggle/input/butterfly-image-classification/train/Image_2497.jpg,MONARCH,MONARCH,0.9649711,True
+/kaggle/input/butterfly-image-classification/train/Image_4828.jpg,JULIA,JULIA,0.9906673,True
+/kaggle/input/butterfly-image-classification/train/Image_2246.jpg,GREAT JAY,GREAT JAY,0.9506298,True
+/kaggle/input/butterfly-image-classification/train/Image_1963.jpg,COPPER TAIL,COPPER TAIL,0.46562755,True
+/kaggle/input/butterfly-image-classification/train/Image_1891.jpg,PIPEVINE SWALLOW,PIPEVINE SWALLOW,0.94206864,True
+/kaggle/input/butterfly-image-classification/train/Image_3061.jpg,EASTERN COMA,QUESTION MARK,0.4996809,False
+/kaggle/input/butterfly-image-classification/train/Image_3313.jpg,CABBAGE WHITE,CABBAGE WHITE,0.99996114,True
+/kaggle/input/butterfly-image-classification/train/Image_2535.jpg,SCARCE SWALLOW,SCARCE SWALLOW,0.9999751,True
+/kaggle/input/butterfly-image-classification/train/Image_1749.jpg,TWO BARRED FLASHER,TWO BARRED FLASHER,0.99882406,True
+/kaggle/input/butterfly-image-classification/train/Image_1955.jpg,BROWN SIPROETA,BROWN SIPROETA,0.9997863,True
+/kaggle/input/butterfly-image-classification/train/Image_5244.jpg,CLEOPATRA,CLEOPATRA,0.8740713,True
+/kaggle/input/butterfly-image-classification/train/Image_2625.jpg,AMERICAN SNOOT,AMERICAN SNOOT,0.9992693,True
+/kaggle/input/butterfly-image-classification/train/Image_202.jpg,MESTRA,MESTRA,0.98980135,True
+/kaggle/input/butterfly-image-classification/train/Image_5928.jpg,ORANGE TIP,ORANGE TIP,0.9547701,True
+/kaggle/input/butterfly-image-classification/train/Image_5065.jpg,PIPEVINE SWALLOW,PIPEVINE SWALLOW,0.9980793,True
+/kaggle/input/butterfly-image-classification/train/Image_2486.jpg,COMMON BANDED AWL,COMMON BANDED AWL,0.9315569,True
+/kaggle/input/butterfly-image-classification/train/Image_4925.jpg,PIPEVINE SWALLOW,PIPEVINE SWALLOW,0.8090525,True
+/kaggle/input/butterfly-image-classification/train/Image_6037.jpg,ELBOWED PIERROT,ELBOWED PIERROT,0.9984864,True
+/kaggle/input/butterfly-image-classification/train/Image_230.jpg,BLUE SPOTTED CROW,STRAITED QUEEN,0.49779895,False
+/kaggle/input/butterfly-image-classification/train/Image_4797.jpg,PURPLE HAIRSTREAK,PURPLE HAIRSTREAK,0.98548615,True
+/kaggle/input/butterfly-image-classification/train/Image_6187.jpg,DANAID EGGFLY,DANAID EGGFLY,0.985451,True
+/kaggle/input/butterfly-image-classification/train/Image_5080.jpg,BECKERS WHITE,BECKERS WHITE,0.96559006,True
+/kaggle/input/butterfly-image-classification/train/Image_3526.jpg,LARGE MARBLE,LARGE MARBLE,0.821648,True
+/kaggle/input/butterfly-image-classification/train/Image_5333.jpg,SOUTHERN DOGFACE,SOUTHERN DOGFACE,0.6608292,True
+/kaggle/input/butterfly-image-classification/train/Image_5794.jpg,SOUTHERN DOGFACE,SOUTHERN DOGFACE,0.761883,True
+/kaggle/input/butterfly-image-classification/train/Image_4783.jpg,BROWN SIPROETA,BROWN SIPROETA,0.95360947,True
+/kaggle/input/butterfly-image-classification/train/Image_6282.jpg,RED CRACKER,STRAITED QUEEN,0.43040112,False
+/kaggle/input/butterfly-image-classification/train/Image_314.jpg,DANAID EGGFLY,DANAID EGGFLY,0.9998086,True
+/kaggle/input/butterfly-image-classification/train/Image_3573.jpg,PURPLE HAIRSTREAK,PURPLE HAIRSTREAK,0.9281305,True
+/kaggle/input/butterfly-image-classification/train/Image_2120.jpg,EASTERN DAPPLE WHITE,EASTERN DAPPLE WHITE,0.900921,True
+/kaggle/input/butterfly-image-classification/train/Image_1754.jpg,LARGE MARBLE,LARGE MARBLE,0.8977438,True
+/kaggle/input/butterfly-image-classification/train/Image_6183.jpg,BLUE MORPHO,BLUE MORPHO,0.91479063,True
+/kaggle/input/butterfly-image-classification/train/Image_2425.jpg,WOOD SATYR,WOOD SATYR,0.52677417,True
+/kaggle/input/butterfly-image-classification/train/Image_3176.jpg,AFRICAN GIANT SWALLOWTAIL,AFRICAN GIANT SWALLOWTAIL,0.9999702,True
+/kaggle/input/butterfly-image-classification/train/Image_4698.jpg,GREAT EGGFLY,TWO BARRED FLASHER,0.32040042,False
+/kaggle/input/butterfly-image-classification/train/Image_5769.jpg,BLUE SPOTTED CROW,BLUE SPOTTED CROW,0.7728926,True
+/kaggle/input/butterfly-image-classification/train/Image_4686.jpg,CRIMSON PATCH,CRIMSON PATCH,0.9999989,True
+/kaggle/input/butterfly-image-classification/train/Image_5188.jpg,ELBOWED PIERROT,ELBOWED PIERROT,0.99482083,True
+/kaggle/input/butterfly-image-classification/train/Image_2965.jpg,CLOUDED SULPHUR,CLEOPATRA,0.35709414,False
+/kaggle/input/butterfly-image-classification/train/Image_6263.jpg,CLEOPATRA,CLEOPATRA,0.522628,True
+/kaggle/input/butterfly-image-classification/train/Image_999.jpg,QUESTION MARK,QUESTION MARK,0.7782513,True
+/kaggle/input/butterfly-image-classification/train/Image_2311.jpg,CLOUDED SULPHUR,CLOUDED SULPHUR,0.7976469,True
+/kaggle/input/butterfly-image-classification/train/Image_874.jpg,EASTERN DAPPLE WHITE,CABBAGE WHITE,0.81910354,False
+/kaggle/input/butterfly-image-classification/train/Image_4750.jpg,WOOD SATYR,WOOD SATYR,0.7228788,True
+/kaggle/input/butterfly-image-classification/train/Image_6440.jpg,ULYSES,ULYSES,0.9999908,True
+/kaggle/input/butterfly-image-classification/train/Image_632.jpg,APPOLLO,APPOLLO,0.54881674,True
+/kaggle/input/butterfly-image-classification/train/Image_5942.jpg,MALACHITE,MALACHITE,0.9708808,True
+/kaggle/input/butterfly-image-classification/train/Image_5219.jpg,SOUTHERN DOGFACE,SOUTHERN DOGFACE,0.7233855,True
+/kaggle/input/butterfly-image-classification/train/Image_1482.jpg,CLOUDED SULPHUR,SOUTHERN DOGFACE,0.7652125,False
+/kaggle/input/butterfly-image-classification/train/Image_1939.jpg,POPINJAY,POPINJAY,0.30612144,True
+/kaggle/input/butterfly-image-classification/train/Image_2632.jpg,RED ADMIRAL,RED ADMIRAL,0.9794447,True
+/kaggle/input/butterfly-image-classification/train/Image_4480.jpg,BECKERS WHITE,BECKERS WHITE,0.85514134,True
+/kaggle/input/butterfly-image-classification/train/Image_3272.jpg,APPOLLO,APPOLLO,0.9884418,True
+/kaggle/input/butterfly-image-classification/train/Image_2031.jpg,LARGE MARBLE,LARGE MARBLE,0.9091382,True
+/kaggle/input/butterfly-image-classification/train/Image_894.jpg,BLUE MORPHO,BLUE MORPHO,0.8817471,True
+/kaggle/input/butterfly-image-classification/train/Image_5951.jpg,ORANGE OAKLEAF,ORANGE OAKLEAF,0.98815143,True
+/kaggle/input/butterfly-image-classification/train/Image_2597.jpg,ORANGE TIP,ORANGE TIP,0.99966323,True
+/kaggle/input/butterfly-image-classification/train/Image_1467.jpg,ORANGE TIP,ORANGE TIP,0.9998561,True
+/kaggle/input/butterfly-image-classification/train/Image_4432.jpg,MALACHITE,MALACHITE,0.99219704,True
+/kaggle/input/butterfly-image-classification/train/Image_2503.jpg,BANDED PEACOCK,BANDED PEACOCK,0.9978604,True
+/kaggle/input/butterfly-image-classification/train/Image_3794.jpg,VICEROY,VICEROY,0.98067105,True
+/kaggle/input/butterfly-image-classification/train/Image_3200.jpg,ADONIS,ADONIS,0.9704763,True
+/kaggle/input/butterfly-image-classification/train/Image_4547.jpg,GREEN CELLED CATTLEHEART,GREEN CELLED CATTLEHEART,0.7833647,True
+/kaggle/input/butterfly-image-classification/train/Image_2087.jpg,PAPER KITE,PAPER KITE,0.9999776,True
+/kaggle/input/butterfly-image-classification/train/Image_2808.jpg,MESTRA,PURPLISH COPPER,0.35080737,False
+/kaggle/input/butterfly-image-classification/train/Image_3097.jpg,SLEEPY ORANGE,SLEEPY ORANGE,0.9876752,True
+/kaggle/input/butterfly-image-classification/train/Image_6469.jpg,ATALA,ATALA,0.95733184,True
+/kaggle/input/butterfly-image-classification/train/Image_182.jpg,PIPEVINE SWALLOW,PIPEVINE SWALLOW,0.9865884,True
+/kaggle/input/butterfly-image-classification/train/Image_1104.jpg,COMMON WOOD-NYMPH,COMMON WOOD-NYMPH,0.99995494,True
+/kaggle/input/butterfly-image-classification/train/Image_4920.jpg,LARGE MARBLE,LARGE MARBLE,0.79964334,True
+/kaggle/input/butterfly-image-classification/train/Image_1648.jpg,PURPLE HAIRSTREAK,PURPLE HAIRSTREAK,0.7634195,True
+/kaggle/input/butterfly-image-classification/train/Image_634.jpg,DANAID EGGFLY,DANAID EGGFLY,0.63062143,True
+/kaggle/input/butterfly-image-classification/train/Image_185.jpg,RED ADMIRAL,PAINTED LADY,0.9987155,False
+/kaggle/input/butterfly-image-classification/train/Image_168.jpg,RED POSTMAN,METALMARK,0.52397615,False
+/kaggle/input/butterfly-image-classification/train/Image_4589.jpg,PAINTED LADY,PAINTED LADY,0.9999517,True
+/kaggle/input/butterfly-image-classification/train/Image_4197.jpg,LARGE MARBLE,LARGE MARBLE,0.9857125,True
+/kaggle/input/butterfly-image-classification/train/Image_5676.jpg,YELLOW SWALLOW TAIL,YELLOW SWALLOW TAIL,0.9997762,True
+/kaggle/input/butterfly-image-classification/train/Image_700.jpg,TROPICAL LEAFWING,TROPICAL LEAFWING,0.97578275,True
+/kaggle/input/butterfly-image-classification/train/Image_2043.jpg,APPOLLO,APPOLLO,0.98844236,True
+/kaggle/input/butterfly-image-classification/train/Image_98.jpg,PAPER KITE,PAPER KITE,0.99389946,True
+/kaggle/input/butterfly-image-classification/train/Image_3690.jpg,ORANGE TIP,ORANGE TIP,0.9999931,True
+/kaggle/input/butterfly-image-classification/train/Image_1343.jpg,PAPER KITE,PAPER KITE,0.9735069,True
+/kaggle/input/butterfly-image-classification/train/Image_1096.jpg,WOOD SATYR,WOOD SATYR,0.97374064,True
+/kaggle/input/butterfly-image-classification/train/Image_2602.jpg,BROWN SIPROETA,BANDED PEACOCK,0.49303117,False
+/kaggle/input/butterfly-image-classification/train/Image_5041.jpg,MILBERTS TORTOISESHELL,PAINTED LADY,0.99878687,False
+/kaggle/input/butterfly-image-classification/train/Image_3726.jpg,ORCHARD SWALLOW,ORCHARD SWALLOW,0.9998877,True
+/kaggle/input/butterfly-image-classification/train/Image_4957.jpg,VICEROY,VICEROY,0.555397,True
+/kaggle/input/butterfly-image-classification/train/Image_797.jpg,ZEBRA LONG WING,ZEBRA LONG WING,0.99999654,True
+/kaggle/input/butterfly-image-classification/train/Image_3493.jpg,CRECENT,CRECENT,0.9999962,True
+/kaggle/input/butterfly-image-classification/train/Image_6346.jpg,MILBERTS TORTOISESHELL,MILBERTS TORTOISESHELL,0.99458414,True
+/kaggle/input/butterfly-image-classification/train/Image_1036.jpg,ZEBRA LONG WING,ZEBRA LONG WING,0.9987594,True
+/kaggle/input/butterfly-image-classification/train/Image_507.jpg,BANDED PEACOCK,BANDED PEACOCK,0.9996697,True
+/kaggle/input/butterfly-image-classification/train/Image_5236.jpg,ORANGE OAKLEAF,ORANGE OAKLEAF,0.9950045,True
+/kaggle/input/butterfly-image-classification/train/Image_5025.jpg,CRIMSON PATCH,CRIMSON PATCH,0.99638295,True
+/kaggle/input/butterfly-image-classification/train/Image_3643.jpg,WOOD SATYR,WOOD SATYR,0.99208915,True
+/kaggle/input/butterfly-image-classification/train/Image_5359.jpg,BANDED ORANGE HELICONIAN,BANDED ORANGE HELICONIAN,0.98639894,True
+/kaggle/input/butterfly-image-classification/train/Image_4103.jpg,COMMON BANDED AWL,COMMON BANDED AWL,0.99729055,True
+/kaggle/input/butterfly-image-classification/train/Image_5836.jpg,VICEROY,VICEROY,0.97073954,True
+/kaggle/input/butterfly-image-classification/train/Image_5599.jpg,PEACOCK,PEACOCK,0.99999845,True
+/kaggle/input/butterfly-image-classification/train/Image_5494.jpg,GREEN CELLED CATTLEHEART,GREEN CELLED CATTLEHEART,0.9980149,True
+/kaggle/input/butterfly-image-classification/train/Image_5807.jpg,MANGROVE SKIPPER,MANGROVE SKIPPER,0.9995696,True
+/kaggle/input/butterfly-image-classification/train/Image_5849.jpg,BROWN SIPROETA,BROWN SIPROETA,0.97367746,True
+/kaggle/input/butterfly-image-classification/train/Image_3793.jpg,SCARCE SWALLOW,SCARCE SWALLOW,0.9999987,True
+/kaggle/input/butterfly-image-classification/train/Image_2543.jpg,GREY HAIRSTREAK,GREY HAIRSTREAK,0.6107405,True
+/kaggle/input/butterfly-image-classification/train/Image_3265.jpg,COMMON BANDED AWL,COMMON BANDED AWL,0.999015,True
+/kaggle/input/butterfly-image-classification/train/Image_3174.jpg,PAINTED LADY,PAINTED LADY,0.9999988,True
+/kaggle/input/butterfly-image-classification/train/Image_1588.jpg,RED POSTMAN,RED POSTMAN,0.9999639,True
+/kaggle/input/butterfly-image-classification/train/Image_4842.jpg,CLEOPATRA,CLEOPATRA,0.9958034,True
+/kaggle/input/butterfly-image-classification/train/Image_522.jpg,MANGROVE SKIPPER,MANGROVE SKIPPER,0.997382,True
+/kaggle/input/butterfly-image-classification/train/Image_3189.jpg,PAPER KITE,PAPER KITE,0.9942847,True
+/kaggle/input/butterfly-image-classification/train/Image_887.jpg,PINE WHITE,PINE WHITE,0.9984102,True
+/kaggle/input/butterfly-image-classification/train/Image_4335.jpg,MOURNING CLOAK,MOURNING CLOAK,0.9999926,True
+/kaggle/input/butterfly-image-classification/train/Image_3398.jpg,YELLOW SWALLOW TAIL,YELLOW SWALLOW TAIL,0.9989219,True
+/kaggle/input/butterfly-image-classification/train/Image_5758.jpg,SOOTYWING,SOOTYWING,0.9771563,True
+/kaggle/input/butterfly-image-classification/train/Image_1381.jpg,PAPER KITE,PAPER KITE,0.99990976,True
+/kaggle/input/butterfly-image-classification/train/Image_4049.jpg,ULYSES,ULYSES,0.9998889,True
+/kaggle/input/butterfly-image-classification/train/Image_6446.jpg,EASTERN DAPPLE WHITE,LARGE MARBLE,0.84098464,False
+/kaggle/input/butterfly-image-classification/train/Image_1249.jpg,CHECQUERED SKIPPER,CHECQUERED SKIPPER,0.99490154,True
+/kaggle/input/butterfly-image-classification/train/Image_219.jpg,ULYSES,ULYSES,0.9998697,True
+/kaggle/input/butterfly-image-classification/train/Image_6213.jpg,DANAID EGGFLY,DANAID EGGFLY,0.99981624,True
+/kaggle/input/butterfly-image-classification/train/Image_2175.jpg,SILVER SPOT SKIPPER,SILVER SPOT SKIPPER,0.97846013,True
+/kaggle/input/butterfly-image-classification/train/Image_1722.jpg,INDRA SWALLOW,YELLOW SWALLOW TAIL,0.86784816,False
+/kaggle/input/butterfly-image-classification/train/Image_3890.jpg,SOOTYWING,MANGROVE SKIPPER,0.43525898,False
+/kaggle/input/butterfly-image-classification/train/Image_1550.jpg,CRECENT,CRECENT,0.9999902,True
+/kaggle/input/butterfly-image-classification/train/Image_3873.jpg,VICEROY,VICEROY,0.76933336,True
+/kaggle/input/butterfly-image-classification/train/Image_99.jpg,CABBAGE WHITE,CABBAGE WHITE,0.9998834,True
+/kaggle/input/butterfly-image-classification/train/Image_4515.jpg,COMMON BANDED AWL,MESTRA,0.32857963,False
+/kaggle/input/butterfly-image-classification/train/Image_1879.jpg,SILVER SPOT SKIPPER,SILVER SPOT SKIPPER,0.9817208,True
+/kaggle/input/butterfly-image-classification/train/Image_5063.jpg,ZEBRA LONG WING,ZEBRA LONG WING,0.99999857,True
+/kaggle/input/butterfly-image-classification/train/Image_2369.jpg,MALACHITE,MALACHITE,0.98234636,True
+/kaggle/input/butterfly-image-classification/train/Image_5370.jpg,ZEBRA LONG WING,ZEBRA LONG WING,0.99997437,True
+/kaggle/input/butterfly-image-classification/train/Image_4729.jpg,SOUTHERN DOGFACE,SOUTHERN DOGFACE,0.9404333,True
+/kaggle/input/butterfly-image-classification/train/Image_3757.jpg,GREEN CELLED CATTLEHEART,GREEN CELLED CATTLEHEART,0.99986553,True
+/kaggle/input/butterfly-image-classification/train/Image_4316.jpg,WOOD SATYR,WOOD SATYR,0.99885404,True
+/kaggle/input/butterfly-image-classification/train/Image_5153.jpg,ORANGE OAKLEAF,ORANGE OAKLEAF,0.9999261,True
+/kaggle/input/butterfly-image-classification/train/Image_5259.jpg,BLUE SPOTTED CROW,BLUE SPOTTED CROW,0.96862763,True
+/kaggle/input/butterfly-image-classification/train/Image_1016.jpg,RED CRACKER,RED CRACKER,0.99999297,True
+/kaggle/input/butterfly-image-classification/train/Image_4383.jpg,SLEEPY ORANGE,CLEOPATRA,0.41172263,False
+/kaggle/input/butterfly-image-classification/train/Image_3111.jpg,ORANGE OAKLEAF,ORANGE OAKLEAF,0.99926585,True
+/kaggle/input/butterfly-image-classification/train/Image_1917.jpg,MANGROVE SKIPPER,MANGROVE SKIPPER,0.99940586,True
+/kaggle/input/butterfly-image-classification/train/Image_1797.jpg,CRECENT,CRECENT,0.99059415,True
+/kaggle/input/butterfly-image-classification/train/Image_928.jpg,STRAITED QUEEN,STRAITED QUEEN,0.79708374,True
+/kaggle/input/butterfly-image-classification/train/Image_3612.jpg,MONARCH,MONARCH,0.98499334,True
+/kaggle/input/butterfly-image-classification/train/Image_2307.jpg,BECKERS WHITE,BECKERS WHITE,0.98253524,True
+/kaggle/input/butterfly-image-classification/train/Image_5143.jpg,BLACK HAIRSTREAK,BLACK HAIRSTREAK,0.95404863,True
+/kaggle/input/butterfly-image-classification/train/Image_1284.jpg,STRAITED QUEEN,STRAITED QUEEN,0.9125124,True
+/kaggle/input/butterfly-image-classification/train/Image_4226.jpg,BLUE MORPHO,BLUE MORPHO,0.99664366,True
+/kaggle/input/butterfly-image-classification/train/Image_1227.jpg,CRECENT,CRECENT,0.9971312,True
+/kaggle/input/butterfly-image-classification/train/Image_3630.jpg,TROPICAL LEAFWING,TROPICAL LEAFWING,0.53835,True
+/kaggle/input/butterfly-image-classification/train/Image_127.jpg,RED SPOTTED PURPLE,RED SPOTTED PURPLE,0.99845636,True
+/kaggle/input/butterfly-image-classification/train/Image_1117.jpg,IPHICLUS SISTER,IPHICLUS SISTER,0.9999962,True
+/kaggle/input/butterfly-image-classification/train/Image_5482.jpg,ULYSES,ULYSES,0.99997985,True
+/kaggle/input/butterfly-image-classification/train/Image_2849.jpg,SOUTHERN DOGFACE,CLOUDED SULPHUR,0.4567386,False
+/kaggle/input/butterfly-image-classification/train/Image_869.jpg,IPHICLUS SISTER,IPHICLUS SISTER,0.99986243,True
+/kaggle/input/butterfly-image-classification/train/Image_939.jpg,MESTRA,MESTRA,0.9523785,True
+/kaggle/input/butterfly-image-classification/train/Image_3459.jpg,CAIRNS BIRDWING,GREEN CELLED CATTLEHEART,0.77256143,False
+/kaggle/input/butterfly-image-classification/train/Image_6471.jpg,CLOUDED SULPHUR,CLOUDED SULPHUR,0.67995834,True
+/kaggle/input/butterfly-image-classification/train/Image_4142.jpg,RED ADMIRAL,RED ADMIRAL,0.8281714,True
+/kaggle/input/butterfly-image-classification/train/Image_5980.jpg,SLEEPY ORANGE,CLOUDED SULPHUR,0.7248632,False
+/kaggle/input/butterfly-image-classification/train/Image_2564.jpg,CHECQUERED SKIPPER,CHECQUERED SKIPPER,0.9960574,True
+/kaggle/input/butterfly-image-classification/train/Image_4229.jpg,BLUE SPOTTED CROW,BLUE SPOTTED CROW,0.9996232,True
+/kaggle/input/butterfly-image-classification/train/Image_4863.jpg,IPHICLUS SISTER,BANDED PEACOCK,0.39052373,False
+/kaggle/input/butterfly-image-classification/train/Image_5174.jpg,PURPLE HAIRSTREAK,PURPLE HAIRSTREAK,0.5699896,True
+/kaggle/input/butterfly-image-classification/train/Image_5782.jpg,DANAID EGGFLY,DANAID EGGFLY,0.6512794,True
+/kaggle/input/butterfly-image-classification/train/Image_4325.jpg,POPINJAY,POPINJAY,0.97755516,True
+/kaggle/input/butterfly-image-classification/train/Image_3329.jpg,STRAITED QUEEN,STRAITED QUEEN,0.99568176,True
+/kaggle/input/butterfly-image-classification/train/Image_1222.jpg,SCARCE SWALLOW,SCARCE SWALLOW,0.9999323,True
+/kaggle/input/butterfly-image-classification/train/Image_4312.jpg,MALACHITE,MALACHITE,0.9999943,True
+/kaggle/input/butterfly-image-classification/train/Image_6008.jpg,GREEN CELLED CATTLEHEART,GREEN CELLED CATTLEHEART,0.9997634,True
+/kaggle/input/butterfly-image-classification/train/Image_195.jpg,EASTERN PINE ELFIN,EASTERN PINE ELFIN,0.9898403,True
+/kaggle/input/butterfly-image-classification/train/Image_1027.jpg,SOOTYWING,SOOTYWING,0.99839896,True
+/kaggle/input/butterfly-image-classification/train/Image_2685.jpg,BANDED PEACOCK,BANDED PEACOCK,0.27335942,True
+/kaggle/input/butterfly-image-classification/train/Image_4469.jpg,MILBERTS TORTOISESHELL,MILBERTS TORTOISESHELL,0.96047467,True
+/kaggle/input/butterfly-image-classification/train/Image_4359.jpg,CLEOPATRA,CLEOPATRA,0.97218084,True
+/kaggle/input/butterfly-image-classification/train/Image_1167.jpg,SLEEPY ORANGE,SLEEPY ORANGE,0.5236572,True
+/kaggle/input/butterfly-image-classification/train/Image_1150.jpg,YELLOW SWALLOW TAIL,YELLOW SWALLOW TAIL,0.9935028,True
+/kaggle/input/butterfly-image-classification/train/Image_1599.jpg,TROPICAL LEAFWING,TROPICAL LEAFWING,0.9977633,True
+/kaggle/input/butterfly-image-classification/train/Image_4167.jpg,CRECENT,CRECENT,0.9999832,True
+/kaggle/input/butterfly-image-classification/train/Image_949.jpg,GREY HAIRSTREAK,GREY HAIRSTREAK,0.68865955,True
+/kaggle/input/butterfly-image-classification/train/Image_2789.jpg,ULYSES,ULYSES,0.99951804,True
+/kaggle/input/butterfly-image-classification/train/Image_3065.jpg,LARGE MARBLE,CLODIUS PARNASSIAN,0.5205237,False
+/kaggle/input/butterfly-image-classification/train/Image_2322.jpg,EASTERN DAPPLE WHITE,LARGE MARBLE,0.549269,False
+/kaggle/input/butterfly-image-classification/train/Image_6474.jpg,PIPEVINE SWALLOW,PIPEVINE SWALLOW,0.9841164,True
+/kaggle/input/butterfly-image-classification/train/Image_6326.jpg,CAIRNS BIRDWING,CAIRNS BIRDWING,0.9808368,True
+/kaggle/input/butterfly-image-classification/train/Image_3845.jpg,CLODIUS PARNASSIAN,METALMARK,0.30449986,False
+/kaggle/input/butterfly-image-classification/train/Image_4161.jpg,BANDED ORANGE HELICONIAN,BANDED ORANGE HELICONIAN,0.9558957,True
+/kaggle/input/butterfly-image-classification/train/Image_2509.jpg,GREAT JAY,GREAT JAY,0.9994978,True
+/kaggle/input/butterfly-image-classification/train/Image_4277.jpg,GREAT JAY,GREAT JAY,0.8863046,True
+/kaggle/input/butterfly-image-classification/train/Image_2227.jpg,DANAID EGGFLY,DANAID EGGFLY,0.9599641,True
+/kaggle/input/butterfly-image-classification/train/Image_1201.jpg,AN 88,AN 88,0.99137163,True
+/kaggle/input/butterfly-image-classification/train/Image_6426.jpg,MOURNING CLOAK,MOURNING CLOAK,0.96162415,True
+/kaggle/input/butterfly-image-classification/train/Image_2622.jpg,SCARCE SWALLOW,SCARCE SWALLOW,0.99984217,True
+/kaggle/input/butterfly-image-classification/train/Image_1735.jpg,PINE WHITE,BECKERS WHITE,0.9997185,False
+/kaggle/input/butterfly-image-classification/train/Image_2584.jpg,ADONIS,ADONIS,0.9998435,True
+/kaggle/input/butterfly-image-classification/train/Image_4120.jpg,CLODIUS PARNASSIAN,CLODIUS PARNASSIAN,0.97533584,True
+/kaggle/input/butterfly-image-classification/train/Image_5827.jpg,EASTERN DAPPLE WHITE,EASTERN DAPPLE WHITE,0.56929356,True
+/kaggle/input/butterfly-image-classification/train/Image_3093.jpg,TROPICAL LEAFWING,TROPICAL LEAFWING,0.6772359,True
+/kaggle/input/butterfly-image-classification/train/Image_5037.jpg,BLACK HAIRSTREAK,BLACK HAIRSTREAK,0.7230931,True
+/kaggle/input/butterfly-image-classification/train/Image_6088.jpg,ATALA,ATALA,0.99960333,True
+/kaggle/input/butterfly-image-classification/train/Image_6180.jpg,ULYSES,POPINJAY,0.41026098,False
+/kaggle/input/butterfly-image-classification/train/Image_3037.jpg,GREY HAIRSTREAK,GREY HAIRSTREAK,0.93786657,True
+/kaggle/input/butterfly-image-classification/train/Image_851.jpg,ORANGE TIP,ORANGE TIP,0.80439466,True
+/kaggle/input/butterfly-image-classification/train/Image_2205.jpg,BANDED ORANGE HELICONIAN,BANDED ORANGE HELICONIAN,0.99691653,True
+/kaggle/input/butterfly-image-classification/train/Image_3785.jpg,SCARCE SWALLOW,SCARCE SWALLOW,0.9997392,True
+/kaggle/input/butterfly-image-classification/train/Image_1502.jpg,DANAID EGGFLY,DANAID EGGFLY,0.9997923,True
+/kaggle/input/butterfly-image-classification/train/Image_2709.jpg,GREY HAIRSTREAK,GREY HAIRSTREAK,0.9988539,True
+/kaggle/input/butterfly-image-classification/train/Image_5926.jpg,MESTRA,MESTRA,0.9452804,True
+/kaggle/input/butterfly-image-classification/train/Image_630.jpg,COMMON WOOD-NYMPH,COMMON WOOD-NYMPH,0.99627066,True
+/kaggle/input/butterfly-image-classification/train/Image_4180.jpg,CAIRNS BIRDWING,CAIRNS BIRDWING,0.9999919,True
+/kaggle/input/butterfly-image-classification/train/Image_2702.jpg,MALACHITE,MALACHITE,0.9999652,True
+/kaggle/input/butterfly-image-classification/train/Image_5642.jpg,QUESTION MARK,QUESTION MARK,0.8468645,True
+/kaggle/input/butterfly-image-classification/train/Image_2942.jpg,QUESTION MARK,QUESTION MARK,0.95354307,True
+/kaggle/input/butterfly-image-classification/train/Image_5689.jpg,SILVER SPOT SKIPPER,SILVER SPOT SKIPPER,0.6997569,True
+/kaggle/input/butterfly-image-classification/train/Image_1614.jpg,ELBOWED PIERROT,ELBOWED PIERROT,0.9980652,True
+/kaggle/input/butterfly-image-classification/train/Image_6354.jpg,ORANGE TIP,ORANGE TIP,0.9999752,True
+/kaggle/input/butterfly-image-classification/train/Image_1423.jpg,COPPER TAIL,COPPER TAIL,0.9992054,True
+/kaggle/input/butterfly-image-classification/train/Image_3803.jpg,CLEOPATRA,ORANGE TIP,0.99130076,False
+/kaggle/input/butterfly-image-classification/train/Image_2719.jpg,CHECQUERED SKIPPER,CHECQUERED SKIPPER,0.9999995,True
+/kaggle/input/butterfly-image-classification/train/Image_5485.jpg,BECKERS WHITE,BECKERS WHITE,0.7955879,True
+/kaggle/input/butterfly-image-classification/train/Image_1437.jpg,BANDED PEACOCK,BANDED PEACOCK,0.97025675,True
+/kaggle/input/butterfly-image-classification/train/Image_3429.jpg,BANDED PEACOCK,BANDED PEACOCK,0.9894856,True
+/kaggle/input/butterfly-image-classification/train/Image_3110.jpg,EASTERN PINE ELFIN,EASTERN PINE ELFIN,0.99972695,True
+/kaggle/input/butterfly-image-classification/train/Image_1647.jpg,TWO BARRED FLASHER,TWO BARRED FLASHER,0.7518381,True
+/kaggle/input/butterfly-image-classification/train/Image_5004.jpg,RED SPOTTED PURPLE,RED SPOTTED PURPLE,0.9985455,True
+/kaggle/input/butterfly-image-classification/train/Image_3052.jpg,COMMON BANDED AWL,COMMON BANDED AWL,0.9988638,True
+/kaggle/input/butterfly-image-classification/train/Image_3508.jpg,DANAID EGGFLY,DANAID EGGFLY,0.6144682,True
+/kaggle/input/butterfly-image-classification/train/Image_461.jpg,ADONIS,ADONIS,0.9987999,True
+/kaggle/input/butterfly-image-classification/train/Image_4263.jpg,BANDED ORANGE HELICONIAN,BANDED ORANGE HELICONIAN,0.993111,True
+/kaggle/input/butterfly-image-classification/train/Image_6102.jpg,VICEROY,VICEROY,0.40685338,True
+/kaggle/input/butterfly-image-classification/train/Image_922.jpg,MESTRA,MESTRA,0.9350317,True
+/kaggle/input/butterfly-image-classification/train/Image_2648.jpg,TWO BARRED FLASHER,TWO BARRED FLASHER,0.9879776,True
+/kaggle/input/butterfly-image-classification/train/Image_2646.jpg,SLEEPY ORANGE,SLEEPY ORANGE,0.9931317,True
+/kaggle/input/butterfly-image-classification/train/Image_5905.jpg,MILBERTS TORTOISESHELL,MILBERTS TORTOISESHELL,0.99209607,True
+/kaggle/input/butterfly-image-classification/train/Image_758.jpg,BLUE SPOTTED CROW,BLUE SPOTTED CROW,0.6780237,True
+/kaggle/input/butterfly-image-classification/train/Image_2224.jpg,CABBAGE WHITE,CABBAGE WHITE,0.9848037,True
+/kaggle/input/butterfly-image-classification/train/Image_1046.jpg,COMMON WOOD-NYMPH,COMMON WOOD-NYMPH,0.9981711,True
+/kaggle/input/butterfly-image-classification/train/Image_6218.jpg,CRIMSON PATCH,CRIMSON PATCH,0.9992095,True
+/kaggle/input/butterfly-image-classification/train/Image_1818.jpg,SLEEPY ORANGE,SLEEPY ORANGE,0.9993618,True
+/kaggle/input/butterfly-image-classification/train/Image_1656.jpg,COMMON BANDED AWL,COMMON BANDED AWL,0.9134,True
+/kaggle/input/butterfly-image-classification/train/Image_5081.jpg,MOURNING CLOAK,MOURNING CLOAK,0.9999124,True
+/kaggle/input/butterfly-image-classification/train/Image_5596.jpg,PAINTED LADY,PAINTED LADY,0.99997115,True
+/kaggle/input/butterfly-image-classification/train/Image_487.jpg,COMMON WOOD-NYMPH,COMMON WOOD-NYMPH,0.99986875,True
+/kaggle/input/butterfly-image-classification/train/Image_890.jpg,ULYSES,ULYSES,0.9920556,True
+/kaggle/input/butterfly-image-classification/train/Image_5216.jpg,STRAITED QUEEN,STRAITED QUEEN,0.9928591,True
+/kaggle/input/butterfly-image-classification/train/Image_3909.jpg,BROWN SIPROETA,BROWN SIPROETA,1.0,True
+/kaggle/input/butterfly-image-classification/train/Image_2805.jpg,BECKERS WHITE,BECKERS WHITE,0.990562,True
+/kaggle/input/butterfly-image-classification/train/Image_3856.jpg,CHECQUERED SKIPPER,CHECQUERED SKIPPER,0.6239368,True
+/kaggle/input/butterfly-image-classification/train/Image_6314.jpg,CRIMSON PATCH,CRIMSON PATCH,0.99979943,True
+/kaggle/input/butterfly-image-classification/train/Image_6009.jpg,EASTERN PINE ELFIN,EASTERN PINE ELFIN,0.9817871,True
+/kaggle/input/butterfly-image-classification/train/Image_4137.jpg,RED POSTMAN,RED POSTMAN,0.99975544,True
+/kaggle/input/butterfly-image-classification/train/Image_6255.jpg,BECKERS WHITE,BECKERS WHITE,0.99817276,True
+/kaggle/input/butterfly-image-classification/train/Image_4311.jpg,PAINTED LADY,PAINTED LADY,0.8395773,True
+/kaggle/input/butterfly-image-classification/train/Image_4297.jpg,MANGROVE SKIPPER,MANGROVE SKIPPER,0.99861324,True
+/kaggle/input/butterfly-image-classification/train/Image_1820.jpg,MONARCH,MONARCH,0.94417524,True
+/kaggle/input/butterfly-image-classification/train/Image_6053.jpg,CRIMSON PATCH,CRIMSON PATCH,0.9999777,True
+/kaggle/input/butterfly-image-classification/train/Image_2423.jpg,STRAITED QUEEN,STRAITED QUEEN,0.86249775,True
+/kaggle/input/butterfly-image-classification/train/Image_2888.jpg,CRECENT,CRECENT,0.66570485,True
+/kaggle/input/butterfly-image-classification/train/Image_6010.jpg,MESTRA,MESTRA,0.9690127,True
+/kaggle/input/butterfly-image-classification/train/Image_4032.jpg,BROWN SIPROETA,IPHICLUS SISTER,0.6011813,False
+/kaggle/input/butterfly-image-classification/train/Image_1059.jpg,CHESTNUT,CHESTNUT,0.9948088,True
+/kaggle/input/butterfly-image-classification/train/Image_2427.jpg,MONARCH,VICEROY,0.5001243,False
+/kaggle/input/butterfly-image-classification/train/Image_4530.jpg,PIPEVINE SWALLOW,PIPEVINE SWALLOW,0.91052294,True
+/kaggle/input/butterfly-image-classification/train/Image_6025.jpg,EASTERN PINE ELFIN,EASTERN PINE ELFIN,0.99363285,True
+/kaggle/input/butterfly-image-classification/train/Image_3233.jpg,PAPER KITE,PAPER KITE,0.99998724,True
+/kaggle/input/butterfly-image-classification/train/Image_662.jpg,RED CRACKER,RED CRACKER,0.9999888,True
+/kaggle/input/butterfly-image-classification/train/Image_4048.jpg,LARGE MARBLE,LARGE MARBLE,0.87812614,True
+/kaggle/input/butterfly-image-classification/train/Image_3668.jpg,INDRA SWALLOW,INDRA SWALLOW,0.999303,True
+/kaggle/input/butterfly-image-classification/train/Image_2676.jpg,MILBERTS TORTOISESHELL,MILBERTS TORTOISESHELL,0.9747062,True
+/kaggle/input/butterfly-image-classification/train/Image_389.jpg,MALACHITE,MALACHITE,0.9999361,True
+/kaggle/input/butterfly-image-classification/train/Image_1338.jpg,METALMARK,METALMARK,1.0,True
+/kaggle/input/butterfly-image-classification/train/Image_3124.jpg,GOLD BANDED,GOLD BANDED,0.9957054,True
+/kaggle/input/butterfly-image-classification/train/Image_343.jpg,AN 88,AN 88,1.0,True
+/kaggle/input/butterfly-image-classification/train/Image_694.jpg,MILBERTS TORTOISESHELL,MILBERTS TORTOISESHELL,0.9987784,True
+/kaggle/input/butterfly-image-classification/train/Image_3831.jpg,MANGROVE SKIPPER,MANGROVE SKIPPER,0.99993753,True
+/kaggle/input/butterfly-image-classification/train/Image_96.jpg,GOLD BANDED,QUESTION MARK,0.29951528,False
+/kaggle/input/butterfly-image-classification/train/Image_2420.jpg,RED ADMIRAL,RED ADMIRAL,0.98944396,True
+/kaggle/input/butterfly-image-classification/train/Image_2986.jpg,MONARCH,MONARCH,0.8109979,True
+/kaggle/input/butterfly-image-classification/train/Image_3917.jpg,BANDED PEACOCK,BANDED PEACOCK,0.9992719,True
+/kaggle/input/butterfly-image-classification/train/Image_789.jpg,ORANGE TIP,ORANGE TIP,0.99979836,True
+/kaggle/input/butterfly-image-classification/train/Image_1936.jpg,ORCHARD SWALLOW,GREEN CELLED CATTLEHEART,0.8649938,False
+/kaggle/input/butterfly-image-classification/train/Image_1973.jpg,GOLD BANDED,GOLD BANDED,0.9677339,True
+/kaggle/input/butterfly-image-classification/train/Image_278.jpg,MOURNING CLOAK,MOURNING CLOAK,0.9999963,True
+/kaggle/input/butterfly-image-classification/train/Image_2134.jpg,GREAT EGGFLY,GREAT EGGFLY,0.9595498,True
+/kaggle/input/butterfly-image-classification/train/Image_4889.jpg,EASTERN COMA,EASTERN COMA,0.9658711,True
+/kaggle/input/butterfly-image-classification/train/Image_1811.jpg,GREAT EGGFLY,GREAT EGGFLY,0.80001503,True
+/kaggle/input/butterfly-image-classification/train/Image_6418.jpg,PAINTED LADY,PAINTED LADY,0.9160337,True
+/kaggle/input/butterfly-image-classification/train/Image_1438.jpg,ORANGE TIP,ORANGE TIP,0.95667994,True
+/kaggle/input/butterfly-image-classification/train/Image_2627.jpg,MOURNING CLOAK,MOURNING CLOAK,0.99996936,True
+/kaggle/input/butterfly-image-classification/train/Image_4371.jpg,RED SPOTTED PURPLE,RED SPOTTED PURPLE,0.99974734,True
+/kaggle/input/butterfly-image-classification/train/Image_3631.jpg,RED SPOTTED PURPLE,PIPEVINE SWALLOW,0.6707552,False
+/kaggle/input/butterfly-image-classification/train/Image_2555.jpg,COPPER TAIL,COPPER TAIL,0.961177,True
+/kaggle/input/butterfly-image-classification/train/Image_2267.jpg,APPOLLO,APPOLLO,0.9997676,True
+/kaggle/input/butterfly-image-classification/train/Image_5958.jpg,SILVER SPOT SKIPPER,SILVER SPOT SKIPPER,0.97164404,True
+/kaggle/input/butterfly-image-classification/train/Image_840.jpg,IPHICLUS SISTER,IPHICLUS SISTER,0.999438,True
+/kaggle/input/butterfly-image-classification/train/Image_661.jpg,BANDED ORANGE HELICONIAN,BANDED ORANGE HELICONIAN,0.9948791,True
+/kaggle/input/butterfly-image-classification/train/Image_3139.jpg,SCARCE SWALLOW,SCARCE SWALLOW,0.9990095,True
+/kaggle/input/butterfly-image-classification/train/Image_69.jpg,TWO BARRED FLASHER,TWO BARRED FLASHER,0.99982506,True
+/kaggle/input/butterfly-image-classification/train/Image_1269.jpg,STRAITED QUEEN,STRAITED QUEEN,0.9942778,True
+/kaggle/input/butterfly-image-classification/train/Image_1126.jpg,SLEEPY ORANGE,SLEEPY ORANGE,0.9634779,True
+/kaggle/input/butterfly-image-classification/train/Image_2921.jpg,SOOTYWING,SOOTYWING,0.96336174,True
+/kaggle/input/butterfly-image-classification/train/Image_2977.jpg,BLUE MORPHO,BLUE MORPHO,0.87829053,True
+/kaggle/input/butterfly-image-classification/train/Image_1214.jpg,BANDED ORANGE HELICONIAN,BANDED ORANGE HELICONIAN,0.9994979,True
+/kaggle/input/butterfly-image-classification/train/Image_1684.jpg,IPHICLUS SISTER,IPHICLUS SISTER,0.9999999,True
+/kaggle/input/butterfly-image-classification/train/Image_123.jpg,AN 88,AN 88,1.0,True
+/kaggle/input/butterfly-image-classification/train/Image_2811.jpg,MESTRA,MESTRA,0.4178794,True
+/kaggle/input/butterfly-image-classification/train/Image_1609.jpg,VICEROY,VICEROY,0.84212995,True
+/kaggle/input/butterfly-image-classification/train/Image_4951.jpg,AMERICAN SNOOT,AMERICAN SNOOT,0.99420387,True
+/kaggle/input/butterfly-image-classification/train/Image_3645.jpg,YELLOW SWALLOW TAIL,YELLOW SWALLOW TAIL,0.9996358,True
+/kaggle/input/butterfly-image-classification/train/Image_794.jpg,LARGE MARBLE,LARGE MARBLE,0.9509105,True
+/kaggle/input/butterfly-image-classification/train/Image_6138.jpg,EASTERN COMA,EASTERN COMA,0.519079,True
+/kaggle/input/butterfly-image-classification/train/Image_4666.jpg,COPPER TAIL,PURPLISH COPPER,0.5024647,False
+/kaggle/input/butterfly-image-classification/train/Image_1476.jpg,AN 88,AN 88,0.65202415,True
+/kaggle/input/butterfly-image-classification/train/Image_5229.jpg,SOUTHERN DOGFACE,SOUTHERN DOGFACE,0.8291961,True
+/kaggle/input/butterfly-image-classification/train/Image_2266.jpg,SCARCE SWALLOW,SCARCE SWALLOW,0.99961275,True
+/kaggle/input/butterfly-image-classification/train/Image_858.jpg,BANDED ORANGE HELICONIAN,BANDED ORANGE HELICONIAN,0.99963486,True
+/kaggle/input/butterfly-image-classification/train/Image_1970.jpg,CLOUDED SULPHUR,SOUTHERN DOGFACE,0.4881375,False
+/kaggle/input/butterfly-image-classification/train/Image_4868.jpg,ELBOWED PIERROT,ELBOWED PIERROT,0.99999964,True
+/kaggle/input/butterfly-image-classification/train/Image_6111.jpg,DANAID EGGFLY,GREAT EGGFLY,0.62423503,False
+/kaggle/input/butterfly-image-classification/train/Image_2180.jpg,CHECQUERED SKIPPER,CHECQUERED SKIPPER,0.9998559,True
+/kaggle/input/butterfly-image-classification/train/Image_3379.jpg,SLEEPY ORANGE,SLEEPY ORANGE,0.9792462,True
+/kaggle/input/butterfly-image-classification/train/Image_263.jpg,BECKERS WHITE,BECKERS WHITE,0.9926077,True
+/kaggle/input/butterfly-image-classification/train/Image_837.jpg,BLACK HAIRSTREAK,BLACK HAIRSTREAK,0.9999677,True
+/kaggle/input/butterfly-image-classification/train/Image_5892.jpg,VICEROY,VICEROY,0.961576,True
+/kaggle/input/butterfly-image-classification/train/Image_4526.jpg,METALMARK,METALMARK,0.99995685,True
+/kaggle/input/butterfly-image-classification/train/Image_3402.jpg,GREY HAIRSTREAK,GREY HAIRSTREAK,0.9819193,True
+/kaggle/input/butterfly-image-classification/train/Image_5541.jpg,YELLOW SWALLOW TAIL,YELLOW SWALLOW TAIL,0.84977084,True
+/kaggle/input/butterfly-image-classification/train/Image_2466.jpg,EASTERN PINE ELFIN,EASTERN PINE ELFIN,0.9936546,True
+/kaggle/input/butterfly-image-classification/train/Image_3517.jpg,POPINJAY,POPINJAY,0.9997894,True
+/kaggle/input/butterfly-image-classification/train/Image_3784.jpg,ADONIS,ADONIS,0.99999964,True
+/kaggle/input/butterfly-image-classification/train/Image_1295.jpg,JULIA,JULIA,0.9971432,True
+/kaggle/input/butterfly-image-classification/train/Image_2138.jpg,MOURNING CLOAK,MOURNING CLOAK,0.995129,True
+/kaggle/input/butterfly-image-classification/train/Image_1309.jpg,COMMON WOOD-NYMPH,COMMON WOOD-NYMPH,0.98529774,True
+/kaggle/input/butterfly-image-classification/train/Image_3291.jpg,AN 88,AN 88,1.0,True
+/kaggle/input/butterfly-image-classification/train/Image_5808.jpg,PURPLE HAIRSTREAK,PURPLE HAIRSTREAK,0.96479255,True
+/kaggle/input/butterfly-image-classification/train/Image_4642.jpg,MALACHITE,MALACHITE,0.9999894,True
+/kaggle/input/butterfly-image-classification/train/Image_2116.jpg,TWO BARRED FLASHER,TWO BARRED FLASHER,0.99191403,True
+/kaggle/input/butterfly-image-classification/train/Image_2173.jpg,SOOTYWING,SOOTYWING,0.99752396,True
+/kaggle/input/butterfly-image-classification/train/Image_4023.jpg,COPPER TAIL,GREY HAIRSTREAK,0.48008052,False
+/kaggle/input/butterfly-image-classification/train/Image_3706.jpg,BLACK HAIRSTREAK,BLACK HAIRSTREAK,0.99835277,True
+/kaggle/input/butterfly-image-classification/train/Image_1628.jpg,STRAITED QUEEN,STRAITED QUEEN,0.99824333,True
+/kaggle/input/butterfly-image-classification/train/Image_2570.jpg,SCARCE SWALLOW,SCARCE SWALLOW,0.9986952,True
+/kaggle/input/butterfly-image-classification/train/Image_1633.jpg,IPHICLUS SISTER,IPHICLUS SISTER,0.9998307,True
+/kaggle/input/butterfly-image-classification/train/Image_1738.jpg,GREAT JAY,GREAT JAY,0.96546835,True
+/kaggle/input/butterfly-image-classification/train/Image_1905.jpg,PAPER KITE,PAPER KITE,0.8958563,True
+/kaggle/input/butterfly-image-classification/train/Image_4279.jpg,RED POSTMAN,RED POSTMAN,0.97797227,True
+/kaggle/input/butterfly-image-classification/train/Image_1161.jpg,ORCHARD SWALLOW,ORCHARD SWALLOW,0.9999794,True
+/kaggle/input/butterfly-image-classification/train/Image_3142.jpg,PURPLISH COPPER,COPPER TAIL,0.5437967,False
+/kaggle/input/butterfly-image-classification/train/Image_3009.jpg,ADONIS,ADONIS,0.99996686,True
+/kaggle/input/butterfly-image-classification/train/Image_5924.jpg,ADONIS,ADONIS,0.999479,True
+/kaggle/input/butterfly-image-classification/train/Image_2154.jpg,PURPLISH COPPER,PURPLISH COPPER,0.5569652,True
+/kaggle/input/butterfly-image-classification/train/Image_5524.jpg,MESTRA,MESTRA,0.96559185,True
+/kaggle/input/butterfly-image-classification/train/Image_5078.jpg,WOOD SATYR,WOOD SATYR,0.96141165,True
+/kaggle/input/butterfly-image-classification/train/Image_4465.jpg,ORCHARD SWALLOW,DANAID EGGFLY,0.63884556,False
+/kaggle/input/butterfly-image-classification/train/Image_2716.jpg,STRAITED QUEEN,STRAITED QUEEN,0.9555577,True
+/kaggle/input/butterfly-image-classification/train/Image_4439.jpg,CRECENT,PAINTED LADY,0.8249212,False
+/kaggle/input/butterfly-image-classification/train/Image_6001.jpg,MONARCH,MONARCH,0.8812841,True
+/kaggle/input/butterfly-image-classification/train/Image_1114.jpg,ZEBRA LONG WING,ZEBRA LONG WING,0.6683711,True
+/kaggle/input/butterfly-image-classification/train/Image_2770.jpg,CAIRNS BIRDWING,CAIRNS BIRDWING,0.996763,True
+/kaggle/input/butterfly-image-classification/train/Image_5308.jpg,EASTERN DAPPLE WHITE,LARGE MARBLE,0.45805717,False
+/kaggle/input/butterfly-image-classification/train/Image_2862.jpg,ZEBRA LONG WING,ZEBRA LONG WING,0.9999908,True
+/kaggle/input/butterfly-image-classification/train/Image_4329.jpg,ORANGE TIP,ORANGE TIP,0.99981743,True
+/kaggle/input/butterfly-image-classification/train/Image_2866.jpg,GOLD BANDED,MOURNING CLOAK,0.8808024,False
+/kaggle/input/butterfly-image-classification/train/Image_2571.jpg,CLODIUS PARNASSIAN,CLODIUS PARNASSIAN,0.9999919,True
+/kaggle/input/butterfly-image-classification/train/Image_5106.jpg,INDRA SWALLOW,INDRA SWALLOW,0.99941266,True
+/kaggle/input/butterfly-image-classification/train/Image_4482.jpg,IPHICLUS SISTER,IPHICLUS SISTER,0.9999175,True
+/kaggle/input/butterfly-image-classification/train/Image_101.jpg,BECKERS WHITE,BECKERS WHITE,0.94480073,True
+/kaggle/input/butterfly-image-classification/train/Image_2579.jpg,EASTERN PINE ELFIN,EASTERN PINE ELFIN,0.9999969,True
+/kaggle/input/butterfly-image-classification/train/Image_2291.jpg,BANDED PEACOCK,BANDED PEACOCK,0.99926287,True
+/kaggle/input/butterfly-image-classification/train/Image_427.jpg,METALMARK,METALMARK,0.9997451,True
+/kaggle/input/butterfly-image-classification/train/Image_323.jpg,MOURNING CLOAK,MOURNING CLOAK,0.9917122,True
+/kaggle/input/butterfly-image-classification/train/Image_41.jpg,LARGE MARBLE,LARGE MARBLE,0.9165229,True
+/kaggle/input/butterfly-image-classification/train/Image_5034.jpg,PIPEVINE SWALLOW,PIPEVINE SWALLOW,0.996092,True
+/kaggle/input/butterfly-image-classification/train/Image_4748.jpg,MONARCH,MONARCH,0.7496736,True
+/kaggle/input/butterfly-image-classification/train/Image_4112.jpg,SILVER SPOT SKIPPER,SILVER SPOT SKIPPER,0.6984654,True
+/kaggle/input/butterfly-image-classification/train/Image_3443.jpg,BLUE SPOTTED CROW,BLUE SPOTTED CROW,0.99271446,True
+/kaggle/input/butterfly-image-classification/train/Image_3827.jpg,COMMON WOOD-NYMPH,COMMON WOOD-NYMPH,0.99977475,True
+/kaggle/input/butterfly-image-classification/train/Image_2563.jpg,WOOD SATYR,WOOD SATYR,0.5063537,True
+/kaggle/input/butterfly-image-classification/train/Image_4640.jpg,POPINJAY,POPINJAY,0.99999785,True
+/kaggle/input/butterfly-image-classification/train/Image_4991.jpg,RED ADMIRAL,RED ADMIRAL,0.99183697,True
+/kaggle/input/butterfly-image-classification/train/Image_3857.jpg,IPHICLUS SISTER,IPHICLUS SISTER,0.9997471,True
+/kaggle/input/butterfly-image-classification/train/Image_2115.jpg,BLACK HAIRSTREAK,BLACK HAIRSTREAK,0.9970681,True
+/kaggle/input/butterfly-image-classification/train/Image_2952.jpg,JULIA,JULIA,0.99975115,True
+/kaggle/input/butterfly-image-classification/train/Image_214.jpg,GREEN CELLED CATTLEHEART,GREEN CELLED CATTLEHEART,0.99983203,True
+/kaggle/input/butterfly-image-classification/train/Image_5970.jpg,RED POSTMAN,RED POSTMAN,0.9930474,True
+/kaggle/input/butterfly-image-classification/train/Image_5819.jpg,PINE WHITE,PINE WHITE,0.94308054,True
+/kaggle/input/butterfly-image-classification/train/Image_2982.jpg,MANGROVE SKIPPER,MANGROVE SKIPPER,0.5224626,True
+/kaggle/input/butterfly-image-classification/train/Image_3700.jpg,CHECQUERED SKIPPER,CHECQUERED SKIPPER,0.99983513,True
+/kaggle/input/butterfly-image-classification/train/Image_1447.jpg,CHESTNUT,CHESTNUT,0.99946505,True
+/kaggle/input/butterfly-image-classification/train/Image_6287.jpg,IPHICLUS SISTER,IPHICLUS SISTER,0.9738904,True
+/kaggle/input/butterfly-image-classification/train/Image_5460.jpg,EASTERN COMA,EASTERN COMA,0.5042842,True
+/kaggle/input/butterfly-image-classification/train/Image_5981.jpg,ATALA,ATALA,0.87789327,True
+/kaggle/input/butterfly-image-classification/train/Image_517.jpg,EASTERN PINE ELFIN,CHECQUERED SKIPPER,0.522279,False
+/kaggle/input/butterfly-image-classification/train/Image_1477.jpg,GOLD BANDED,GOLD BANDED,0.5934616,True
+/kaggle/input/butterfly-image-classification/train/Image_5884.jpg,ZEBRA LONG WING,ZEBRA LONG WING,0.9999931,True
+/kaggle/input/butterfly-image-classification/train/Image_2217.jpg,COMMON BANDED AWL,COMMON BANDED AWL,0.94377327,True
+/kaggle/input/butterfly-image-classification/train/Image_3063.jpg,VICEROY,VICEROY,0.9731621,True
+/kaggle/input/butterfly-image-classification/train/Image_2499.jpg,GREY HAIRSTREAK,PURPLE HAIRSTREAK,0.55127597,False
+/kaggle/input/butterfly-image-classification/train/Image_3595.jpg,VICEROY,VICEROY,0.86132544,True
+/kaggle/input/butterfly-image-classification/train/Image_5856.jpg,DANAID EGGFLY,BLUE SPOTTED CROW,0.5722369,False
+/kaggle/input/butterfly-image-classification/train/Image_862.jpg,BLACK HAIRSTREAK,BLACK HAIRSTREAK,0.9876403,True
+/kaggle/input/butterfly-image-classification/train/Image_2800.jpg,JULIA,JULIA,0.99662244,True
+/kaggle/input/butterfly-image-classification/train/Image_1290.jpg,CLOUDED SULPHUR,SOUTHERN DOGFACE,0.8208335,False
+/kaggle/input/butterfly-image-classification/train/Image_2677.jpg,AFRICAN GIANT SWALLOWTAIL,AFRICAN GIANT SWALLOWTAIL,0.9998306,True
+/kaggle/input/butterfly-image-classification/train/Image_5277.jpg,CRIMSON PATCH,CRIMSON PATCH,0.9800648,True
+/kaggle/input/butterfly-image-classification/train/Image_2583.jpg,EASTERN DAPPLE WHITE,EASTERN DAPPLE WHITE,0.9003792,True
+/kaggle/input/butterfly-image-classification/train/Image_326.jpg,CABBAGE WHITE,CABBAGE WHITE,0.999281,True
+/kaggle/input/butterfly-image-classification/train/Image_4446.jpg,EASTERN COMA,QUESTION MARK,0.7781863,False
+/kaggle/input/butterfly-image-classification/train/Image_1761.jpg,CABBAGE WHITE,CABBAGE WHITE,0.99793243,True
+/kaggle/input/butterfly-image-classification/train/Image_4248.jpg,VICEROY,VICEROY,0.9075233,True
+/kaggle/input/butterfly-image-classification/train/Image_1983.jpg,MOURNING CLOAK,MOURNING CLOAK,0.9927193,True
+/kaggle/input/butterfly-image-classification/train/Image_6464.jpg,PURPLISH COPPER,COPPER TAIL,0.6692142,False
+/kaggle/input/butterfly-image-classification/train/Image_770.jpg,AMERICAN SNOOT,AMERICAN SNOOT,0.995732,True
+/kaggle/input/butterfly-image-classification/train/Image_3035.jpg,PEACOCK,MILBERTS TORTOISESHELL,0.9624273,False
+/kaggle/input/butterfly-image-classification/train/Image_2652.jpg,WOOD SATYR,WOOD SATYR,0.9254752,True
+/kaggle/input/butterfly-image-classification/train/Image_2080.jpg,CLEOPATRA,CLEOPATRA,0.9574059,True
+/kaggle/input/butterfly-image-classification/train/Image_5241.jpg,CHESTNUT,CHESTNUT,0.9990928,True
+/kaggle/input/butterfly-image-classification/train/Image_2397.jpg,TROPICAL LEAFWING,TROPICAL LEAFWING,0.9997689,True
+/kaggle/input/butterfly-image-classification/train/Image_895.jpg,CABBAGE WHITE,CABBAGE WHITE,0.87280786,True
+/kaggle/input/butterfly-image-classification/train/Image_3424.jpg,MOURNING CLOAK,MOURNING CLOAK,0.9999865,True
+/kaggle/input/butterfly-image-classification/train/Image_5465.jpg,BECKERS WHITE,BECKERS WHITE,0.9771639,True
+/kaggle/input/butterfly-image-classification/train/Image_1414.jpg,EASTERN DAPPLE WHITE,LARGE MARBLE,0.7524694,False
+/kaggle/input/butterfly-image-classification/train/Image_6318.jpg,MANGROVE SKIPPER,MANGROVE SKIPPER,0.8421019,True
+/kaggle/input/butterfly-image-classification/train/Image_218.jpg,ULYSES,ULYSES,0.97839046,True
+/kaggle/input/butterfly-image-classification/train/Image_3742.jpg,JULIA,JULIA,0.996906,True
+/kaggle/input/butterfly-image-classification/train/Image_4238.jpg,ATALA,ATALA,0.99605846,True
+/kaggle/input/butterfly-image-classification/train/Image_172.jpg,ORANGE OAKLEAF,ORANGE OAKLEAF,0.9990729,True
+/kaggle/input/butterfly-image-classification/train/Image_2021.jpg,PURPLE HAIRSTREAK,PURPLE HAIRSTREAK,0.99693274,True
+/kaggle/input/butterfly-image-classification/train/Image_5921.jpg,CHECQUERED SKIPPER,CHECQUERED SKIPPER,0.99977833,True
+/kaggle/input/butterfly-image-classification/train/Image_2069.jpg,AFRICAN GIANT SWALLOWTAIL,AFRICAN GIANT SWALLOWTAIL,0.9992913,True
+/kaggle/input/butterfly-image-classification/train/Image_1354.jpg,SCARCE SWALLOW,SCARCE SWALLOW,0.99492633,True
+/kaggle/input/butterfly-image-classification/train/Image_5907.jpg,MALACHITE,MALACHITE,0.99982315,True
+/kaggle/input/butterfly-image-classification/train/Image_431.jpg,GREY HAIRSTREAK,GREY HAIRSTREAK,0.96684664,True
+/kaggle/input/butterfly-image-classification/train/Image_4308.jpg,RED SPOTTED PURPLE,RED SPOTTED PURPLE,0.9999685,True
+/kaggle/input/butterfly-image-classification/train/Image_6452.jpg,MONARCH,MONARCH,0.9687112,True
+/kaggle/input/butterfly-image-classification/train/Image_3468.jpg,CABBAGE WHITE,CABBAGE WHITE,0.9882727,True
+/kaggle/input/butterfly-image-classification/train/Image_5847.jpg,EASTERN DAPPLE WHITE,LARGE MARBLE,0.7319369,False
+/kaggle/input/butterfly-image-classification/train/Image_5761.jpg,RED ADMIRAL,RED ADMIRAL,0.9738947,True
+/kaggle/input/butterfly-image-classification/train/Image_830.jpg,ATALA,ATALA,0.8963485,True
+/kaggle/input/butterfly-image-classification/train/Image_3138.jpg,ORANGE OAKLEAF,ORANGE OAKLEAF,0.99579936,True
+/kaggle/input/butterfly-image-classification/train/Image_2321.jpg,IPHICLUS SISTER,BROWN SIPROETA,0.5838754,False
+/kaggle/input/butterfly-image-classification/train/Image_4255.jpg,BANDED PEACOCK,BANDED PEACOCK,0.9999567,True
+/kaggle/input/butterfly-image-classification/train/Image_5319.jpg,PEACOCK,PEACOCK,0.9993782,True
+/kaggle/input/butterfly-image-classification/train/Image_3614.jpg,DANAID EGGFLY,DANAID EGGFLY,0.98727566,True
+/kaggle/input/butterfly-image-classification/train/Image_5515.jpg,COMMON BANDED AWL,CHECQUERED SKIPPER,0.77552533,False
+/kaggle/input/butterfly-image-classification/train/Image_4721.jpg,CAIRNS BIRDWING,CAIRNS BIRDWING,0.99797267,True
+/kaggle/input/butterfly-image-classification/train/Image_5307.jpg,RED ADMIRAL,RED ADMIRAL,0.9979219,True
+/kaggle/input/butterfly-image-classification/train/Image_5249.jpg,CHESTNUT,CHESTNUT,0.9999949,True
+/kaggle/input/butterfly-image-classification/train/Image_2403.jpg,GREAT EGGFLY,ORANGE OAKLEAF,0.21372755,False
+/kaggle/input/butterfly-image-classification/train/Image_4590.jpg,BANDED PEACOCK,BANDED PEACOCK,0.80775297,True
+/kaggle/input/butterfly-image-classification/train/Image_559.jpg,IPHICLUS SISTER,IPHICLUS SISTER,0.9977102,True
+/kaggle/input/butterfly-image-classification/train/Image_2264.jpg,CHESTNUT,CHESTNUT,0.9594564,True
+/kaggle/input/butterfly-image-classification/train/Image_880.jpg,GOLD BANDED,GOLD BANDED,0.9871573,True
+/kaggle/input/butterfly-image-classification/train/Image_2534.jpg,PURPLISH COPPER,PURPLISH COPPER,0.8982641,True
+/kaggle/input/butterfly-image-classification/train/Image_888.jpg,RED CRACKER,RED CRACKER,0.9912867,True
+/kaggle/input/butterfly-image-classification/train/Image_4624.jpg,COMMON WOOD-NYMPH,COMMON WOOD-NYMPH,0.9999567,True
+/kaggle/input/butterfly-image-classification/train/Image_1739.jpg,CRIMSON PATCH,CRIMSON PATCH,0.9999702,True
+/kaggle/input/butterfly-image-classification/train/Image_714.jpg,TWO BARRED FLASHER,TWO BARRED FLASHER,0.999603,True
+/kaggle/input/butterfly-image-classification/train/Image_2531.jpg,IPHICLUS SISTER,IPHICLUS SISTER,0.9978017,True
+/kaggle/input/butterfly-image-classification/train/Image_5330.jpg,QUESTION MARK,QUESTION MARK,0.9816212,True
+/kaggle/input/butterfly-image-classification/train/Image_4380.jpg,GREEN CELLED CATTLEHEART,DANAID EGGFLY,0.3168758,False
+/kaggle/input/butterfly-image-classification/train/Image_749.jpg,CLEOPATRA,CLEOPATRA,0.8834743,True
+/kaggle/input/butterfly-image-classification/train/Image_3367.jpg,AFRICAN GIANT SWALLOWTAIL,AFRICAN GIANT SWALLOWTAIL,0.99988437,True
+/kaggle/input/butterfly-image-classification/train/Image_4289.jpg,RED SPOTTED PURPLE,BLUE SPOTTED CROW,0.7352303,False
+/kaggle/input/butterfly-image-classification/train/Image_3885.jpg,YELLOW SWALLOW TAIL,YELLOW SWALLOW TAIL,0.9891521,True
+/kaggle/input/butterfly-image-classification/train/Image_147.jpg,PURPLISH COPPER,PURPLISH COPPER,0.939368,True
+/kaggle/input/butterfly-image-classification/train/Image_1947.jpg,RED POSTMAN,RED POSTMAN,0.9975666,True
+/kaggle/input/butterfly-image-classification/train/Image_3045.jpg,ELBOWED PIERROT,ELBOWED PIERROT,0.9894707,True
+/kaggle/input/butterfly-image-classification/train/Image_1054.jpg,SLEEPY ORANGE,SLEEPY ORANGE,0.62674516,True
+/kaggle/input/butterfly-image-classification/train/Image_3627.jpg,GOLD BANDED,GOLD BANDED,0.76265466,True
+/kaggle/input/butterfly-image-classification/train/Image_6157.jpg,GREAT JAY,CRIMSON PATCH,0.49358156,False
+/kaggle/input/butterfly-image-classification/train/Image_1549.jpg,METALMARK,METALMARK,0.7396947,True
+/kaggle/input/butterfly-image-classification/train/Image_5026.jpg,POPINJAY,POPINJAY,0.99997723,True
+/kaggle/input/butterfly-image-classification/train/Image_4901.jpg,RED POSTMAN,RED POSTMAN,0.99901116,True
+/kaggle/input/butterfly-image-classification/train/Image_4303.jpg,MOURNING CLOAK,BROWN SIPROETA,0.9454874,False
+/kaggle/input/butterfly-image-classification/train/Image_2998.jpg,BLUE SPOTTED CROW,BLUE SPOTTED CROW,0.99624217,True
+/kaggle/input/butterfly-image-classification/train/Image_5203.jpg,SOOTYWING,SOOTYWING,0.8924989,True
+/kaggle/input/butterfly-image-classification/train/Image_4895.jpg,CAIRNS BIRDWING,GREEN CELLED CATTLEHEART,0.9539053,False
+/kaggle/input/butterfly-image-classification/train/Image_3869.jpg,SOOTYWING,SOOTYWING,0.7683541,True
+/kaggle/input/butterfly-image-classification/train/Image_4291.jpg,BROWN SIPROETA,BROWN SIPROETA,0.87161136,True
+/kaggle/input/butterfly-image-classification/train/Image_3558.jpg,SOUTHERN DOGFACE,CLOUDED SULPHUR,0.16678816,False
+/kaggle/input/butterfly-image-classification/train/Image_635.jpg,COPPER TAIL,BLACK HAIRSTREAK,0.30358088,False
+/kaggle/input/butterfly-image-classification/train/Image_3540.jpg,COMMON WOOD-NYMPH,COMMON WOOD-NYMPH,0.9997179,True
+/kaggle/input/butterfly-image-classification/train/Image_2610.jpg,GREAT EGGFLY,GREAT EGGFLY,0.95246553,True
+/kaggle/input/butterfly-image-classification/train/Image_5394.jpg,ADONIS,ADONIS,0.99999654,True
+/kaggle/input/butterfly-image-classification/train/Image_5064.jpg,ATALA,ATALA,0.65210867,True
+/kaggle/input/butterfly-image-classification/train/Image_1112.jpg,COMMON BANDED AWL,COMMON BANDED AWL,0.99921274,True
+/kaggle/input/butterfly-image-classification/train/Image_1298.jpg,INDRA SWALLOW,INDRA SWALLOW,0.8141629,True
+/kaggle/input/butterfly-image-classification/train/Image_3998.jpg,BANDED ORANGE HELICONIAN,BANDED ORANGE HELICONIAN,0.9773432,True
+/kaggle/input/butterfly-image-classification/train/Image_2073.jpg,TROPICAL LEAFWING,TROPICAL LEAFWING,0.74512714,True
+/kaggle/input/butterfly-image-classification/train/Image_225.jpg,MOURNING CLOAK,MOURNING CLOAK,0.999671,True
+/kaggle/input/butterfly-image-classification/train/Image_257.jpg,GREY HAIRSTREAK,GREY HAIRSTREAK,0.9950944,True
+/kaggle/input/butterfly-image-classification/train/Image_5753.jpg,ZEBRA LONG WING,ZEBRA LONG WING,0.9996973,True
+/kaggle/input/butterfly-image-classification/train/Image_1171.jpg,SLEEPY ORANGE,SLEEPY ORANGE,0.995992,True
+/kaggle/input/butterfly-image-classification/train/Image_5233.jpg,CABBAGE WHITE,CABBAGE WHITE,0.99980813,True
+/kaggle/input/butterfly-image-classification/train/Image_6142.jpg,CLEOPATRA,CLEOPATRA,0.99586713,True
+/kaggle/input/butterfly-image-classification/train/Image_4685.jpg,MESTRA,MESTRA,0.8562979,True
+/kaggle/input/butterfly-image-classification/train/Image_5798.jpg,RED ADMIRAL,RED ADMIRAL,0.927843,True
+/kaggle/input/butterfly-image-classification/train/Image_4084.jpg,SCARCE SWALLOW,SCARCE SWALLOW,0.99999714,True
+/kaggle/input/butterfly-image-classification/train/Image_3260.jpg,PINE WHITE,PINE WHITE,0.9999889,True
+/kaggle/input/butterfly-image-classification/train/Image_4806.jpg,COPPER TAIL,COPPER TAIL,0.990244,True
+/kaggle/input/butterfly-image-classification/train/Image_6465.jpg,BANDED ORANGE HELICONIAN,BANDED ORANGE HELICONIAN,0.9974896,True
+/kaggle/input/butterfly-image-classification/train/Image_5011.jpg,MALACHITE,MALACHITE,0.9719214,True
+/kaggle/input/butterfly-image-classification/train/Image_4818.jpg,VICEROY,VICEROY,0.61582375,True
+/kaggle/input/butterfly-image-classification/train/Image_4039.jpg,EASTERN PINE ELFIN,EASTERN PINE ELFIN,0.9999567,True
+/kaggle/input/butterfly-image-classification/train/Image_4035.jpg,BLACK HAIRSTREAK,BLACK HAIRSTREAK,0.7323853,True
+/kaggle/input/butterfly-image-classification/train/Image_4381.jpg,VICEROY,MONARCH,0.86385816,False
+/kaggle/input/butterfly-image-classification/train/Image_4437.jpg,RED POSTMAN,RED POSTMAN,0.99894494,True
+/kaggle/input/butterfly-image-classification/train/Image_4569.jpg,ADONIS,ADONIS,0.8985207,True
+/kaggle/input/butterfly-image-classification/train/Image_4525.jpg,WOOD SATYR,WOOD SATYR,0.615973,True
+/kaggle/input/butterfly-image-classification/train/Image_5747.jpg,ELBOWED PIERROT,ELBOWED PIERROT,0.9999839,True
+/kaggle/input/butterfly-image-classification/train/Image_2252.jpg,PINE WHITE,PINE WHITE,0.9935045,True
+/kaggle/input/butterfly-image-classification/train/Image_5242.jpg,EASTERN PINE ELFIN,EASTERN PINE ELFIN,0.9989152,True
+/kaggle/input/butterfly-image-classification/train/Image_1254.jpg,SLEEPY ORANGE,SLEEPY ORANGE,0.9983198,True
+/kaggle/input/butterfly-image-classification/train/Image_2199.jpg,METALMARK,METALMARK,0.99980587,True
+/kaggle/input/butterfly-image-classification/train/Image_4557.jpg,PEACOCK,PEACOCK,0.9999845,True
+/kaggle/input/butterfly-image-classification/train/Image_3699.jpg,SILVER SPOT SKIPPER,CHECQUERED SKIPPER,0.36652938,False
+/kaggle/input/butterfly-image-classification/train/Image_4639.jpg,GREY HAIRSTREAK,GREY HAIRSTREAK,0.99914956,True
+/kaggle/input/butterfly-image-classification/train/Image_1479.jpg,METALMARK,METALMARK,0.87911016,True
+/kaggle/input/butterfly-image-classification/train/Image_3027.jpg,STRAITED QUEEN,STRAITED QUEEN,0.9994203,True
+/kaggle/input/butterfly-image-classification/train/Image_3798.jpg,PEACOCK,PEACOCK,1.0,True
+/kaggle/input/butterfly-image-classification/train/Image_3410.jpg,MOURNING CLOAK,MOURNING CLOAK,0.98895395,True
+/kaggle/input/butterfly-image-classification/train/Image_5700.jpg,ULYSES,ULYSES,0.99953604,True
+/kaggle/input/butterfly-image-classification/train/Image_5245.jpg,PAPER KITE,PAPER KITE,0.9999113,True
+/kaggle/input/butterfly-image-classification/train/Image_5925.jpg,RED SPOTTED PURPLE,RED SPOTTED PURPLE,0.9708391,True
+/kaggle/input/butterfly-image-classification/train/Image_2547.jpg,SLEEPY ORANGE,SLEEPY ORANGE,0.9985734,True
+/kaggle/input/butterfly-image-classification/train/Image_1141.jpg,ORCHARD SWALLOW,ORCHARD SWALLOW,0.9999074,True
+/kaggle/input/butterfly-image-classification/train/Image_3288.jpg,CHECQUERED SKIPPER,CHECQUERED SKIPPER,0.9989397,True
+/kaggle/input/butterfly-image-classification/train/Image_2970.jpg,JULIA,JULIA,0.69552046,True
+/kaggle/input/butterfly-image-classification/train/Image_1436.jpg,BLUE MORPHO,BLUE MORPHO,0.9999974,True
+/kaggle/input/butterfly-image-classification/train/Image_6048.jpg,RED CRACKER,RED CRACKER,0.99999905,True
+/kaggle/input/butterfly-image-classification/train/Image_2194.jpg,RED CRACKER,RED CRACKER,0.9992933,True
+/kaggle/input/butterfly-image-classification/train/Image_2417.jpg,MALACHITE,MALACHITE,0.9999908,True
+/kaggle/input/butterfly-image-classification/train/Image_308.jpg,AMERICAN SNOOT,AMERICAN SNOOT,0.9684684,True
+/kaggle/input/butterfly-image-classification/train/Image_3622.jpg,MONARCH,MONARCH,0.79165554,True
+/kaggle/input/butterfly-image-classification/train/Image_3921.jpg,JULIA,JULIA,0.9954705,True
+/kaggle/input/butterfly-image-classification/train/Image_2222.jpg,AFRICAN GIANT SWALLOWTAIL,AFRICAN GIANT SWALLOWTAIL,0.99826103,True
+/kaggle/input/butterfly-image-classification/train/Image_3556.jpg,QUESTION MARK,QUESTION MARK,0.7388772,True
+/kaggle/input/butterfly-image-classification/train/Image_2967.jpg,CAIRNS BIRDWING,CAIRNS BIRDWING,0.9821878,True
+/kaggle/input/butterfly-image-classification/train/Image_4634.jpg,MALACHITE,MALACHITE,0.99571157,True
+/kaggle/input/butterfly-image-classification/train/Image_3749.jpg,GOLD BANDED,GOLD BANDED,0.5918535,True
+/kaggle/input/butterfly-image-classification/train/Image_583.jpg,ELBOWED PIERROT,ELBOWED PIERROT,0.99993515,True
+/kaggle/input/butterfly-image-classification/train/Image_2550.jpg,COPPER TAIL,PURPLISH COPPER,0.77398705,False
+/kaggle/input/butterfly-image-classification/train/Image_4273.jpg,TROPICAL LEAFWING,TROPICAL LEAFWING,0.9989188,True
+/kaggle/input/butterfly-image-classification/train/Image_3608.jpg,PAPER KITE,PAPER KITE,0.99687636,True
+/kaggle/input/butterfly-image-classification/train/Image_229.jpg,GOLD BANDED,GOLD BANDED,0.94253725,True
+/kaggle/input/butterfly-image-classification/train/Image_1400.jpg,BANDED PEACOCK,BANDED PEACOCK,0.9060828,True
+/kaggle/input/butterfly-image-classification/train/Image_184.jpg,EASTERN DAPPLE WHITE,EASTERN DAPPLE WHITE,0.72518426,True
+/kaggle/input/butterfly-image-classification/train/Image_6083.jpg,COMMON BANDED AWL,COMMON BANDED AWL,0.5384007,True
+/kaggle/input/butterfly-image-classification/train/Image_1665.jpg,CRECENT,MILBERTS TORTOISESHELL,0.45695043,False
+/kaggle/input/butterfly-image-classification/train/Image_4450.jpg,JULIA,JULIA,0.99792707,True
+/kaggle/input/butterfly-image-classification/train/Image_131.jpg,INDRA SWALLOW,INDRA SWALLOW,0.99710983,True
+/kaggle/input/butterfly-image-classification/train/Image_337.jpg,BLACK HAIRSTREAK,GREY HAIRSTREAK,0.99339926,False
+/kaggle/input/butterfly-image-classification/train/Image_4747.jpg,CAIRNS BIRDWING,ATALA,0.65045077,False
+/kaggle/input/butterfly-image-classification/train/Image_1094.jpg,INDRA SWALLOW,AFRICAN GIANT SWALLOWTAIL,0.34759668,False
+/kaggle/input/butterfly-image-classification/train/Image_3281.jpg,COMMON WOOD-NYMPH,COMMON WOOD-NYMPH,0.9995277,True
+/kaggle/input/butterfly-image-classification/train/Image_843.jpg,PINE WHITE,ORANGE TIP,0.9076321,False
+/kaggle/input/butterfly-image-classification/train/Image_4395.jpg,ATALA,ATALA,0.9996308,True
+/kaggle/input/butterfly-image-classification/train/Image_4512.jpg,COMMON BANDED AWL,COMMON BANDED AWL,0.98500395,True
+/kaggle/input/butterfly-image-classification/train/Image_668.jpg,COMMON WOOD-NYMPH,COMMON WOOD-NYMPH,0.9681732,True
+/kaggle/input/butterfly-image-classification/train/Image_2127.jpg,CHECQUERED SKIPPER,CHECQUERED SKIPPER,0.99998796,True
+/kaggle/input/butterfly-image-classification/train/Image_3898.jpg,CLODIUS PARNASSIAN,CLODIUS PARNASSIAN,0.99244,True
+/kaggle/input/butterfly-image-classification/train/Image_5774.jpg,BLACK HAIRSTREAK,BLACK HAIRSTREAK,0.7528427,True
+/kaggle/input/butterfly-image-classification/train/Image_4742.jpg,SLEEPY ORANGE,SLEEPY ORANGE,0.84497315,True
+/kaggle/input/butterfly-image-classification/train/Image_80.jpg,SOOTYWING,GOLD BANDED,0.3869924,False
+/kaggle/input/butterfly-image-classification/train/Image_4788.jpg,CLODIUS PARNASSIAN,CLODIUS PARNASSIAN,0.9989191,True
+/kaggle/input/butterfly-image-classification/train/Image_4720.jpg,CRIMSON PATCH,CRIMSON PATCH,0.9970952,True
+/kaggle/input/butterfly-image-classification/train/Image_3326.jpg,PAPER KITE,PAPER KITE,0.99999726,True
+/kaggle/input/butterfly-image-classification/train/Image_2744.jpg,SCARCE SWALLOW,SCARCE SWALLOW,0.9998448,True
+/kaggle/input/butterfly-image-classification/train/Image_1304.jpg,ORANGE TIP,ORANGE TIP,0.9997551,True
+/kaggle/input/butterfly-image-classification/train/Image_6013.jpg,BLUE SPOTTED CROW,BLUE SPOTTED CROW,0.9161925,True
+/kaggle/input/butterfly-image-classification/train/Image_2287.jpg,AMERICAN SNOOT,AMERICAN SNOOT,0.76988953,True
+/kaggle/input/butterfly-image-classification/train/Image_1602.jpg,CHESTNUT,CHESTNUT,0.99995446,True
+/kaggle/input/butterfly-image-classification/train/Image_1124.jpg,BLUE SPOTTED CROW,BLUE SPOTTED CROW,0.98542887,True
+/kaggle/input/butterfly-image-classification/train/Image_6168.jpg,SOOTYWING,SILVER SPOT SKIPPER,0.17497614,False
+/kaggle/input/butterfly-image-classification/train/Image_3734.jpg,MOURNING CLOAK,MOURNING CLOAK,0.97176963,True
+/kaggle/input/butterfly-image-classification/train/Image_2215.jpg,RED POSTMAN,RED POSTMAN,0.9832599,True
+/kaggle/input/butterfly-image-classification/train/Image_602.jpg,MESTRA,MESTRA,0.999881,True
+/kaggle/input/butterfly-image-classification/train/Image_2110.jpg,BANDED ORANGE HELICONIAN,BANDED ORANGE HELICONIAN,0.99992967,True
+/kaggle/input/butterfly-image-classification/train/Image_521.jpg,BROWN SIPROETA,GREAT EGGFLY,0.96688986,False
+/kaggle/input/butterfly-image-classification/train/Image_86.jpg,APPOLLO,APPOLLO,0.9996519,True
+/kaggle/input/butterfly-image-classification/train/Image_5198.jpg,MESTRA,MESTRA,0.9960233,True
+/kaggle/input/butterfly-image-classification/train/Image_5829.jpg,GOLD BANDED,GOLD BANDED,0.99972683,True
+/kaggle/input/butterfly-image-classification/train/Image_3842.jpg,CRECENT,CRECENT,0.9999993,True
+/kaggle/input/butterfly-image-classification/train/Image_390.jpg,CABBAGE WHITE,CABBAGE WHITE,0.99989617,True
+/kaggle/input/butterfly-image-classification/train/Image_3902.jpg,PAPER KITE,PAPER KITE,0.9994461,True
+/kaggle/input/butterfly-image-classification/train/Image_280.jpg,ADONIS,ADONIS,0.9999914,True
+/kaggle/input/butterfly-image-classification/train/Image_90.jpg,POPINJAY,POPINJAY,0.9982681,True
+/kaggle/input/butterfly-image-classification/train/Image_4697.jpg,PURPLISH COPPER,COPPER TAIL,0.6677915,False
+/kaggle/input/butterfly-image-classification/train/Image_6049.jpg,ORANGE OAKLEAF,TROPICAL LEAFWING,0.740493,False
+/kaggle/input/butterfly-image-classification/train/Image_6299.jpg,RED ADMIRAL,RED ADMIRAL,0.99020606,True
+/kaggle/input/butterfly-image-classification/train/Image_4360.jpg,CHESTNUT,CHESTNUT,0.99987423,True
+/kaggle/input/butterfly-image-classification/train/Image_1491.jpg,POPINJAY,POPINJAY,0.999998,True
+/kaggle/input/butterfly-image-classification/train/Image_6497.jpg,APPOLLO,BECKERS WHITE,0.4229346,False
+/kaggle/input/butterfly-image-classification/train/Image_2525.jpg,PURPLISH COPPER,PURPLISH COPPER,0.8927381,True
+/kaggle/input/butterfly-image-classification/train/Image_1830.jpg,YELLOW SWALLOW TAIL,YELLOW SWALLOW TAIL,0.998917,True
+/kaggle/input/butterfly-image-classification/train/Image_3642.jpg,GREEN CELLED CATTLEHEART,GREEN CELLED CATTLEHEART,0.99907434,True
+/kaggle/input/butterfly-image-classification/train/Image_2510.jpg,GREEN CELLED CATTLEHEART,GREEN CELLED CATTLEHEART,0.9829448,True
+/kaggle/input/butterfly-image-classification/train/Image_775.jpg,BLUE SPOTTED CROW,BLUE SPOTTED CROW,0.9974032,True
+/kaggle/input/butterfly-image-classification/train/Image_3394.jpg,SOOTYWING,PURPLE HAIRSTREAK,0.25591856,False
+/kaggle/input/butterfly-image-classification/train/Image_5824.jpg,BROWN SIPROETA,BROWN SIPROETA,0.990131,True
+/kaggle/input/butterfly-image-classification/train/Image_5813.jpg,AMERICAN SNOOT,AMERICAN SNOOT,0.99997294,True
+/kaggle/input/butterfly-image-classification/train/Image_1611.jpg,MOURNING CLOAK,MOURNING CLOAK,0.9998499,True
+/kaggle/input/butterfly-image-classification/train/Image_3297.jpg,BANDED PEACOCK,BANDED PEACOCK,0.9995758,True
+/kaggle/input/butterfly-image-classification/train/Image_3829.jpg,ADONIS,ADONIS,0.7034852,True
+/kaggle/input/butterfly-image-classification/train/Image_3331.jpg,PAINTED LADY,PAINTED LADY,0.9949508,True
+/kaggle/input/butterfly-image-classification/train/Image_3183.jpg,ATALA,ATALA,0.98494405,True
+/kaggle/input/butterfly-image-classification/train/Image_143.jpg,SLEEPY ORANGE,SLEEPY ORANGE,0.33752182,True
+/kaggle/input/butterfly-image-classification/train/Image_6372.jpg,INDRA SWALLOW,INDRA SWALLOW,0.95070195,True
+/kaggle/input/butterfly-image-classification/train/Image_1782.jpg,COMMON WOOD-NYMPH,COMMON WOOD-NYMPH,0.99876606,True
+/kaggle/input/butterfly-image-classification/train/Image_5654.jpg,GREAT JAY,GREAT JAY,0.84769,True
+/kaggle/input/butterfly-image-classification/train/Image_2643.jpg,INDRA SWALLOW,INDRA SWALLOW,0.9425235,True
+/kaggle/input/butterfly-image-classification/train/Image_2250.jpg,RED CRACKER,RED CRACKER,0.7600507,True
+/kaggle/input/butterfly-image-classification/train/Image_1315.jpg,MONARCH,MONARCH,0.99415624,True
+/kaggle/input/butterfly-image-classification/train/Image_5510.jpg,PEACOCK,PEACOCK,1.0,True
+/kaggle/input/butterfly-image-classification/train/Image_929.jpg,SOUTHERN DOGFACE,SOUTHERN DOGFACE,0.8383894,True
+/kaggle/input/butterfly-image-classification/train/Image_275.jpg,BROWN SIPROETA,BROWN SIPROETA,0.7454492,True
+/kaggle/input/butterfly-image-classification/train/Image_4702.jpg,TROPICAL LEAFWING,TROPICAL LEAFWING,0.8447729,True
+/kaggle/input/butterfly-image-classification/train/Image_2102.jpg,AN 88,AN 88,0.99999857,True
+/kaggle/input/butterfly-image-classification/train/Image_3756.jpg,EASTERN PINE ELFIN,COPPER TAIL,0.40101185,False
+/kaggle/input/butterfly-image-classification/train/Image_2715.jpg,RED SPOTTED PURPLE,RED SPOTTED PURPLE,0.9982008,True
+/kaggle/input/butterfly-image-classification/train/Image_1625.jpg,PURPLE HAIRSTREAK,PURPLE HAIRSTREAK,0.46055523,True
+/kaggle/input/butterfly-image-classification/train/Image_5243.jpg,EASTERN COMA,EASTERN COMA,0.8415421,True
+/kaggle/input/butterfly-image-classification/train/Image_4327.jpg,SCARCE SWALLOW,SCARCE SWALLOW,0.99999845,True
+/kaggle/input/butterfly-image-classification/train/Image_3177.jpg,YELLOW SWALLOW TAIL,YELLOW SWALLOW TAIL,0.9935848,True
+/kaggle/input/butterfly-image-classification/train/Image_2636.jpg,INDRA SWALLOW,INDRA SWALLOW,0.96895987,True
+/kaggle/input/butterfly-image-classification/train/Image_2398.jpg,RED SPOTTED PURPLE,RED SPOTTED PURPLE,0.99957615,True
+/kaggle/input/butterfly-image-classification/train/Image_994.jpg,BLUE MORPHO,BLUE MORPHO,0.9955552,True
+/kaggle/input/butterfly-image-classification/train/Image_1127.jpg,SOUTHERN DOGFACE,CLOUDED SULPHUR,0.740822,False
+/kaggle/input/butterfly-image-classification/train/Image_4524.jpg,BROWN SIPROETA,BROWN SIPROETA,0.9946523,True
+/kaggle/input/butterfly-image-classification/train/Image_1959.jpg,MILBERTS TORTOISESHELL,RED ADMIRAL,0.5506699,False
+/kaggle/input/butterfly-image-classification/train/Image_2788.jpg,PAINTED LADY,PAINTED LADY,0.99938107,True
+/kaggle/input/butterfly-image-classification/train/Image_368.jpg,BLACK HAIRSTREAK,BLACK HAIRSTREAK,0.9852675,True
+/kaggle/input/butterfly-image-classification/train/Image_5256.jpg,CHECQUERED SKIPPER,CHECQUERED SKIPPER,0.99291986,True
+/kaggle/input/butterfly-image-classification/train/Image_320.jpg,ELBOWED PIERROT,ELBOWED PIERROT,1.0,True
+/kaggle/input/butterfly-image-classification/train/Image_2750.jpg,PURPLISH COPPER,TROPICAL LEAFWING,0.47836822,False
+/kaggle/input/butterfly-image-classification/train/Image_3664.jpg,BLUE MORPHO,BLUE MORPHO,0.53275853,True
+/kaggle/input/butterfly-image-classification/train/Image_5367.jpg,PAINTED LADY,PAINTED LADY,0.9956709,True
+/kaggle/input/butterfly-image-classification/train/Image_3566.jpg,RED CRACKER,RED CRACKER,0.9999943,True
+/kaggle/input/butterfly-image-classification/train/Image_6453.jpg,TROPICAL LEAFWING,TROPICAL LEAFWING,0.95257145,True
+/kaggle/input/butterfly-image-classification/train/Image_4252.jpg,CRECENT,CRECENT,0.97847074,True
+/kaggle/input/butterfly-image-classification/train/Image_3319.jpg,INDRA SWALLOW,INDRA SWALLOW,0.9858592,True
+/kaggle/input/butterfly-image-classification/train/Image_5556.jpg,INDRA SWALLOW,INDRA SWALLOW,0.84100926,True
+/kaggle/input/butterfly-image-classification/train/Image_5329.jpg,MOURNING CLOAK,MOURNING CLOAK,0.99999344,True
+/kaggle/input/butterfly-image-classification/train/Image_2258.jpg,COPPER TAIL,COPPER TAIL,0.9784742,True
+/kaggle/input/butterfly-image-classification/train/Image_4585.jpg,ORANGE OAKLEAF,ORANGE OAKLEAF,0.9999256,True
+/kaggle/input/butterfly-image-classification/train/Image_2066.jpg,AFRICAN GIANT SWALLOWTAIL,AFRICAN GIANT SWALLOWTAIL,0.9996948,True
+/kaggle/input/butterfly-image-classification/train/Image_5315.jpg,ZEBRA LONG WING,YELLOW SWALLOW TAIL,0.8087249,False
+/kaggle/input/butterfly-image-classification/train/Image_4275.jpg,PAPER KITE,PAPER KITE,0.999931,True
+/kaggle/input/butterfly-image-classification/train/Image_2541.jpg,GREAT JAY,GREAT JAY,0.99810284,True
+/kaggle/input/butterfly-image-classification/train/Image_690.jpg,GOLD BANDED,GOLD BANDED,0.9955082,True
+/kaggle/input/butterfly-image-classification/train/Image_6420.jpg,BANDED ORANGE HELICONIAN,AMERICAN SNOOT,0.23083298,False
+/kaggle/input/butterfly-image-classification/train/Image_4074.jpg,TROPICAL LEAFWING,TROPICAL LEAFWING,0.9992107,True
+/kaggle/input/butterfly-image-classification/train/Image_6058.jpg,PIPEVINE SWALLOW,PIPEVINE SWALLOW,0.96989757,True
+/kaggle/input/butterfly-image-classification/train/Image_4573.jpg,SCARCE SWALLOW,SCARCE SWALLOW,0.9999242,True
+/kaggle/input/butterfly-image-classification/train/Image_5190.jpg,DANAID EGGFLY,DANAID EGGFLY,0.96094745,True
+/kaggle/input/butterfly-image-classification/train/Image_5745.jpg,CHECQUERED SKIPPER,CHECQUERED SKIPPER,0.9995177,True
+/kaggle/input/butterfly-image-classification/train/Image_1581.jpg,CABBAGE WHITE,CLEOPATRA,0.5895994,False
+/kaggle/input/butterfly-image-classification/train/Image_1838.jpg,SLEEPY ORANGE,SLEEPY ORANGE,0.9341788,True
+/kaggle/input/butterfly-image-classification/train/Image_4596.jpg,GREEN CELLED CATTLEHEART,GREEN CELLED CATTLEHEART,0.9632324,True
+/kaggle/input/butterfly-image-classification/train/Image_943.jpg,CHECQUERED SKIPPER,CHECQUERED SKIPPER,0.99964213,True
+/kaggle/input/butterfly-image-classification/train/Image_4580.jpg,ORCHARD SWALLOW,ORCHARD SWALLOW,0.9979755,True
+/kaggle/input/butterfly-image-classification/train/Image_215.jpg,BECKERS WHITE,BECKERS WHITE,0.982864,True
+/kaggle/input/butterfly-image-classification/train/Image_984.jpg,SLEEPY ORANGE,SLEEPY ORANGE,0.69763297,True
+/kaggle/input/butterfly-image-classification/train/Image_6094.jpg,ADONIS,ADONIS,0.99999595,True
+/kaggle/input/butterfly-image-classification/train/Image_2795.jpg,EASTERN PINE ELFIN,EASTERN PINE ELFIN,0.62531984,True
+/kaggle/input/butterfly-image-classification/train/Image_45.jpg,RED CRACKER,RED CRACKER,0.66667384,True
+/kaggle/input/butterfly-image-classification/train/Image_2804.jpg,QUESTION MARK,QUESTION MARK,0.86979103,True
+/kaggle/input/butterfly-image-classification/train/Image_5020.jpg,CLOUDED SULPHUR,SOUTHERN DOGFACE,0.61916536,False
+/kaggle/input/butterfly-image-classification/train/Image_6221.jpg,GREAT JAY,GREAT JAY,0.63645834,True
+/kaggle/input/butterfly-image-classification/train/Image_3206.jpg,GREAT JAY,IPHICLUS SISTER,0.5092825,False
+/kaggle/input/butterfly-image-classification/train/Image_4847.jpg,EASTERN DAPPLE WHITE,EASTERN DAPPLE WHITE,0.58276504,True
+/kaggle/input/butterfly-image-classification/train/Image_3652.jpg,EASTERN DAPPLE WHITE,EASTERN DAPPLE WHITE,0.7131128,True
+/kaggle/input/butterfly-image-classification/train/Image_1473.jpg,BROWN SIPROETA,BROWN SIPROETA,0.9988174,True
+/kaggle/input/butterfly-image-classification/train/Image_1777.jpg,AMERICAN SNOOT,AMERICAN SNOOT,0.99382037,True
+/kaggle/input/butterfly-image-classification/train/Image_5366.jpg,PINE WHITE,PINE WHITE,0.92044157,True
+/kaggle/input/butterfly-image-classification/train/Image_1819.jpg,PEACOCK,PEACOCK,0.99994147,True
+/kaggle/input/butterfly-image-classification/train/Image_331.jpg,GREAT EGGFLY,GREAT EGGFLY,0.8389177,True
+/kaggle/input/butterfly-image-classification/train/Image_3916.jpg,GREEN CELLED CATTLEHEART,GREEN CELLED CATTLEHEART,0.9969489,True
+/kaggle/input/butterfly-image-classification/train/Image_2462.jpg,GREEN CELLED CATTLEHEART,GREEN CELLED CATTLEHEART,0.97562236,True
+/kaggle/input/butterfly-image-classification/train/Image_43.jpg,LARGE MARBLE,LARGE MARBLE,0.64577734,True
+/kaggle/input/butterfly-image-classification/train/Image_515.jpg,YELLOW SWALLOW TAIL,YELLOW SWALLOW TAIL,0.9995357,True
+/kaggle/input/butterfly-image-classification/train/Image_1670.jpg,CRECENT,CRECENT,0.9999908,True
+/kaggle/input/butterfly-image-classification/train/Image_4781.jpg,JULIA,CLOUDED SULPHUR,0.3446566,False
+/kaggle/input/butterfly-image-classification/train/Image_2635.jpg,CABBAGE WHITE,CABBAGE WHITE,0.9652021,True
+/kaggle/input/butterfly-image-classification/train/Image_1961.jpg,PINE WHITE,PINE WHITE,0.99470204,True
+/kaggle/input/butterfly-image-classification/train/Image_3309.jpg,PAPER KITE,PAPER KITE,0.9999931,True
+/kaggle/input/butterfly-image-classification/train/Image_5083.jpg,RED CRACKER,RED CRACKER,0.9999975,True
+/kaggle/input/butterfly-image-classification/train/Image_236.jpg,BLACK HAIRSTREAK,GREY HAIRSTREAK,0.59307957,False
+/kaggle/input/butterfly-image-classification/train/Image_776.jpg,CLOUDED SULPHUR,CLEOPATRA,0.73416436,False
+/kaggle/input/butterfly-image-classification/train/Image_5449.jpg,BLACK HAIRSTREAK,COPPER TAIL,0.64952064,False
+/kaggle/input/butterfly-image-classification/train/Image_3311.jpg,ULYSES,ULYSES,0.99995685,True
+/kaggle/input/butterfly-image-classification/train/Image_4374.jpg,BROWN SIPROETA,BROWN SIPROETA,0.987745,True
+/kaggle/input/butterfly-image-classification/train/Image_4280.jpg,GREAT EGGFLY,DANAID EGGFLY,0.7714266,False
+/kaggle/input/butterfly-image-classification/train/Image_3896.jpg,PIPEVINE SWALLOW,PIPEVINE SWALLOW,0.7283639,True
+/kaggle/input/butterfly-image-classification/train/Image_3546.jpg,CLEOPATRA,CLEOPATRA,0.6560602,True
+/kaggle/input/butterfly-image-classification/train/Image_3880.jpg,CRECENT,CRECENT,0.9486608,True
+/kaggle/input/butterfly-image-classification/train/Image_946.jpg,MANGROVE SKIPPER,MANGROVE SKIPPER,0.9999857,True
+/kaggle/input/butterfly-image-classification/train/Image_6056.jpg,IPHICLUS SISTER,IPHICLUS SISTER,0.9999987,True
+/kaggle/input/butterfly-image-classification/train/Image_2992.jpg,SOOTYWING,SOOTYWING,0.9664573,True
+/kaggle/input/butterfly-image-classification/train/Image_2710.jpg,CRECENT,CRECENT,0.9999906,True
+/kaggle/input/butterfly-image-classification/train/Image_6146.jpg,POPINJAY,POPINJAY,0.98990214,True
+/kaggle/input/butterfly-image-classification/train/Image_1143.jpg,EASTERN COMA,QUESTION MARK,0.77726704,False
+/kaggle/input/butterfly-image-classification/train/Image_5936.jpg,AN 88,AN 88,0.9990433,True
+/kaggle/input/butterfly-image-classification/train/Image_2556.jpg,SILVER SPOT SKIPPER,GOLD BANDED,0.40046015,False
+/kaggle/input/butterfly-image-classification/train/Image_940.jpg,CHESTNUT,CHESTNUT,0.9820035,True
+/kaggle/input/butterfly-image-classification/train/Image_6239.jpg,CLOUDED SULPHUR,CLOUDED SULPHUR,0.7998578,True
+/kaggle/input/butterfly-image-classification/train/Image_316.jpg,EASTERN PINE ELFIN,EASTERN PINE ELFIN,0.65417755,True
+/kaggle/input/butterfly-image-classification/train/Image_4664.jpg,ZEBRA LONG WING,ZEBRA LONG WING,1.0,True
+/kaggle/input/butterfly-image-classification/train/Image_3160.jpg,STRAITED QUEEN,STRAITED QUEEN,0.9852486,True
+/kaggle/input/butterfly-image-classification/train/Image_5947.jpg,SILVER SPOT SKIPPER,SILVER SPOT SKIPPER,0.49670246,True
+/kaggle/input/butterfly-image-classification/train/Image_4887.jpg,RED SPOTTED PURPLE,RED SPOTTED PURPLE,0.99288285,True
+/kaggle/input/butterfly-image-classification/train/Image_1621.jpg,MILBERTS TORTOISESHELL,MOURNING CLOAK,0.932143,False
+/kaggle/input/butterfly-image-classification/train/Image_2766.jpg,GREAT JAY,GREAT JAY,0.8915203,True
+/kaggle/input/butterfly-image-classification/train/Image_1082.jpg,VICEROY,VICEROY,0.64807343,True
+/kaggle/input/butterfly-image-classification/train/Image_5978.jpg,PIPEVINE SWALLOW,PIPEVINE SWALLOW,0.9985091,True
+/kaggle/input/butterfly-image-classification/train/Image_3067.jpg,CLEOPATRA,CLEOPATRA,0.8809322,True
+/kaggle/input/butterfly-image-classification/train/Image_5785.jpg,EASTERN PINE ELFIN,EASTERN PINE ELFIN,0.9094671,True
+/kaggle/input/butterfly-image-classification/train/Image_2189.jpg,ORANGE TIP,ORANGE TIP,0.99993086,True
+/kaggle/input/butterfly-image-classification/train/Image_909.jpg,EASTERN COMA,QUESTION MARK,0.69233763,False
+/kaggle/input/butterfly-image-classification/train/Image_6032.jpg,BANDED ORANGE HELICONIAN,BANDED ORANGE HELICONIAN,0.9921021,True
+/kaggle/input/butterfly-image-classification/train/Image_2825.jpg,GREAT JAY,GREAT JAY,0.99491465,True
+/kaggle/input/butterfly-image-classification/train/Image_4397.jpg,IPHICLUS SISTER,IPHICLUS SISTER,0.99927634,True
+/kaggle/input/butterfly-image-classification/train/Image_1812.jpg,ELBOWED PIERROT,ELBOWED PIERROT,0.9999981,True
+/kaggle/input/butterfly-image-classification/train/Image_498.jpg,MONARCH,MONARCH,0.9952076,True
+/kaggle/input/butterfly-image-classification/train/Image_3946.jpg,CLEOPATRA,CLEOPATRA,0.96949524,True
+/kaggle/input/butterfly-image-classification/train/Image_5653.jpg,RED SPOTTED PURPLE,RED SPOTTED PURPLE,0.9995534,True
+/kaggle/input/butterfly-image-classification/train/Image_5906.jpg,SILVER SPOT SKIPPER,SILVER SPOT SKIPPER,0.9939231,True
+/kaggle/input/butterfly-image-classification/train/Image_889.jpg,INDRA SWALLOW,INDRA SWALLOW,0.9659492,True
+/kaggle/input/butterfly-image-classification/train/Image_5057.jpg,MESTRA,MESTRA,0.92618495,True
+/kaggle/input/butterfly-image-classification/train/Image_1386.jpg,PURPLISH COPPER,PURPLISH COPPER,0.9206191,True
+/kaggle/input/butterfly-image-classification/train/Image_5195.jpg,ELBOWED PIERROT,ELBOWED PIERROT,0.9998722,True
+/kaggle/input/butterfly-image-classification/train/Image_5246.jpg,AMERICAN SNOOT,AMERICAN SNOOT,0.9998598,True
+/kaggle/input/butterfly-image-classification/train/Image_2082.jpg,PAPER KITE,PAPER KITE,0.9999219,True
+/kaggle/input/butterfly-image-classification/train/Image_5508.jpg,BANDED PEACOCK,BANDED PEACOCK,0.9996189,True
+/kaggle/input/butterfly-image-classification/train/Image_6020.jpg,MOURNING CLOAK,MOURNING CLOAK,0.999941,True
+/kaggle/input/butterfly-image-classification/train/Image_2545.jpg,GREEN CELLED CATTLEHEART,GREEN CELLED CATTLEHEART,0.78194255,True
+/kaggle/input/butterfly-image-classification/train/Image_2342.jpg,APPOLLO,APPOLLO,0.99525154,True
+/kaggle/input/butterfly-image-classification/train/Image_5674.jpg,ORANGE TIP,ORANGE TIP,0.91148573,True
+/kaggle/input/butterfly-image-classification/train/Image_3286.jpg,ORANGE TIP,ORANGE TIP,0.9259079,True
+/kaggle/input/butterfly-image-classification/train/Image_1415.jpg,MOURNING CLOAK,MOURNING CLOAK,0.9983735,True
+/kaggle/input/butterfly-image-classification/train/Image_2932.jpg,DANAID EGGFLY,STRAITED QUEEN,0.6514394,False
+/kaggle/input/butterfly-image-classification/train/Image_1428.jpg,DANAID EGGFLY,DANAID EGGFLY,0.94379485,True
+/kaggle/input/butterfly-image-classification/train/Image_4815.jpg,MONARCH,MONARCH,0.9982626,True
+/kaggle/input/butterfly-image-classification/train/Image_526.jpg,GREEN CELLED CATTLEHEART,GREEN CELLED CATTLEHEART,0.8352106,True
+/kaggle/input/butterfly-image-classification/train/Image_3430.jpg,BLUE SPOTTED CROW,BLUE SPOTTED CROW,0.97486633,True
+/kaggle/input/butterfly-image-classification/train/Image_1021.jpg,GREY HAIRSTREAK,GREY HAIRSTREAK,0.9818809,True
+/kaggle/input/butterfly-image-classification/train/Image_5961.jpg,ADONIS,ADONIS,0.9998536,True
+/kaggle/input/butterfly-image-classification/train/Image_5437.jpg,RED POSTMAN,RED POSTMAN,0.43422896,True
+/kaggle/input/butterfly-image-classification/train/Image_4795.jpg,BLUE MORPHO,BLUE MORPHO,0.9999993,True
+/kaggle/input/butterfly-image-classification/train/Image_978.jpg,QUESTION MARK,QUESTION MARK,0.93211114,True
+/kaggle/input/butterfly-image-classification/train/Image_3567.jpg,JULIA,JULIA,0.9993772,True
+/kaggle/input/butterfly-image-classification/train/Image_1645.jpg,MILBERTS TORTOISESHELL,MILBERTS TORTOISESHELL,0.9988004,True
+/kaggle/input/butterfly-image-classification/train/Image_1362.jpg,ULYSES,ULYSES,0.9892102,True
+/kaggle/input/butterfly-image-classification/train/Image_6068.jpg,BANDED ORANGE HELICONIAN,RED POSTMAN,0.9602297,False
+/kaggle/input/butterfly-image-classification/train/Image_1615.jpg,ORANGE OAKLEAF,ORANGE OAKLEAF,0.9854962,True
+/kaggle/input/butterfly-image-classification/train/Image_4091.jpg,ELBOWED PIERROT,ELBOWED PIERROT,1.0,True
+/kaggle/input/butterfly-image-classification/train/Image_3971.jpg,MALACHITE,MALACHITE,0.99166405,True
+/kaggle/input/butterfly-image-classification/train/Image_40.jpg,BLUE SPOTTED CROW,BLUE SPOTTED CROW,0.40891194,True
+/kaggle/input/butterfly-image-classification/train/Image_3480.jpg,CHESTNUT,CHESTNUT,0.9980932,True
+/kaggle/input/butterfly-image-classification/train/Image_2077.jpg,METALMARK,METALMARK,0.92934847,True
+/kaggle/input/butterfly-image-classification/train/Image_4644.jpg,PAPER KITE,PAPER KITE,0.99996245,True
+/kaggle/input/butterfly-image-classification/train/Image_4361.jpg,MOURNING CLOAK,MOURNING CLOAK,0.99801266,True
+/kaggle/input/butterfly-image-classification/train/Image_6476.jpg,PEACOCK,PEACOCK,1.0,True
+/kaggle/input/butterfly-image-classification/train/Image_1445.jpg,PINE WHITE,PINE WHITE,0.99978584,True
+/kaggle/input/butterfly-image-classification/train/Image_514.jpg,ORCHARD SWALLOW,ORCHARD SWALLOW,0.99168915,True
+/kaggle/input/butterfly-image-classification/train/Image_436.jpg,ORCHARD SWALLOW,ORCHARD SWALLOW,0.99999356,True
+/kaggle/input/butterfly-image-classification/train/Image_1461.jpg,CHESTNUT,CHESTNUT,0.5188679,True
+/kaggle/input/butterfly-image-classification/train/Image_5908.jpg,ORCHARD SWALLOW,ORCHARD SWALLOW,0.9668375,True
+/kaggle/input/butterfly-image-classification/train/Image_2190.jpg,COMMON WOOD-NYMPH,COMMON WOOD-NYMPH,0.9994254,True
+/kaggle/input/butterfly-image-classification/train/Image_5207.jpg,SOOTYWING,SOOTYWING,0.95950985,True
+/kaggle/input/butterfly-image-classification/train/Image_5683.jpg,PURPLISH COPPER,PURPLISH COPPER,0.91273415,True
+/kaggle/input/butterfly-image-classification/train/Image_1668.jpg,EASTERN PINE ELFIN,EASTERN PINE ELFIN,0.99941194,True
+/kaggle/input/butterfly-image-classification/train/Image_1062.jpg,SCARCE SWALLOW,SCARCE SWALLOW,0.9999418,True
+/kaggle/input/butterfly-image-classification/train/Image_3199.jpg,GREAT EGGFLY,MOURNING CLOAK,0.47000495,False
+/kaggle/input/butterfly-image-classification/train/Image_5583.jpg,ZEBRA LONG WING,ZEBRA LONG WING,0.8470438,True
+/kaggle/input/butterfly-image-classification/train/Image_720.jpg,SILVER SPOT SKIPPER,SILVER SPOT SKIPPER,0.9899345,True
+/kaggle/input/butterfly-image-classification/train/Image_5871.jpg,PINE WHITE,PINE WHITE,0.98062897,True
+/kaggle/input/butterfly-image-classification/train/Image_2354.jpg,PAINTED LADY,PAINTED LADY,0.99971634,True
+/kaggle/input/butterfly-image-classification/train/Image_5874.jpg,BANDED ORANGE HELICONIAN,BANDED ORANGE HELICONIAN,0.69290006,True
+/kaggle/input/butterfly-image-classification/train/Image_4508.jpg,GREAT EGGFLY,GREAT EGGFLY,0.7270099,True
+/kaggle/input/butterfly-image-classification/train/Image_1471.jpg,SLEEPY ORANGE,MESTRA,0.51900756,False
+/kaggle/input/butterfly-image-classification/train/Image_213.jpg,COMMON BANDED AWL,COMMON BANDED AWL,0.9961443,True
+/kaggle/input/butterfly-image-classification/train/Image_4315.jpg,YELLOW SWALLOW TAIL,YELLOW SWALLOW TAIL,0.9936046,True
+/kaggle/input/butterfly-image-classification/train/Image_4994.jpg,METALMARK,METALMARK,0.9973066,True
+/kaggle/input/butterfly-image-classification/train/Image_5913.jpg,ATALA,ATALA,0.99385095,True
+/kaggle/input/butterfly-image-classification/train/Image_261.jpg,CLOUDED SULPHUR,CLOUDED SULPHUR,0.8113905,True
+/kaggle/input/butterfly-image-classification/train/Image_4707.jpg,MANGROVE SKIPPER,MANGROVE SKIPPER,0.9996524,True
+/kaggle/input/butterfly-image-classification/train/Image_2141.jpg,PURPLE HAIRSTREAK,PURPLE HAIRSTREAK,0.57348347,True
+/kaggle/input/butterfly-image-classification/train/Image_6108.jpg,BANDED ORANGE HELICONIAN,BANDED ORANGE HELICONIAN,0.7142278,True
+/kaggle/input/butterfly-image-classification/train/Image_4809.jpg,EASTERN DAPPLE WHITE,LARGE MARBLE,0.66938746,False
+/kaggle/input/butterfly-image-classification/train/Image_5752.jpg,POPINJAY,RED ADMIRAL,0.47088033,False
+/kaggle/input/butterfly-image-classification/train/Image_4278.jpg,ATALA,ATALA,0.9876938,True
+/kaggle/input/butterfly-image-classification/train/Image_3191.jpg,RED ADMIRAL,RED ADMIRAL,0.9317736,True
+/kaggle/input/butterfly-image-classification/train/Image_4015.jpg,CABBAGE WHITE,CABBAGE WHITE,0.99427754,True
+/kaggle/input/butterfly-image-classification/train/Image_1169.jpg,YELLOW SWALLOW TAIL,YELLOW SWALLOW TAIL,0.94122875,True
+/kaggle/input/butterfly-image-classification/train/Image_1664.jpg,METALMARK,METALMARK,0.99997413,True
+/kaggle/input/butterfly-image-classification/train/Image_5587.jpg,PURPLISH COPPER,PURPLISH COPPER,0.9771029,True
+/kaggle/input/butterfly-image-classification/train/Image_1291.jpg,ZEBRA LONG WING,ZEBRA LONG WING,0.9990325,True
+/kaggle/input/butterfly-image-classification/train/Image_1349.jpg,DANAID EGGFLY,DANAID EGGFLY,0.9781164,True
+/kaggle/input/butterfly-image-classification/train/Image_4571.jpg,RED ADMIRAL,RED ADMIRAL,0.9885959,True
+/kaggle/input/butterfly-image-classification/train/Image_2365.jpg,PEACOCK,PEACOCK,0.99999833,True
+/kaggle/input/butterfly-image-classification/train/Image_429.jpg,RED POSTMAN,RED POSTMAN,0.99934953,True
+/kaggle/input/butterfly-image-classification/train/Image_5997.jpg,CHESTNUT,CHESTNUT,0.9996276,True
+/kaggle/input/butterfly-image-classification/train/Image_6095.jpg,COMMON BANDED AWL,COMMON BANDED AWL,0.9976043,True
+/kaggle/input/butterfly-image-classification/train/Image_1533.jpg,SOUTHERN DOGFACE,SOUTHERN DOGFACE,0.4755342,True
+/kaggle/input/butterfly-image-classification/train/Image_5795.jpg,GREAT EGGFLY,STRAITED QUEEN,0.41712952,False
+/kaggle/input/butterfly-image-classification/train/Image_4606.jpg,ATALA,ATALA,0.9989139,True
+/kaggle/input/butterfly-image-classification/train/Image_3417.jpg,PURPLISH COPPER,PURPLISH COPPER,0.9173112,True
+/kaggle/input/butterfly-image-classification/train/Image_1890.jpg,EASTERN COMA,EASTERN COMA,0.893635,True
+/kaggle/input/butterfly-image-classification/train/Image_2465.jpg,AFRICAN GIANT SWALLOWTAIL,AFRICAN GIANT SWALLOWTAIL,0.99998415,True
+/kaggle/input/butterfly-image-classification/train/Image_3030.jpg,WOOD SATYR,WOOD SATYR,0.9754807,True
+/kaggle/input/butterfly-image-classification/train/Image_240.jpg,COPPER TAIL,COPPER TAIL,0.94869965,True
+/kaggle/input/butterfly-image-classification/train/Image_5746.jpg,PINE WHITE,PINE WHITE,0.99853444,True
+/kaggle/input/butterfly-image-classification/train/Image_3874.jpg,PIPEVINE SWALLOW,PIPEVINE SWALLOW,0.9415939,True
+/kaggle/input/butterfly-image-classification/train/Image_254.jpg,PEACOCK,PEACOCK,1.0,True
+/kaggle/input/butterfly-image-classification/train/Image_1157.jpg,CLOUDED SULPHUR,CLOUDED SULPHUR,0.42431036,True
+/kaggle/input/butterfly-image-classification/train/Image_3161.jpg,AFRICAN GIANT SWALLOWTAIL,AFRICAN GIANT SWALLOWTAIL,0.75830054,True
+/kaggle/input/butterfly-image-classification/train/Image_2022.jpg,SOOTYWING,SOOTYWING,0.99786216,True
+/kaggle/input/butterfly-image-classification/train/Image_273.jpg,BECKERS WHITE,BECKERS WHITE,0.7203368,True
+/kaggle/input/butterfly-image-classification/train/Image_1326.jpg,SOUTHERN DOGFACE,SOUTHERN DOGFACE,0.5753457,True
+/kaggle/input/butterfly-image-classification/train/Image_1373.jpg,AN 88,AN 88,1.0,True
+/kaggle/input/butterfly-image-classification/train/Image_4706.jpg,CLODIUS PARNASSIAN,CLODIUS PARNASSIAN,0.9861069,True
+/kaggle/input/butterfly-image-classification/train/Image_3579.jpg,BLUE MORPHO,BLUE MORPHO,0.9999902,True
+/kaggle/input/butterfly-image-classification/train/Image_804.jpg,ULYSES,ULYSES,0.9998672,True
+/kaggle/input/butterfly-image-classification/train/Image_5022.jpg,AMERICAN SNOOT,AMERICAN SNOOT,0.47704574,True
+/kaggle/input/butterfly-image-classification/train/Image_2453.jpg,BROWN SIPROETA,BROWN SIPROETA,0.99407405,True
+/kaggle/input/butterfly-image-classification/train/Image_274.jpg,GOLD BANDED,GOLD BANDED,0.9943831,True
+/kaggle/input/butterfly-image-classification/train/Image_494.jpg,MOURNING CLOAK,MOURNING CLOAK,0.9999963,True
+/kaggle/input/butterfly-image-classification/train/Image_1425.jpg,PURPLE HAIRSTREAK,PURPLE HAIRSTREAK,0.7453823,True
+/kaggle/input/butterfly-image-classification/train/Image_4017.jpg,ELBOWED PIERROT,PINE WHITE,0.9163693,False
+/kaggle/input/butterfly-image-classification/train/Image_985.jpg,CHECQUERED SKIPPER,CHECQUERED SKIPPER,0.99711573,True
+/kaggle/input/butterfly-image-classification/train/Image_2995.jpg,CABBAGE WHITE,CABBAGE WHITE,0.9926031,True
+/kaggle/input/butterfly-image-classification/train/Image_5461.jpg,POPINJAY,POPINJAY,0.99980205,True
+/kaggle/input/butterfly-image-classification/train/Image_1434.jpg,WOOD SATYR,WOOD SATYR,0.95803106,True
+/kaggle/input/butterfly-image-classification/train/Image_4821.jpg,SILVER SPOT SKIPPER,SILVER SPOT SKIPPER,0.9883862,True
+/kaggle/input/butterfly-image-classification/train/Image_1622.jpg,RED POSTMAN,RED POSTMAN,0.99516004,True
+/kaggle/input/butterfly-image-classification/train/Image_2971.jpg,MANGROVE SKIPPER,MANGROVE SKIPPER,0.99980384,True
+/kaggle/input/butterfly-image-classification/train/Image_557.jpg,EASTERN COMA,EASTERN COMA,0.6767727,True
+/kaggle/input/butterfly-image-classification/train/Image_2914.jpg,SCARCE SWALLOW,SCARCE SWALLOW,0.999998,True
+/kaggle/input/butterfly-image-classification/train/Image_3083.jpg,CAIRNS BIRDWING,CAIRNS BIRDWING,0.65952957,True
+/kaggle/input/butterfly-image-classification/train/Image_3805.jpg,BLACK HAIRSTREAK,BLACK HAIRSTREAK,0.9311974,True
+/kaggle/input/butterfly-image-classification/train/Image_4509.jpg,RED SPOTTED PURPLE,RED SPOTTED PURPLE,0.94900763,True
+/kaggle/input/butterfly-image-classification/train/Image_4069.jpg,AMERICAN SNOOT,AMERICAN SNOOT,0.9954423,True
+/kaggle/input/butterfly-image-classification/train/Image_5110.jpg,STRAITED QUEEN,STRAITED QUEEN,0.9988105,True
+/kaggle/input/butterfly-image-classification/train/Image_6323.jpg,JULIA,JULIA,0.9972051,True
+/kaggle/input/butterfly-image-classification/train/Image_1160.jpg,CAIRNS BIRDWING,CAIRNS BIRDWING,0.9999572,True
+/kaggle/input/butterfly-image-classification/train/Image_3820.jpg,GREAT JAY,GREAT JAY,0.9942748,True
+/kaggle/input/butterfly-image-classification/train/Image_242.jpg,RED ADMIRAL,RED ADMIRAL,0.9973411,True
+/kaggle/input/butterfly-image-classification/train/Image_5722.jpg,ULYSES,ULYSES,0.9999788,True
+/kaggle/input/butterfly-image-classification/train/Image_4441.jpg,ATALA,ATALA,0.99977833,True
+/kaggle/input/butterfly-image-classification/train/Image_499.jpg,DANAID EGGFLY,DANAID EGGFLY,0.78037053,True
+/kaggle/input/butterfly-image-classification/train/Image_6276.jpg,RED CRACKER,RED CRACKER,0.992562,True
+/kaggle/input/butterfly-image-classification/train/Image_3352.jpg,BANDED PEACOCK,BANDED PEACOCK,0.99669844,True
+/kaggle/input/butterfly-image-classification/train/Image_769.jpg,MILBERTS TORTOISESHELL,MILBERTS TORTOISESHELL,0.99986017,True
+/kaggle/input/butterfly-image-classification/train/Image_5107.jpg,ATALA,ATALA,0.99476105,True
+/kaggle/input/butterfly-image-classification/train/Image_1065.jpg,SILVER SPOT SKIPPER,SILVER SPOT SKIPPER,0.90741843,True
+/kaggle/input/butterfly-image-classification/train/Image_3378.jpg,COPPER TAIL,COPPER TAIL,0.98737526,True
+/kaggle/input/butterfly-image-classification/train/Image_3507.jpg,ULYSES,ULYSES,0.9998971,True
+/kaggle/input/butterfly-image-classification/train/Image_1852.jpg,EASTERN COMA,EASTERN COMA,0.5835288,True
+/kaggle/input/butterfly-image-classification/train/Image_836.jpg,ORCHARD SWALLOW,ORCHARD SWALLOW,0.99999106,True
+/kaggle/input/butterfly-image-classification/train/Image_1639.jpg,MANGROVE SKIPPER,MANGROVE SKIPPER,0.98982507,True
+/kaggle/input/butterfly-image-classification/train/Image_4543.jpg,INDRA SWALLOW,YELLOW SWALLOW TAIL,0.9254494,False
+/kaggle/input/butterfly-image-classification/train/Image_3194.jpg,MOURNING CLOAK,MOURNING CLOAK,0.9998789,True
+/kaggle/input/butterfly-image-classification/train/Image_2166.jpg,LARGE MARBLE,LARGE MARBLE,0.90213454,True
+/kaggle/input/butterfly-image-classification/train/Image_4819.jpg,CRECENT,CRECENT,0.99845076,True
+/kaggle/input/butterfly-image-classification/train/Image_3033.jpg,TROPICAL LEAFWING,TROPICAL LEAFWING,0.97562575,True
+/kaggle/input/butterfly-image-classification/train/Image_3400.jpg,BANDED ORANGE HELICONIAN,BANDED ORANGE HELICONIAN,0.9998591,True
+/kaggle/input/butterfly-image-classification/train/Image_4113.jpg,WOOD SATYR,WOOD SATYR,0.96664244,True
+/kaggle/input/butterfly-image-classification/train/Image_2843.jpg,CHECQUERED SKIPPER,CHECQUERED SKIPPER,0.9991141,True
+/kaggle/input/butterfly-image-classification/train/Image_790.jpg,PURPLE HAIRSTREAK,PURPLE HAIRSTREAK,0.9778075,True
+/kaggle/input/butterfly-image-classification/train/Image_5296.jpg,CABBAGE WHITE,CABBAGE WHITE,0.9979075,True
+/kaggle/input/butterfly-image-classification/train/Image_907.jpg,ORANGE TIP,ORANGE TIP,0.9939756,True
+/kaggle/input/butterfly-image-classification/train/Image_1682.jpg,SILVER SPOT SKIPPER,SILVER SPOT SKIPPER,0.76191694,True
+/kaggle/input/butterfly-image-classification/train/Image_806.jpg,PURPLISH COPPER,PURPLISH COPPER,0.93682986,True
+/kaggle/input/butterfly-image-classification/train/Image_1332.jpg,ATALA,ATALA,0.9300112,True
+/kaggle/input/butterfly-image-classification/train/Image_5894.jpg,TWO BARRED FLASHER,TWO BARRED FLASHER,0.99108547,True
+/kaggle/input/butterfly-image-classification/train/Image_2150.jpg,GREAT JAY,GREAT JAY,0.96864027,True
+/kaggle/input/butterfly-image-classification/train/Image_4997.jpg,MONARCH,MONARCH,0.8517451,True
+/kaggle/input/butterfly-image-classification/train/Image_6467.jpg,BROWN SIPROETA,BROWN SIPROETA,0.99528766,True
+/kaggle/input/butterfly-image-classification/train/Image_1120.jpg,AN 88,AN 88,0.9999993,True
+/kaggle/input/butterfly-image-classification/train/Image_6148.jpg,COMMON WOOD-NYMPH,COMMON WOOD-NYMPH,0.99936813,True
+/kaggle/input/butterfly-image-classification/train/Image_4183.jpg,EASTERN PINE ELFIN,EASTERN PINE ELFIN,0.99144965,True
+/kaggle/input/butterfly-image-classification/train/Image_4052.jpg,MALACHITE,MALACHITE,0.99990034,True
+/kaggle/input/butterfly-image-classification/train/Image_4984.jpg,VICEROY,VICEROY,0.95205826,True
+/kaggle/input/butterfly-image-classification/train/Image_1327.jpg,RED POSTMAN,RED POSTMAN,0.99794644,True
+/kaggle/input/butterfly-image-classification/train/Image_860.jpg,TROPICAL LEAFWING,TROPICAL LEAFWING,0.9186333,True
+/kaggle/input/butterfly-image-classification/train/Image_2827.jpg,CRECENT,CRECENT,0.26568714,True
+/kaggle/input/butterfly-image-classification/train/Image_2259.jpg,TWO BARRED FLASHER,TWO BARRED FLASHER,0.999729,True
+/kaggle/input/butterfly-image-classification/train/Image_6436.jpg,EASTERN COMA,EASTERN COMA,0.97386736,True
+/kaggle/input/butterfly-image-classification/train/Image_835.jpg,CLEOPATRA,CLEOPATRA,0.99616206,True
+/kaggle/input/butterfly-image-classification/train/Image_3425.jpg,IPHICLUS SISTER,IPHICLUS SISTER,0.9080813,True
+/kaggle/input/butterfly-image-classification/train/Image_4415.jpg,ORANGE OAKLEAF,ORANGE OAKLEAF,0.7388882,True
+/kaggle/input/butterfly-image-classification/train/Image_4363.jpg,GREY HAIRSTREAK,GREY HAIRSTREAK,0.91787136,True
+/kaggle/input/butterfly-image-classification/train/Image_5488.jpg,RED SPOTTED PURPLE,RED SPOTTED PURPLE,0.7908335,True
+/kaggle/input/butterfly-image-classification/train/Image_734.jpg,JULIA,JULIA,0.9954417,True
+/kaggle/input/butterfly-image-classification/train/Image_3192.jpg,CLODIUS PARNASSIAN,CLODIUS PARNASSIAN,0.9960924,True
+/kaggle/input/butterfly-image-classification/train/Image_3086.jpg,RED ADMIRAL,RED ADMIRAL,0.9007529,True
+/kaggle/input/butterfly-image-classification/train/Image_6309.jpg,MALACHITE,MALACHITE,0.99998784,True
+/kaggle/input/butterfly-image-classification/train/Image_5117.jpg,BANDED ORANGE HELICONIAN,BANDED ORANGE HELICONIAN,0.9986696,True
+/kaggle/input/butterfly-image-classification/train/Image_2893.jpg,COPPER TAIL,COPPER TAIL,0.62208855,True
+/kaggle/input/butterfly-image-classification/train/Image_3047.jpg,CLODIUS PARNASSIAN,CLODIUS PARNASSIAN,0.7791736,True
+/kaggle/input/butterfly-image-classification/train/Image_4738.jpg,CLODIUS PARNASSIAN,CLODIUS PARNASSIAN,0.9717997,True
+/kaggle/input/butterfly-image-classification/train/Image_1770.jpg,RED POSTMAN,RED POSTMAN,0.85941577,True
+/kaggle/input/butterfly-image-classification/train/Image_5205.jpg,COPPER TAIL,COPPER TAIL,0.9510625,True
+/kaggle/input/butterfly-image-classification/train/Image_4513.jpg,SCARCE SWALLOW,SCARCE SWALLOW,0.99999976,True
+/kaggle/input/butterfly-image-classification/train/Image_2618.jpg,BLACK HAIRSTREAK,BLACK HAIRSTREAK,0.9344703,True
+/kaggle/input/butterfly-image-classification/train/Image_455.jpg,CLODIUS PARNASSIAN,CLODIUS PARNASSIAN,0.99983454,True
+/kaggle/input/butterfly-image-classification/train/Image_5395.jpg,ZEBRA LONG WING,ZEBRA LONG WING,0.9999989,True
+/kaggle/input/butterfly-image-classification/train/Image_4978.jpg,RED SPOTTED PURPLE,RED SPOTTED PURPLE,0.9987268,True
+/kaggle/input/butterfly-image-classification/train/Image_1510.jpg,GREY HAIRSTREAK,GREY HAIRSTREAK,0.6884648,True
+/kaggle/input/butterfly-image-classification/train/Image_1623.jpg,MESTRA,MESTRA,0.97360444,True
+/kaggle/input/butterfly-image-classification/train/Image_1004.jpg,WOOD SATYR,COMMON WOOD-NYMPH,0.5932403,False
+/kaggle/input/butterfly-image-classification/train/Image_917.jpg,ADONIS,ADONIS,0.9349468,True
+/kaggle/input/butterfly-image-classification/train/Image_1418.jpg,SLEEPY ORANGE,SLEEPY ORANGE,0.58581537,True
+/kaggle/input/butterfly-image-classification/train/Image_3017.jpg,MOURNING CLOAK,MOURNING CLOAK,0.9999738,True
+/kaggle/input/butterfly-image-classification/train/Image_129.jpg,CRECENT,CRECENT,0.9999831,True
+/kaggle/input/butterfly-image-classification/train/Image_321.jpg,AN 88,AN 88,0.99999726,True
+/kaggle/input/butterfly-image-classification/train/Image_479.jpg,GREAT JAY,GREAT JAY,0.9867176,True
+/kaggle/input/butterfly-image-classification/train/Image_4350.jpg,CAIRNS BIRDWING,CAIRNS BIRDWING,0.98514694,True
+/kaggle/input/butterfly-image-classification/train/Image_935.jpg,GREY HAIRSTREAK,GREY HAIRSTREAK,0.9682395,True
+/kaggle/input/butterfly-image-classification/train/Image_1742.jpg,BANDED PEACOCK,BANDED PEACOCK,0.9999558,True
+/kaggle/input/butterfly-image-classification/train/Image_867.jpg,GREEN CELLED CATTLEHEART,GREEN CELLED CATTLEHEART,0.99854064,True
+/kaggle/input/butterfly-image-classification/train/Image_2799.jpg,LARGE MARBLE,LARGE MARBLE,0.83438367,True
+/kaggle/input/butterfly-image-classification/train/Image_2412.jpg,BROWN SIPROETA,BROWN SIPROETA,0.97545654,True
+/kaggle/input/butterfly-image-classification/train/Image_312.jpg,DANAID EGGFLY,DANAID EGGFLY,0.98401123,True
+/kaggle/input/butterfly-image-classification/train/Image_4782.jpg,INDRA SWALLOW,INDRA SWALLOW,0.617702,True
+/kaggle/input/butterfly-image-classification/train/Image_2963.jpg,YELLOW SWALLOW TAIL,YELLOW SWALLOW TAIL,0.4831174,True
+/kaggle/input/butterfly-image-classification/train/Image_502.jpg,ULYSES,ULYSES,0.9998216,True
+/kaggle/input/butterfly-image-classification/train/Image_5168.jpg,CABBAGE WHITE,CABBAGE WHITE,0.999696,True
+/kaggle/input/butterfly-image-classification/train/Image_679.jpg,ELBOWED PIERROT,ELBOWED PIERROT,0.9998381,True
+/kaggle/input/butterfly-image-classification/train/Image_5328.jpg,PEACOCK,PEACOCK,1.0,True
+/kaggle/input/butterfly-image-classification/train/Image_3541.jpg,PURPLISH COPPER,PURPLISH COPPER,0.98330724,True
+/kaggle/input/butterfly-image-classification/train/Image_5817.jpg,CLOUDED SULPHUR,CLOUDED SULPHUR,0.47827464,True
+/kaggle/input/butterfly-image-classification/train/Image_539.jpg,METALMARK,METALMARK,0.99974555,True
+/kaggle/input/butterfly-image-classification/train/Image_516.jpg,CAIRNS BIRDWING,CAIRNS BIRDWING,0.9999231,True
+/kaggle/input/butterfly-image-classification/train/Image_4990.jpg,PURPLE HAIRSTREAK,ADONIS,0.57266325,False
+/kaggle/input/butterfly-image-classification/train/Image_2813.jpg,IPHICLUS SISTER,IPHICLUS SISTER,0.9999716,True
+/kaggle/input/butterfly-image-classification/train/Image_88.jpg,BLUE SPOTTED CROW,BLUE SPOTTED CROW,0.99968505,True
+/kaggle/input/butterfly-image-classification/train/Image_65.jpg,IPHICLUS SISTER,IPHICLUS SISTER,0.9999999,True
+/kaggle/input/butterfly-image-classification/train/Image_4195.jpg,RED SPOTTED PURPLE,RED SPOTTED PURPLE,0.9997323,True
+/kaggle/input/butterfly-image-classification/train/Image_2126.jpg,PAINTED LADY,PAINTED LADY,0.9702215,True
+/kaggle/input/butterfly-image-classification/train/Image_5038.jpg,SOOTYWING,SOOTYWING,0.9994931,True
+/kaggle/input/butterfly-image-classification/train/Image_5967.jpg,BLUE MORPHO,BLUE MORPHO,0.98624206,True
+/kaggle/input/butterfly-image-classification/train/Image_4246.jpg,CLODIUS PARNASSIAN,CLODIUS PARNASSIAN,0.99965584,True
+/kaggle/input/butterfly-image-classification/train/Image_1377.jpg,AN 88,AN 88,1.0,True
+/kaggle/input/butterfly-image-classification/train/Image_1900.jpg,CLEOPATRA,CLEOPATRA,0.2524802,True
+/kaggle/input/butterfly-image-classification/train/Image_844.jpg,INDRA SWALLOW,INDRA SWALLOW,0.88255644,True
+/kaggle/input/butterfly-image-classification/train/Image_5719.jpg,ATALA,ATALA,0.99572325,True
+/kaggle/input/butterfly-image-classification/train/Image_2455.jpg,AFRICAN GIANT SWALLOWTAIL,AFRICAN GIANT SWALLOWTAIL,0.9784773,True
+/kaggle/input/butterfly-image-classification/train/Image_4163.jpg,GREAT JAY,CRIMSON PATCH,0.42676356,False
+/kaggle/input/butterfly-image-classification/train/Image_2297.jpg,CABBAGE WHITE,CABBAGE WHITE,0.99883026,True
+/kaggle/input/butterfly-image-classification/train/Image_60.jpg,QUESTION MARK,QUESTION MARK,0.945364,True
+/kaggle/input/butterfly-image-classification/train/Image_1948.jpg,CLEOPATRA,CABBAGE WHITE,0.55461234,False
+/kaggle/input/butterfly-image-classification/train/Image_3953.jpg,RED CRACKER,RED CRACKER,0.99830174,True
+/kaggle/input/butterfly-image-classification/train/Image_5751.jpg,CHECQUERED SKIPPER,CHECQUERED SKIPPER,0.9995807,True
+/kaggle/input/butterfly-image-classification/train/Image_5397.jpg,YELLOW SWALLOW TAIL,YELLOW SWALLOW TAIL,0.9997336,True
+/kaggle/input/butterfly-image-classification/train/Image_5096.jpg,COMMON BANDED AWL,COMMON BANDED AWL,0.9997769,True
+/kaggle/input/butterfly-image-classification/train/Image_1659.jpg,SOUTHERN DOGFACE,SOUTHERN DOGFACE,0.50682926,True
+/kaggle/input/butterfly-image-classification/train/Image_2536.jpg,PINE WHITE,PINE WHITE,0.9995943,True
+/kaggle/input/butterfly-image-classification/train/Image_1125.jpg,PIPEVINE SWALLOW,PIPEVINE SWALLOW,0.9999188,True
+/kaggle/input/butterfly-image-classification/train/Image_2161.jpg,RED SPOTTED PURPLE,RED SPOTTED PURPLE,0.99760664,True
+/kaggle/input/butterfly-image-classification/train/Image_2128.jpg,PURPLE HAIRSTREAK,PURPLE HAIRSTREAK,0.86795247,True
+/kaggle/input/butterfly-image-classification/train/Image_5868.jpg,GREAT EGGFLY,GREAT EGGFLY,0.97802734,True
+/kaggle/input/butterfly-image-classification/train/Image_5672.jpg,RED CRACKER,RED CRACKER,0.9986786,True
+/kaggle/input/butterfly-image-classification/train/Image_6144.jpg,MILBERTS TORTOISESHELL,MILBERTS TORTOISESHELL,0.99994326,True
+/kaggle/input/butterfly-image-classification/train/Image_5780.jpg,SILVER SPOT SKIPPER,SILVER SPOT SKIPPER,0.6276397,True
+/kaggle/input/butterfly-image-classification/train/Image_6170.jpg,EASTERN DAPPLE WHITE,EASTERN DAPPLE WHITE,0.8579165,True
+/kaggle/input/butterfly-image-classification/train/Image_2349.jpg,MANGROVE SKIPPER,MANGROVE SKIPPER,0.98660904,True
+/kaggle/input/butterfly-image-classification/train/Image_2741.jpg,VICEROY,VICEROY,0.49110323,True
+/kaggle/input/butterfly-image-classification/train/Image_1773.jpg,PAINTED LADY,PAINTED LADY,0.9857875,True
+/kaggle/input/butterfly-image-classification/train/Image_2174.jpg,APPOLLO,CLODIUS PARNASSIAN,0.58987767,False
+/kaggle/input/butterfly-image-classification/train/Image_6127.jpg,GREAT EGGFLY,GREAT EGGFLY,0.6375284,True
+/kaggle/input/butterfly-image-classification/train/Image_4653.jpg,GREEN CELLED CATTLEHEART,RED SPOTTED PURPLE,0.29369646,False
+/kaggle/input/butterfly-image-classification/train/Image_5313.jpg,COPPER TAIL,PURPLISH COPPER,0.7603705,False
+/kaggle/input/butterfly-image-classification/train/Image_4556.jpg,CLODIUS PARNASSIAN,CLODIUS PARNASSIAN,0.9123426,True
+/kaggle/input/butterfly-image-classification/train/Image_2659.jpg,GREY HAIRSTREAK,GREY HAIRSTREAK,0.91213906,True
+/kaggle/input/butterfly-image-classification/train/Image_4962.jpg,CRIMSON PATCH,CRIMSON PATCH,0.99932945,True
+/kaggle/input/butterfly-image-classification/train/Image_1678.jpg,GREAT EGGFLY,GREAT EGGFLY,0.96845275,True
+/kaggle/input/butterfly-image-classification/train/Image_1210.jpg,TWO BARRED FLASHER,COMMON BANDED AWL,0.27801862,False
+/kaggle/input/butterfly-image-classification/train/Image_5357.jpg,CHESTNUT,CHESTNUT,0.99834025,True
+/kaggle/input/butterfly-image-classification/train/Image_2345.jpg,CRIMSON PATCH,CRECENT,0.6342048,False
+/kaggle/input/butterfly-image-classification/train/Image_2339.jpg,GREAT EGGFLY,GREAT EGGFLY,0.53282416,True
+/kaggle/input/butterfly-image-classification/train/Image_2147.jpg,POPINJAY,POPINJAY,0.9900697,True
+/kaggle/input/butterfly-image-classification/train/Image_1596.jpg,JULIA,JULIA,0.99732983,True
+/kaggle/input/butterfly-image-classification/train/Image_5673.jpg,RED POSTMAN,RED POSTMAN,0.99364823,True
+/kaggle/input/butterfly-image-classification/train/Image_1702.jpg,BECKERS WHITE,BECKERS WHITE,0.9982809,True
+/kaggle/input/butterfly-image-classification/train/Image_3241.jpg,GOLD BANDED,GOLD BANDED,0.984993,True
+/kaggle/input/butterfly-image-classification/train/Image_5867.jpg,PURPLE HAIRSTREAK,GREY HAIRSTREAK,0.6561782,False
+/kaggle/input/butterfly-image-classification/train/Image_5196.jpg,RED CRACKER,RED CRACKER,0.9999993,True
+/kaggle/input/butterfly-image-classification/train/Image_3634.jpg,AFRICAN GIANT SWALLOWTAIL,MESTRA,0.6818622,False
+/kaggle/input/butterfly-image-classification/train/Image_5839.jpg,IPHICLUS SISTER,IPHICLUS SISTER,0.9986168,True
+/kaggle/input/butterfly-image-classification/train/Image_3810.jpg,GREAT EGGFLY,BLUE SPOTTED CROW,0.75285137,False
+/kaggle/input/butterfly-image-classification/train/Image_1103.jpg,BANDED ORANGE HELICONIAN,JULIA,0.375548,False
+/kaggle/input/butterfly-image-classification/train/Image_5033.jpg,GREAT JAY,GREAT JAY,0.99905246,True
+/kaggle/input/butterfly-image-classification/train/Image_2469.jpg,ORANGE TIP,ORANGE TIP,0.9932295,True
+/kaggle/input/butterfly-image-classification/train/Image_1847.jpg,BLUE MORPHO,BLUE MORPHO,0.99999344,True
+/kaggle/input/butterfly-image-classification/train/Image_5544.jpg,EASTERN COMA,QUESTION MARK,0.9500515,False
+/kaggle/input/butterfly-image-classification/train/Image_6401.jpg,CLODIUS PARNASSIAN,CLODIUS PARNASSIAN,0.99253607,True
+/kaggle/input/butterfly-image-classification/train/Image_1113.jpg,PINE WHITE,PINE WHITE,0.99999774,True
+/kaggle/input/butterfly-image-classification/train/Image_3984.jpg,SLEEPY ORANGE,SLEEPY ORANGE,0.99958795,True
+/kaggle/input/butterfly-image-classification/train/Image_3991.jpg,ORCHARD SWALLOW,ORCHARD SWALLOW,0.9999943,True
+/kaggle/input/butterfly-image-classification/train/Image_1883.jpg,AN 88,AN 88,0.99996793,True
+/kaggle/input/butterfly-image-classification/train/Image_2675.jpg,COMMON WOOD-NYMPH,COMMON WOOD-NYMPH,0.99991894,True
+/kaggle/input/butterfly-image-classification/train/Image_1571.jpg,APPOLLO,APPOLLO,0.986265,True
+/kaggle/input/butterfly-image-classification/train/Image_3978.jpg,RED POSTMAN,RED POSTMAN,0.9991584,True
+/kaggle/input/butterfly-image-classification/train/Image_4893.jpg,TROPICAL LEAFWING,TROPICAL LEAFWING,0.7552953,True
+/kaggle/input/butterfly-image-classification/train/Image_2997.jpg,POPINJAY,POPINJAY,0.99995697,True
+/kaggle/input/butterfly-image-classification/train/Image_4250.jpg,JULIA,JULIA,0.99993765,True
+/kaggle/input/butterfly-image-classification/train/Image_4125.jpg,TROPICAL LEAFWING,TROPICAL LEAFWING,0.96778965,True
+/kaggle/input/butterfly-image-classification/train/Image_5810.jpg,GREAT JAY,GREAT JAY,0.89725083,True
+/kaggle/input/butterfly-image-classification/train/Image_3739.jpg,CLOUDED SULPHUR,CLOUDED SULPHUR,0.6500295,True
+/kaggle/input/butterfly-image-classification/train/Image_4200.jpg,SOOTYWING,GREAT EGGFLY,0.3706203,False
+/kaggle/input/butterfly-image-classification/train/Image_1768.jpg,CRECENT,CRECENT,0.5436657,True
+/kaggle/input/butterfly-image-classification/train/Image_3181.jpg,MOURNING CLOAK,MOURNING CLOAK,0.9999949,True
+/kaggle/input/butterfly-image-classification/train/Image_2415.jpg,PINE WHITE,PINE WHITE,0.99952257,True
+/kaggle/input/butterfly-image-classification/train/Image_1822.jpg,BLUE MORPHO,BLUE MORPHO,0.9943672,True
+/kaggle/input/butterfly-image-classification/train/Image_1654.jpg,METALMARK,METALMARK,0.82251334,True
+/kaggle/input/butterfly-image-classification/train/Image_979.jpg,CAIRNS BIRDWING,CAIRNS BIRDWING,0.85574025,True
+/kaggle/input/butterfly-image-classification/train/Image_362.jpg,PURPLE HAIRSTREAK,BLACK HAIRSTREAK,0.2812217,False
+/kaggle/input/butterfly-image-classification/train/Image_5562.jpg,POPINJAY,POPINJAY,0.9938763,True
+/kaggle/input/butterfly-image-classification/train/Image_998.jpg,SLEEPY ORANGE,SLEEPY ORANGE,0.9794175,True
+/kaggle/input/butterfly-image-classification/train/Image_5381.jpg,CLEOPATRA,CLEOPATRA,0.6914253,True
+/kaggle/input/butterfly-image-classification/train/Image_5679.jpg,CAIRNS BIRDWING,CAIRNS BIRDWING,0.9746482,True
+/kaggle/input/butterfly-image-classification/train/Image_732.jpg,COPPER TAIL,ADONIS,0.35829479,False
+/kaggle/input/butterfly-image-classification/train/Image_2293.jpg,LARGE MARBLE,CABBAGE WHITE,0.78191626,False
+/kaggle/input/butterfly-image-classification/train/Image_3961.jpg,CLOUDED SULPHUR,CLOUDED SULPHUR,0.5814824,True
+/kaggle/input/butterfly-image-classification/train/Image_2494.jpg,APPOLLO,APPOLLO,0.9838604,True
+/kaggle/input/butterfly-image-classification/train/Image_5903.jpg,LARGE MARBLE,LARGE MARBLE,0.5763411,True
+/kaggle/input/butterfly-image-classification/train/Image_5375.jpg,CAIRNS BIRDWING,CAIRNS BIRDWING,0.9834102,True
+/kaggle/input/butterfly-image-classification/train/Image_4849.jpg,BECKERS WHITE,BECKERS WHITE,0.9983455,True
+/kaggle/input/butterfly-image-classification/train/Image_1363.jpg,COMMON WOOD-NYMPH,COMMON WOOD-NYMPH,0.99999,True
+/kaggle/input/butterfly-image-classification/train/Image_3098.jpg,EASTERN DAPPLE WHITE,BECKERS WHITE,0.47314772,False
+/kaggle/input/butterfly-image-classification/train/Image_2649.jpg,MILBERTS TORTOISESHELL,MILBERTS TORTOISESHELL,0.8516238,True
+/kaggle/input/butterfly-image-classification/train/Image_2842.jpg,PURPLE HAIRSTREAK,PURPLE HAIRSTREAK,0.9550276,True
+/kaggle/input/butterfly-image-classification/train/Image_5105.jpg,QUESTION MARK,QUESTION MARK,0.75827205,True
+/kaggle/input/butterfly-image-classification/train/Image_2587.jpg,COMMON WOOD-NYMPH,COMMON WOOD-NYMPH,0.9997811,True
+/kaggle/input/butterfly-image-classification/train/Image_200.jpg,STRAITED QUEEN,STRAITED QUEEN,0.99702483,True
+/kaggle/input/butterfly-image-classification/train/Image_6060.jpg,COMMON WOOD-NYMPH,COMMON WOOD-NYMPH,0.99999964,True
+/kaggle/input/butterfly-image-classification/train/Image_561.jpg,EASTERN DAPPLE WHITE,LARGE MARBLE,0.6271189,False
+/kaggle/input/butterfly-image-classification/train/Image_1781.jpg,MANGROVE SKIPPER,MANGROVE SKIPPER,0.6386427,True
+/kaggle/input/butterfly-image-classification/train/Image_6325.jpg,BLACK HAIRSTREAK,BLACK HAIRSTREAK,0.97626674,True
+/kaggle/input/butterfly-image-classification/train/Image_5118.jpg,CLOUDED SULPHUR,SLEEPY ORANGE,0.9980538,False
+/kaggle/input/butterfly-image-classification/train/Image_5144.jpg,ELBOWED PIERROT,ELBOWED PIERROT,0.9998908,True
+/kaggle/input/butterfly-image-classification/train/Image_1019.jpg,LARGE MARBLE,LARGE MARBLE,0.80735886,True
+/kaggle/input/butterfly-image-classification/train/Image_2280.jpg,RED CRACKER,RED POSTMAN,0.97190136,False
+/kaggle/input/butterfly-image-classification/train/Image_4757.jpg,AFRICAN GIANT SWALLOWTAIL,AFRICAN GIANT SWALLOWTAIL,0.99998915,True
+/kaggle/input/butterfly-image-classification/train/Image_2809.jpg,RED ADMIRAL,RED ADMIRAL,0.90361494,True
+/kaggle/input/butterfly-image-classification/train/Image_3231.jpg,APPOLLO,APPOLLO,0.98937726,True
+/kaggle/input/butterfly-image-classification/train/Image_3532.jpg,ORANGE OAKLEAF,ORANGE OAKLEAF,0.98082584,True
+/kaggle/input/butterfly-image-classification/train/Image_2594.jpg,EASTERN COMA,EASTERN COMA,0.94025636,True
+/kaggle/input/butterfly-image-classification/train/Image_5276.jpg,GOLD BANDED,GOLD BANDED,0.92777383,True
+/kaggle/input/butterfly-image-classification/train/Image_2662.jpg,CLEOPATRA,EASTERN DAPPLE WHITE,0.47216958,False
+/kaggle/input/butterfly-image-classification/train/Image_5985.jpg,QUESTION MARK,QUESTION MARK,0.7551368,True
