@@ -538,10 +538,10 @@ This project demonstrates:
 
 ## 📞 Contact & Support
 
-**Project Author:** Arju
-**Email:** mst.tahminajerinarju@gmail.com
-**GitHub:** [github.com/arju10](https://github.com/arju10)  
-**LinkedIn:** [linkedin.com/in/arju10](https://linkedin.com/in/arju10)
+**Project Author:** Arju </br>
+**Email:** mst.tahminajerinarju@gmail.com </br>
+**GitHub:** [github.com/arju10](https://github.com/arju10)  </br>
+**LinkedIn:** [linkedin.com/in/arju10](https://linkedin.com/in/arju10)</br>
 
 **For issues or questions:**
 - 📖 Check [documentation](docs/)
