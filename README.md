@@ -520,7 +520,7 @@ If you use this project in your research or academic work:
   title={Butterfly Species Classifier: Deep Learning Identification System},
   author={[Your Name]},
   year={2026},
-  howpublished={\url{https://github.com/yourusername/butterfly-classifier}},
+  howpublished={\url{https://github.com/arju10/butterfly-classification}},
   note={AI-powered butterfly identification using MobileNetV2 transfer learning}
 }
 ```
@@ -538,21 +538,21 @@ This project demonstrates:
 
 ## 📞 Contact & Support
 
-**Project Author:** [Your Name]  
-**Email:** [your.email@example.com]  
-**GitHub:** [github.com/yourusername](https://github.com/yourusername)  
-**LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
+**Project Author:** Arju
+**Email:** mst.tahminajerinarju@gmail.com
+**GitHub:** [github.com/arju10](https://github.com/arju10)  
+**LinkedIn:** [linkedin.com/in/arju10](https://linkedin.com/in/arju10)
 
 **For issues or questions:**
 - 📖 Check [documentation](docs/)
-- 🐛 Report [issues](https://github.com/yourusername/butterfly-classifier/issues)
-- 💬 Ask in [discussions](https://github.com/yourusername/butterfly-classifier/discussions)
+- 🐛 Report [issues](https://github.com/arju10/butterfly-classification/issues)
+- 💬 Ask in [discussions](https://github.com/arju10/butterfly-classification/discussions)
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License - see [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache-2.0 License - see [LICENSE](LICENSE) file for details.
 
 ---
 
