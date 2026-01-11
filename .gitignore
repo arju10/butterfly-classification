@@ -1,7 +1,2 @@
 venv
-models
-__pycache__
-train
-docker-compose.yml
-Dockerfile
-dockerignore
+

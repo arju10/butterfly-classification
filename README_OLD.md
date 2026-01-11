@@ -113,7 +113,7 @@ cd butterfly-classification
 
 
 # 2. Create virtual environment (recommended)
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate  # Linux/Mac
 # or
 venv\Scripts\activate     # Windows

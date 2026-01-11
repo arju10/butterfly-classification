@@ -457,7 +457,7 @@ def main():
     st.divider()
     st.markdown(f"""
     <div style="text-align: center; color: #6b7280; padding: 2rem 0;">
-        <p>🦋 <strong>Butterfly Species Classifier</strong> | Powered by Deep Learning</p>
+        <p>🦋 <strong>Butterfly Species Classifier</strong> | Created by Arju</p>
         <p style="font-size: 0.9rem;">Trained on {len(class_indices) if class_indices else 75} species | Built with TensorFlow & Streamlit</p>
     </div>
     """, unsafe_allow_html=True)

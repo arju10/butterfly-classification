@@ -1,0 +1,69 @@
+# 🦋 Butterfly Classifier - Docker Ignore File
+# Prevents unnecessary files from being copied to Docker image
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+*.ipynb
+.ipynb_checkpoints/
+
+# Virtual environments
+butterfly_env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Documentation
+README.md
+*.md
+!requirements.txt
+
+# Test files
+test_*.py
+*_test.py
+tests/
+
+# Data files (if you have large datasets)
+data/
+*.csv
+*.png
+*.jpg
+*.jpeg
+!class_indices.json
+!model_info.json
+
+# Docker files (don't copy into image)
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Misc
+*.bak
+*.tmp
+.env

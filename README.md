@@ -268,7 +268,7 @@ git clone https://github.com/arju10/butterfly-classification.git
 cd butterfly-classification
 
 # 2. Create virtual environment
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate  # Linux/Mac
 # or
 venv\Scripts\activate     # Windows
