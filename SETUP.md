@@ -113,7 +113,7 @@ pip list | grep -E "tensorflow|streamlit|plotly"
 
 # Should show:
 # tensorflow     2.19.0
-# streamlit      1.40.1
+# streamlit      1.52.2
 # plotly         5.24.1
 ```
 

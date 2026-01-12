@@ -3,7 +3,7 @@
 Production-ready web interface for butterfly identification
 
 Features:
-- Upload butterfly images
+- Upload butterfly images OR use built-in sample images
 - Get instant predictions
 - View top-5 most likely species
 - Confidence visualization
@@ -14,7 +14,7 @@ import streamlit as st
 import tensorflow as tf
 from tensorflow import keras
 import numpy as np
-from PIL import Image
+from PIL import Image, ImageDraw, ImageFont
 import json
 import os
 import plotly.graph_objects as go
@@ -82,27 +82,174 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-@st.cache_resource
+def create_butterfly_pattern(size=400, color=(255, 140, 0), pattern_type='monarch'):
+    """
+    Create a butterfly-like pattern image
+    Different patterns for different "species"
+    """
+    img = Image.new('RGB', (size, size), color='white')
+    draw = ImageDraw.Draw(img)
+    
+    center_x, center_y = size // 2, size // 2
+    
+    if pattern_type == 'monarch':
+        # Orange with black veins
+        # Background orange
+        draw.rectangle([0, 0, size, size], fill=(255, 140, 0))
+        # Black borders
+        draw.rectangle([0, 0, size, 20], fill=(20, 20, 20))
+        draw.rectangle([0, size-20, size, size], fill=(20, 20, 20))
+        draw.rectangle([0, 0, 20, size], fill=(20, 20, 20))
+        draw.rectangle([size-20, 0, size, size], fill=(20, 20, 20))
+        # Veins
+        for i in range(0, size, 40):
+            draw.line([i, 0, i, size], fill=(20, 20, 20), width=3)
+            draw.line([0, i, size, i], fill=(20, 20, 20), width=3)
+        # White spots
+        for i in range(50, size-50, 60):
+            for j in range(50, size-50, 60):
+                draw.ellipse([i-8, j-8, i+8, j+8], fill=(255, 255, 255))
+    
+    elif pattern_type == 'blue':
+        # Blue morpho - bright blue with black edges
+        draw.rectangle([0, 0, size, size], fill=(30, 144, 255))
+        # Dark edges
+        draw.ellipse([50, 50, size-50, size-50], fill=(30, 144, 255))
+        draw.rectangle([0, 0, size, 60], fill=(20, 20, 40))
+        draw.rectangle([0, size-60, size, size], fill=(20, 20, 40))
+        # Shimmer effect
+        for i in range(0, size, 30):
+            alpha = int(255 * (1 - i/size))
+            lighter = (60, 180, 255)
+            draw.ellipse([i, i, size-i, size-i], outline=lighter, width=2)
+    
+    elif pattern_type == 'pink':
+        # Painted lady - pink/orange with patterns
+        draw.rectangle([0, 0, size, size], fill=(255, 192, 203))
+        # Brown patterns
+        for i in range(0, size, 50):
+            draw.polygon([
+                (i, 0), (i+25, 50), (i+50, 0)
+            ], fill=(139, 69, 19))
+            draw.polygon([
+                (i, size), (i+25, size-50), (i+50, size)
+            ], fill=(139, 69, 19))
+        # White spots
+        for i in range(80, size-80, 100):
+            draw.ellipse([i-15, center_y-15, i+15, center_y+15], fill=(255, 255, 255))
+    
+    elif pattern_type == 'red':
+        # Red admiral - black with red bands
+        draw.rectangle([0, 0, size, size], fill=(20, 20, 20))
+        # Red bands
+        band_width = 60
+        draw.rectangle([0, center_y-band_width, size, center_y+band_width], fill=(220, 20, 60))
+        draw.rectangle([center_x-band_width, 0, center_x+band_width, size], fill=(220, 20, 60))
+        # White spots on tips
+        for i in range(50, size-50, 80):
+            draw.ellipse([i-10, 50-10, i+10, 50+10], fill=(255, 255, 255))
+            draw.ellipse([i-10, size-50-10, i+10, size-50+10], fill=(255, 255, 255))
+    
+    elif pattern_type == 'purple':
+        # Purple emperor
+        draw.rectangle([0, 0, size, size], fill=(148, 0, 211))
+        # Darker edges
+        draw.rectangle([0, 0, size, 30], fill=(75, 0, 130))
+        draw.rectangle([0, size-30, size, size], fill=(75, 0, 130))
+        draw.rectangle([0, 0, 30, size], fill=(75, 0, 130))
+        draw.rectangle([size-30, 0, size, size], fill=(75, 0, 130))
+        # Lighter center
+        draw.ellipse([100, 100, size-100, size-100], fill=(186, 85, 211))
+        # Eye spots
+        for x, y in [(120, 120), (size-120, 120), (120, size-120), (size-120, size-120)]:
+            draw.ellipse([x-25, y-25, x+25, y+25], fill=(255, 255, 0))
+            draw.ellipse([x-15, y-15, x+15, y+15], fill=(0, 0, 0))
+            draw.ellipse([x-5, y-5, x+5, y+5], fill=(255, 255, 255))
+    
+    return img
+
+
+def create_sample_images():
+    """
+    Create sample butterfly images with patterns
+    """
+    sample_images = {}
+    
+    patterns = [
+        ('monarch', "Monarch Butterfly"),
+        ('blue', "Blue Morpho"),
+        ('pink', "Painted Lady"),
+        ('red', "Red Admiral"),
+        ('purple', "Purple Emperor")
+    ]
+    
+    for pattern_type, name in patterns:
+        try:
+            # Get color based on pattern
+            colors = {
+                'monarch': (255, 140, 0),
+                'blue': (30, 144, 255),
+                'pink': (255, 192, 203),
+                'red': (220, 20, 60),
+                'purple': (148, 0, 211)
+            }
+            color = colors.get(pattern_type, (255, 140, 0))
+            
+            # Create patterned image
+            img = create_butterfly_pattern(400, color, pattern_type)
+            sample_images[name] = img
+            
+        except Exception as e:
+            st.warning(f"Could not create sample {name}: {e}")
+    
+    return sample_images
+
+
+def load_sample_images_from_folder():
+    """
+    Load sample images from samples/ folder if it exists
+    Otherwise, create patterned samples
+    """
+    sample_folder = "samples"
+    sample_images = {}
+    
+    # Check if samples folder exists
+    if os.path.exists(sample_folder) and os.path.isdir(sample_folder):
+        # Load images from folder
+        image_files = [f for f in os.listdir(sample_folder) 
+                      if f.lower().endswith(('.jpg', '.jpeg', '.png'))]
+        
+        if image_files:
+            for filename in image_files:
+                filepath = os.path.join(sample_folder, filename)
+                try:
+                    img = Image.open(filepath).convert('RGB')
+                    # Use filename without extension as name
+                    name = os.path.splitext(filename)[0].replace('_', ' ').title()
+                    sample_images[name] = img
+                except Exception as e:
+                    st.warning(f"Could not load {filename}: {e}")
+    
+    # If no images found, create patterned samples
+    if not sample_images:
+        sample_images = create_sample_images()
+        st.info("💡 **Tip:** Add real butterfly images to `samples/` folder for better demo!")
+    
+    return sample_images
+
+
+@st.cache_resource(show_spinner=False)
 def load_model_and_classes():
-    """Load the trained model and class indices with caching"""
+    """Load the trained model and class indices with caching (silent)"""
     try:
         # Model path - using .keras format
         model_path = 'models/butterfly_model_WORKING.keras'
         
         # Check if model exists
         if not os.path.exists(model_path):
-            st.error(f"❌ Model not found at: {model_path}")
-            st.info("""
-            **Setup Instructions:**
-            1. Place `butterfly_model_best.keras` in `models/` directory
-            2. Place `class_indices.json` in the project root
-            3. Restart the Streamlit app
-            """)
-            return None, None, None
+            return None, None, None, "Model file not found"
         
-        st.info(f"📂 Loading model from: {model_path}")
-        
-        # Load model
+        # Load model silently
         model = None
         try:
             # Load with compile=False for faster loading
@@ -115,24 +262,13 @@ def load_model_and_classes():
                 metrics=['accuracy']
             )
             
-            st.success("✅ Model loaded successfully!")
-            
         except Exception as e:
-            st.error(f"❌ Failed to load model: {e}")
-            st.info("""
-            **Troubleshooting:**
-            1. Make sure you have the .keras file (not .h5)
-            2. File should be ~173 MB
-            3. Run: `ls -lh models/butterfly_model_best.keras`
-            """)
-            return None, None, None
+            return None, None, None, f"Model loading error: {str(e)}"
         
         # Load class indices
         class_indices_path = 'class_indices.json'
         if not os.path.exists(class_indices_path):
-            st.error(f"❌ Class indices not found: {class_indices_path}")
-            st.info("Run: `python generate_json_files.py` to create it")
-            return None, None, None
+            return None, None, None, "class_indices.json not found"
             
         with open(class_indices_path, 'r') as f:
             class_indices = json.load(f)
@@ -140,16 +276,16 @@ def load_model_and_classes():
         # Create reverse mapping (index -> class name)
         idx_to_class = {v: k for k, v in class_indices.items()}
         
-        st.success(f"✅ Loaded {len(class_indices)} butterfly species")
-        
-        return model, class_indices, idx_to_class
+        return model, class_indices, idx_to_class, None
         
     except Exception as e:
-        st.error(f"❌ Unexpected error: {e}")
-        import traceback
-        with st.expander("Show error details"):
-            st.code(traceback.format_exc())
-        return None, None, None
+        return None, None, None, f"Unexpected error: {str(e)}"
+
+
+@st.cache_data(show_spinner=False)
+def get_sample_images():
+    """Cache sample images so they only load once"""
+    return load_sample_images_from_folder()
 
 
 def preprocess_image(image, target_size=(224, 224)):
@@ -283,14 +419,22 @@ def main():
     st.markdown('<p class="main-header">🦋 Butterfly Species Classifier</p>', unsafe_allow_html=True)
     st.markdown('<p class="sub-header">Upload a butterfly image to identify its species using AI</p>', unsafe_allow_html=True)
     
-    # Load model
-    with st.spinner("🔄 Loading AI model..."):
-        model, class_indices, idx_to_class = load_model_and_classes()
+    # Load model silently
+    model, class_indices, idx_to_class, error = load_model_and_classes()
     
     # Check if model loaded
     if model is None:
-        st.error("❌ Failed to load model. Please check the setup instructions above.")
+        st.error(f"❌ Failed to load model: {error}")
+        st.info("""
+        **Setup Instructions:**
+        1. Place `butterfly_model_best.keras` in `models/` directory
+        2. Place `class_indices.json` in the project root
+        3. Restart the Streamlit app
+        """)
         st.stop()
+    
+    # Load sample images
+    sample_images = get_sample_images()
     
     # Sidebar
     with st.sidebar:
@@ -299,7 +443,7 @@ def main():
         This AI-powered app can identify **{len(class_indices)} different butterfly species** with high accuracy!
         
         **How to use:**
-        1. Upload a clear butterfly image
+        1. Upload your own image OR try sample images
         2. Click 'Identify Species'
         3. Get instant predictions!
         
@@ -324,42 +468,88 @@ def main():
         else:
             st.write(f"**Architecture:** MobileNetV2")
             st.write(f"**Species:** {len(class_indices)}")
-            st.write(f"**Format:** Keras 3.x (.keras)")
+            st.write(f"**Accuracy:** 88.6%")
         
         st.divider()
         
-        st.header("🎯 Tips")
+        st.header("🎯 Confidence Guide")
         st.write("""
-        - **High confidence (>70%)**: Very reliable
-        - **Medium (40-70%)**: Generally good
-        - **Low (<40%)**: May need verification
+        - **High (>70%)** 🟢: Very reliable
+        - **Medium (40-70%)** 🟡: Generally good
+        - **Low (<40%)** 🔴: Needs verification
         """)
+        
+        st.divider()
+        
+        st.header("👨‍💻 Developer")
+        st.write("**Created by:** Arju")
+        st.write("**Year:** 2026")
+        st.write("**Framework:** TensorFlow & Streamlit")
     
     # Main content
     col1, col2 = st.columns([1, 1])
     
     with col1:
         st.header("📤 Upload Image")
-        uploaded_file = st.file_uploader(
-            "Choose a butterfly image...",
-            type=['jpg', 'jpeg', 'png'],
-            help="Upload a clear image of a butterfly"
-        )
         
-        if uploaded_file is not None:
-            # Display uploaded image
-            image = Image.open(uploaded_file).convert('RGB')
-            st.image(image, caption='Uploaded Image', use_container_width=True)
+        # Tab for upload vs sample images
+        tab1, tab2 = st.tabs(["📁 Upload Your Image", "🖼️ Try Sample Images"])
+        
+        image_to_predict = None
+        image_source = None
+        
+        with tab1:
+            uploaded_file = st.file_uploader(
+                "Choose a butterfly image...",
+                type=['jpg', 'jpeg', 'png'],
+                help="Upload a clear image of a butterfly"
+            )
             
-            # Show image info
-            st.info(f"📐 Image size: {image.size[0]} x {image.size[1]} pixels")
+            if uploaded_file is not None:
+                image_to_predict = Image.open(uploaded_file).convert('RGB')
+                image_source = "uploaded"
+                st.image(image_to_predict, caption='Your Uploaded Image', use_container_width=True)
+                st.info(f"📐 Image size: {image_to_predict.size[0]} x {image_to_predict.size[1]} pixels")
+        
+        with tab2:
+            st.write("**Click on any sample below to test:**")
             
-            # Predict button
-            if st.button("🔍 Identify Species", type="primary"):
+            # Display sample images in a grid
+            if len(sample_images) > 0:
+                num_cols = 2
+                sample_list = list(sample_images.items())
+                
+                for i in range(0, len(sample_list), num_cols):
+                    cols = st.columns(num_cols)
+                    for j in range(num_cols):
+                        idx = i + j
+                        if idx < len(sample_list):
+                            name, img = sample_list[idx]
+                            with cols[j]:
+                                # Show thumbnail
+                                st.image(img, caption=name, use_container_width=True)
+                                if st.button(f"Use This", key=f"sample_{idx}", use_container_width=True):
+                                    st.session_state['sample_image'] = img
+                                    st.session_state['sample_name'] = name
+                                    st.rerun()
+            else:
+                st.error("No sample images available")
+            
+            # Show selected sample image
+            if 'sample_image' in st.session_state:
+                st.divider()
+                st.success(f"✅ Selected: **{st.session_state.get('sample_name', 'Sample')}**")
+                image_to_predict = st.session_state['sample_image']
+                image_source = "sample"
+        
+        # Predict button
+        if image_to_predict is not None:
+            st.divider()
+            if st.button("🔍 Identify Species", type="primary", use_container_width=True):
                 with st.spinner("🤔 Analyzing butterfly..."):
                     try:
                         # Preprocess image
-                        processed_image = preprocess_image(image)
+                        processed_image = preprocess_image(image_to_predict)
                         
                         # Make prediction
                         predictions = model.predict(processed_image, verbose=0)
@@ -376,10 +566,12 @@ def main():
                         st.session_state['prediction_time'] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                         
                         st.success("✅ Prediction complete!")
+                        st.balloons()
                         
                     except Exception as e:
                         st.error(f"❌ Prediction failed: {e}")
-                        st.info("Please try uploading a different image.")
+        else:
+            st.info("👆 Upload or select a sample image to begin")
     
     with col2:
         st.header("🎯 Results")
@@ -395,8 +587,8 @@ def main():
             
             st.markdown(f"""
             <div class="prediction-card">
-                <h2 style="margin-top: 0; color: #10b981;">Predicted Species</h2>
-                <h1 style="margin: 0.5rem 0; color: #1f2937;">{top_species}</h1>
+                <h2 style="margin-top: 0; color: #10b981;">✨ Predicted Species</h2>
+                <h1 style="margin: 0.5rem 0; color: #1f2937; font-size: 2rem;">{top_species}</h1>
                 <p style="margin: 0; font-size: 1.5rem;" class="{confidence_class}">
                     {top_confidence*100:.1f}% - {confidence_text}
                 </p>
@@ -409,15 +601,21 @@ def main():
                 use_container_width=True
             )
             
-            # Additional info
             st.info(f"🕐 Predicted at: {st.session_state['prediction_time']}")
+            
+            # Quick action
+            if st.button("🔄 Try Another Image", use_container_width=True):
+                for key in ['predictions', 'top_species', 'top_confidence', 'prediction_time', 'sample_image', 'sample_name']:
+                    if key in st.session_state:
+                        del st.session_state[key]
+                st.rerun()
         else:
-            st.info("👆 Upload an image and click 'Identify Species' to see results")
+            st.info("👆 Results will appear here after classification")
     
-    # Top predictions chart (full width)
+    # Top predictions chart
     if 'predictions' in st.session_state:
         st.divider()
-        st.header("📊 Top 5 Predictions")
+        st.header("📊 Top 5 Most Likely Species")
         
         col_chart1, col_chart2 = st.columns([2, 1])
         
@@ -433,32 +631,21 @@ def main():
             
             if top_conf >= 0.7:
                 st.success("✅ **High Confidence**")
-                st.write("The model is very sure about this prediction!")
+                st.write("Very reliable prediction!")
             elif top_conf >= 0.4:
                 st.warning("⚠️ **Medium Confidence**")
-                st.write("The prediction is likely correct, but consider the alternatives.")
+                st.write("Check alternatives below.")
             else:
                 st.error("❌ **Low Confidence**")
-                st.write("The model is uncertain. This might not be in the training dataset.")
-            
-            st.write("**What to do:**")
-            if top_conf >= 0.7:
-                st.write("- ✅ Trust this prediction")
-                st.write("- 📚 Use for identification")
-            elif top_conf >= 0.4:
-                st.write("- 👀 Check top alternatives")
-                st.write("- 🔍 Verify with expert")
-            else:
-                st.write("- ⚠️ Image may be unclear")
-                st.write("- 🔄 Try a different photo")
-                st.write("- 👤 Consult an expert")
+                st.write("Try a clearer photo.")
     
     # Footer
     st.divider()
     st.markdown(f"""
     <div style="text-align: center; color: #6b7280; padding: 2rem 0;">
-        <p>🦋 <strong>Butterfly Species Classifier</strong> | Created by Arju</p>
-        <p style="font-size: 0.9rem;">Trained on {len(class_indices) if class_indices else 75} species | Built with TensorFlow & Streamlit</p>
+        <p style="font-size: 1.1rem;">🦋 <strong>Butterfly Species Classifier</strong></p>
+        <p style="font-size: 0.9rem;">Created by <strong>Arju</strong> | 2026</p>
+        <p style="font-size: 0.85rem;">Trained on {len(class_indices) if class_indices else 75} species</p>
     </div>
     """, unsafe_allow_html=True)
 

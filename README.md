@@ -292,7 +292,7 @@ streamlit run streamlit_app.py
 6. Read interpretation guide
 
 ---
-
+<!-- 
 ## 💻 Usage Examples
 
 ### Basic Usage
@@ -335,7 +335,7 @@ df = pd.DataFrame(results)
 df.to_csv('batch_predictions.csv', index=False)
 ```
 
----
+--- -->
 
 ## 📊 Dataset Information
 
@@ -420,7 +420,7 @@ df.to_csv('batch_predictions.csv', index=False)
 ![Tech Stack](images/tech_stack.png)
 
 **Frontend:**
-- Streamlit 1.40.1 (Web framework)
+- Streamlit 1.52.2 (Web framework)
 - Plotly 5.24.1 (Visualizations)
 - Custom CSS (Styling)
 
@@ -570,48 +570,6 @@ This project is licensed under the Apache-2.0 License - see [LICENSE](LICENSE) f
 ## 🌟 Star History
 
 ![Star History](images/star_history.png)
-
----
-
-## 📊 Project Statistics
-
-```
-Total Development Time:  ~40 hours
-Lines of Code:          ~500 lines (Python)
-Model Training Time:    ~2 hours (Kaggle GPU)
-Dataset Size:           ~2 GB
-Model Size:             12.9 MB
-Inference Speed:        < 1 second
-Documentation Pages:    5 comprehensive guides
-Total Project Size:     ~15 MB (without dataset)
-```
-
----
-
-## 🎯 Future Roadmap
-
-![Roadmap](images/future_roadmap.png)
-
-### Planned Features (v2.0)
-
-- [ ] **Expand to 100+ species**
-- [ ] **Mobile app** (iOS & Android)
-- [ ] **Batch processing** interface
-- [ ] **Geolocation filtering**
-- [ ] **User accounts** & history
-- [ ] **REST API** endpoint
-- [ ] **Model explainability** (Grad-CAM visualization)
-- [ ] **Offline mode** (PWA)
-- [ ] **Multi-language** support
-- [ ] **Community contributions**
-
-### Research Extensions
-
-- [ ] Multi-model ensemble for higher accuracy
-- [ ] Real-time video classification
-- [ ] Butterfly lifecycle stage detection
-- [ ] Habitat preference analysis
-- [ ] Climate change impact studies
 
 ---
 
