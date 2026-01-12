@@ -669,21 +669,12 @@
 
 
 
-
-
-
-
-
-
-
-
-
 """
 🦋 Butterfly Species Classifier - Streamlit Web App
 Production-ready web interface for butterfly identification
 
 Features:
-- Upload butterfly images OR use built-in sample images
+- Upload butterfly images OR use sample images from samples/ folder
 - Get instant predictions
 - View top-5 most likely species
 - Confidence visualization
@@ -694,7 +685,7 @@ import streamlit as st
 import tensorflow as tf
 from tensorflow import keras
 import numpy as np
-from PIL import Image, ImageDraw
+from PIL import Image
 import json
 import os
 import plotly.graph_objects as go
@@ -762,153 +753,59 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-def create_gradient_image(size, color_start, color_end):
-    """Create a simple gradient image"""
-    img = Image.new('RGB', (size, size))
-    draw = ImageDraw.Draw(img)
-    
-    for y in range(size):
-        # Calculate color for this row
-        ratio = y / size
-        r = int(color_start[0] * (1 - ratio) + color_end[0] * ratio)
-        g = int(color_start[1] * (1 - ratio) + color_end[1] * ratio)
-        b = int(color_start[2] * (1 - ratio) + color_end[2] * ratio)
-        
-        draw.line([(0, y), (size, y)], fill=(r, g, b))
-    
-    return img
-
-
-def create_sample_images():
-    """
-    Create sample butterfly images
-    Simple gradients with patterns - guaranteed to work!
-    """
-    sample_images = {}
-    size = 400
-    
-    try:
-        # 1. Monarch - Orange gradient
-        img1 = create_gradient_image(size, (255, 140, 0), (200, 100, 0))
-        draw1 = ImageDraw.Draw(img1)
-        # Add some lines
-        for i in range(0, size, 40):
-            draw1.line([(i, 0), (i, size)], fill=(50, 50, 50), width=3)
-            draw1.line([(0, i), (size, i)], fill=(50, 50, 50), width=3)
-        sample_images["Monarch Butterfly"] = img1
-        
-    except Exception as e:
-        st.error(f"Error creating Monarch: {e}")
-    
-    try:
-        # 2. Blue Morpho - Blue gradient
-        img2 = create_gradient_image(size, (100, 180, 255), (30, 100, 200))
-        draw2 = ImageDraw.Draw(img2)
-        # Add circular pattern
-        center = size // 2
-        for r in range(50, size//2, 30):
-            x0 = max(0, center - r)
-            y0 = max(0, center - r)
-            x1 = min(size, center + r)
-            y1 = min(size, center + r)
-            if x1 > x0 and y1 > y0:  # Ensure valid coordinates
-                draw2.ellipse([x0, y0, x1, y1], outline=(150, 200, 255), width=2)
-        sample_images["Blue Morpho"] = img2
-        
-    except Exception as e:
-        st.error(f"Error creating Blue Morpho: {e}")
-    
-    try:
-        # 3. Painted Lady - Pink gradient
-        img3 = create_gradient_image(size, (255, 192, 203), (200, 150, 160))
-        draw3 = ImageDraw.Draw(img3)
-        # Add dots pattern
-        for x in range(50, size, 60):
-            for y in range(50, size, 60):
-                x0 = max(0, x - 10)
-                y0 = max(0, y - 10)
-                x1 = min(size, x + 10)
-                y1 = min(size, y + 10)
-                if x1 > x0 and y1 > y0:  # Ensure valid coordinates
-                    draw3.ellipse([x0, y0, x1, y1], fill=(255, 255, 255))
-        sample_images["Painted Lady"] = img3
-        
-    except Exception as e:
-        st.error(f"Error creating Painted Lady: {e}")
-    
-    try:
-        # 4. Red Admiral - Red/Black
-        img4 = Image.new('RGB', (size, size), (40, 40, 40))
-        draw4 = ImageDraw.Draw(img4)
-        # Add red bands
-        band_width = 60
-        center = size // 2
-        draw4.rectangle([0, center - band_width, size, center + band_width], fill=(220, 50, 50))
-        draw4.rectangle([center - band_width, 0, center + band_width, size], fill=(200, 30, 30))
-        sample_images["Red Admiral"] = img4
-        
-    except Exception as e:
-        st.error(f"Error creating Red Admiral: {e}")
-    
-    try:
-        # 5. Purple Emperor - Purple gradient
-        img5 = create_gradient_image(size, (180, 100, 220), (120, 50, 180))
-        draw5 = ImageDraw.Draw(img5)
-        # Add corner circles
-        positions = [(100, 100), (size-100, 100), (100, size-100), (size-100, size-100)]
-        for cx, cy in positions:
-            # Outer circle
-            x0 = max(0, cx - 30)
-            y0 = max(0, cy - 30)
-            x1 = min(size, cx + 30)
-            y1 = min(size, cy + 30)
-            if x1 > x0 and y1 > y0:
-                draw5.ellipse([x0, y0, x1, y1], fill=(255, 255, 100))
-            # Inner circle
-            x0 = max(0, cx - 15)
-            y0 = max(0, cy - 15)
-            x1 = min(size, cx + 15)
-            y1 = min(size, cy + 15)
-            if x1 > x0 and y1 > y0:
-                draw5.ellipse([x0, y0, x1, y1], fill=(50, 50, 50))
-        sample_images["Purple Emperor"] = img5
-        
-    except Exception as e:
-        st.error(f"Error creating Purple Emperor: {e}")
-    
-    return sample_images
-
-
+@st.cache_data(show_spinner=False)
 def load_sample_images_from_folder():
     """
-    Load sample images from samples/ folder if it exists
-    Otherwise, create simple sample images
+    Load sample images from samples/ folder
+    Returns dictionary of {name: PIL Image}
     """
     sample_folder = "samples"
     sample_images = {}
     
-    # Check if samples folder exists and has images
-    if os.path.exists(sample_folder) and os.path.isdir(sample_folder):
-        image_files = [f for f in os.listdir(sample_folder) 
-                      if f.lower().endswith(('.jpg', '.jpeg', '.png'))]
-        
-        if image_files:
-            for filename in image_files:
-                filepath = os.path.join(sample_folder, filename)
-                try:
-                    img = Image.open(filepath).convert('RGB')
-                    name = os.path.splitext(filename)[0].replace('_', ' ').title()
-                    sample_images[name] = img
-                except Exception as e:
-                    pass  # Skip problematic files
+    # Check if samples folder exists
+    if not os.path.exists(sample_folder):
+        return sample_images
     
-    # If no images found, create samples
-    if not sample_images:
-        sample_images = create_sample_images()
-        
-        # Only show tip if we actually created samples
-        if len(sample_images) > 0:
-            st.info("💡 **Tip:** Add real butterfly images to `samples/` folder for better demo!")
+    if not os.path.isdir(sample_folder):
+        return sample_images
+    
+    # Get all image files
+    try:
+        all_files = os.listdir(sample_folder)
+    except Exception as e:
+        st.warning(f"Could not read samples folder: {e}")
+        return sample_images
+    
+    # Filter for image files
+    image_extensions = ('.jpg', '.jpeg', '.png', '.gif', '.bmp')
+    image_files = [f for f in all_files if f.lower().endswith(image_extensions)]
+    
+    if not image_files:
+        return sample_images
+    
+    # Load each image
+    for filename in image_files:
+        filepath = os.path.join(sample_folder, filename)
+        try:
+            # Load image
+            img = Image.open(filepath)
+            
+            # Convert to RGB (handles RGBA, grayscale, etc.)
+            img = img.convert('RGB')
+            
+            # Create clean name from filename
+            name = os.path.splitext(filename)[0]  # Remove extension
+            name = name.replace('_', ' ')          # Replace underscores with spaces
+            name = name.replace('-', ' ')          # Replace dashes with spaces
+            name = name.title()                    # Capitalize words
+            
+            # Store image
+            sample_images[name] = img
+            
+        except Exception as e:
+            # Skip files that can't be loaded
+            st.warning(f"⚠️ Could not load {filename}: {str(e)}")
+            continue
     
     return sample_images
 
@@ -945,12 +842,6 @@ def load_model_and_classes():
         
     except Exception as e:
         return None, None, None, f"Unexpected error: {str(e)}"
-
-
-@st.cache_data(show_spinner=False)
-def get_sample_images():
-    """Cache sample images so they only load once"""
-    return load_sample_images_from_folder()
 
 
 def preprocess_image(image, target_size=(224, 224)):
@@ -1088,8 +979,8 @@ def main():
         """)
         st.stop()
     
-    # Load sample images
-    sample_images = get_sample_images()
+    # Load sample images from folder
+    sample_images = load_sample_images_from_folder()
     
     # Sidebar
     with st.sidebar:
@@ -1165,8 +1056,9 @@ def main():
         
         with tab2:
             if len(sample_images) > 0:
-                st.write("**Click on any sample below to test:**")
+                st.write(f"**{len(sample_images)} sample images available. Click to test:**")
                 
+                # Display in 2 columns
                 num_cols = 2
                 sample_list = list(sample_images.items())
                 
@@ -1177,19 +1069,31 @@ def main():
                         if idx < len(sample_list):
                             name, img = sample_list[idx]
                             with cols[j]:
+                                # Show image thumbnail
                                 st.image(img, caption=name, use_container_width=True)
+                                
+                                # Button to select this image
                                 if st.button(f"Use This", key=f"sample_{idx}", use_container_width=True):
                                     st.session_state['sample_image'] = img
                                     st.session_state['sample_name'] = name
                                     st.rerun()
                 
+                # Show selected sample
                 if 'sample_image' in st.session_state:
                     st.divider()
-                    st.success(f"✅ Selected: **{st.session_state.get('sample_name', 'Sample')}**")
+                    st.success(f"✅ Selected: **{st.session_state.get('sample_name')}**")
                     image_to_predict = st.session_state['sample_image']
             else:
-                st.warning("No sample images available. Please upload your own image.")
+                st.info("""
+                **No sample images found in `samples/` folder.**
+                
+                To add samples:
+                1. Create a `samples/` folder in your project
+                2. Add butterfly images (JPG, JPEG, PNG)
+                3. Restart the app
+                """)
         
+        # Predict button
         if image_to_predict is not None:
             st.divider()
             if st.button("🔍 Identify Species", type="primary", use_container_width=True):
@@ -1250,7 +1154,16 @@ def main():
                 st.rerun()
         else:
             st.info("👆 Results will appear here after classification")
+            
+            st.markdown("""
+            **What you'll see:**
+            - 🦋 Predicted species name
+            - 📊 Confidence percentage  
+            - 🎯 Visual confidence gauge
+            - 🕐 Prediction timestamp
+            """)
     
+    # Top predictions chart
     if 'predictions' in st.session_state:
         st.divider()
         st.header("📊 Top 5 Most Likely Species")
@@ -1290,3 +1203,11 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+
+
+
+
+
