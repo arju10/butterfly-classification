@@ -1,4 +1,4 @@
-# 🦋 Butterfly Classifier - Docker Ignore File
+# 🦋 Butterfly Species Classifier - Docker Ignore File
 # Prevents unnecessary files from being copied to Docker image
 
 # Python

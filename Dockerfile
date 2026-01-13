@@ -1,4 +1,4 @@
-# Dockerfile for Butterfly Classifier
+# Dockerfile for Butterfly Species Classifier
 # Matches Kaggle environment exactly - Python 3.11 + TensorFlow 2.18
 
 FROM python:3.12.12

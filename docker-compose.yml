@@ -1,7 +1,7 @@
 services:
   butterfly-app:
     build: .
-    container_name: butterfly_project
+    container_name: butterfly-species-classifier
     ports:
       - "8501:8501"
     environment:
