@@ -2,7 +2,7 @@
 
 **AI-Powered Butterfly Identification System**
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://butterfly-classification.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://butterfly-species-classifier.streamlit.app/)
 [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.52.2-red.svg)](https://streamlit.io/)
 [![TensorFlow 2.19](https://img.shields.io/badge/TensorFlow-2.19-orange.svg)](https://www.tensorflow.org/)
@@ -16,7 +16,7 @@ A deep learning web application that identifies 75 different butterfly species w
 
 ## 🌐 **TRY IT NOW - LIVE DEMO**
 
-### **👉 [butterfly-classification.streamlit.app](https://butterfly-classification.streamlit.app/) 👈**
+### **👉 [butterfly-species-classifier.streamlit.app](https://butterfly-species-classifier.streamlit.app/) 👈**
 
 **No installation needed! Just click and use!** ✨
 
@@ -34,9 +34,9 @@ A deep learning web application that identifies 75 different butterfly species w
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/arju10/butterfly-classification.git
+git clone https://github.com/arju10/butterfly-species-classifier
 
-cd butterfly-classification
+cd butterfly-species-classifier
 
 # 2. Create virtual environment
 python3 -m venv venv
@@ -60,8 +60,8 @@ streamlit run streamlit_app.py
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/arju10/butterfly-classification.git
-cd butterfly-classification
+git clone https://github.com/arju10/butterfly-species-classifier
+cd butterfly-species-classifier
 
 # 2. Run
 docker-compose up
@@ -383,8 +383,8 @@ We trained and compared 4 different architectures: VGG16, ResNet50, EfficientNet
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/arju10/butterfly-classification.git
-cd butterfly-classification
+git clone https://github.com/arju10/butterfly-species-classifier
+cd butterfly-species-classifier
 
 # 2. Create virtual environment
 python3 -m venv venv
@@ -639,7 +639,7 @@ If you use this project in your research or academic work:
   title={Butterfly Species Classifier: Deep Learning Identification System},
   author={[Your Name]},
   year={2026},
-  howpublished={\url{https://github.com/arju10/butterfly-classification}},
+  howpublished={\url{https://github.com/arju10/butterfly-species-classifier}},
   note={AI-powered butterfly identification using MobileNetV2 transfer learning}
 }
 ```
@@ -664,8 +664,8 @@ This project demonstrates:
 
 <!-- **For issues or questions:**
 - 📖 Check [documentation](docs/)
-- 🐛 Report [issues](https://github.com/arju10/butterfly-classification/issues)
-- 💬 Ask in [discussions](https://github.com/arju10/butterfly-classification/discussions) -->
+- 🐛 Report [issues](https://github.com/arju10/butterfly-species-classifier/issues)
+- 💬 Ask in [discussions](https://github.com/arju10/butterfly-species-classifier/discussions) -->
 
 ---
 
